@@ -1,2 +1,4 @@
 data
 hugo.toml
+public
+.hugo_build.lock
