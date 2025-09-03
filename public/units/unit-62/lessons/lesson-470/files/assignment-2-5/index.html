@@ -1,0 +1,209 @@
+<!doctype html>
+<html class="h-full bg-gray-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2.5</title>
+    
+    <link href="/styles/styles.css" rel="stylesheet" />
+    <script src="/js/index.js" defer async></script>
+    <link href="/styles/markdown-styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="h-full">
+    <div class="min-h-full">
+      <div class="bg-gray-800 pb-32">
+        <nav class="bg-gray-800">
+          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="border-b border-gray-700">
+              <div class="flex h-16 items-center justify-between px-4 sm:px-0">
+                <div class="flex items-center">
+                  <span>Logo</span>
+                  <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                      
+                      <div id="confirmation"></div>
+                      
+                        <nav>
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/"
+                              >Home</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/units/"
+                              >Units</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/calendar/"
+                              >Calendar</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/files/"
+                              >Course Files</a
+                            >
+                          
+                        </nav>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <main class="-mt-32">
+        <div class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+          <div
+            class="rounded-lg bg-slate-900 px-5 py-6 shadow-sm sm:px-6 text-white"
+            id="page"
+          >
+            
+  
+  <nav class="flex gap-2 p-2">
+    
+    
+      
+        <a href="/" class="p-1">Python I</a>
+        
+          >>
+        
+      
+    
+      
+        <a href="/units/" class="p-1">Units</a>
+        
+          >>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </nav>
+
+
+  <div>
+    <details>
+  <summary>Debugging info</summary>
+  <ul>
+    
+  </ul>
+  
+    <p>Key: breadcrumbs — Value: map[items:[map[url:/] map[url:/units] map[url:/units/unit-62] map[url:/units/unit-62/lessons] map[url:/units/unit-62/lessons/lesson-470] map[url:/units/unit-62/lessons/lesson-470/files] map[url:/units/unit-62/lessons/lesson-470/files/assignment-2-5]]]</p>
+  
+    <p>Key: draft — Value: false</p>
+  
+    <p>Key: iscjklanguage — Value: false</p>
+  
+    <p>Key: parentpath — Value: units/unit_62/lessons/lesson_470/files</p>
+  
+    <p>Key: title — Value: Assignment 2.5</p>
+  
+    <p>Key: type — Value: standalone</p>
+  
+    <p>Key: url — Value: units/unit-62/lessons/lesson-470/files/assignment-2-5</p>
+  
+  <p>Kind: page</p>
+  <p>Type: standalone</p>
+  <p>Resources:</p>
+  
+</details>
+
+    <hr />
+    <div class="markdown-body p-2">
+      
+      <h1>Assignment 2.5</h1>
+      <p>Supporting Resources</p>
+      
+      <h1 id="assignment-25--prepare">Assignment 2.5 – Prepare</h1>
+<p><strong>Goal:</strong> Practice nesting, while–else, break, and continue.</p>
+<h3 id="part-1-predict-the-output">Part 1: Predict the Output</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;even&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;odd&#34;</span>)
+</span></span><span style="display:flex;"><span>    x <span style="color:#f92672">=</span> x <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;done&#34;</span>)
+</span></span></code></pre></div><h3 id="part-2-debugging">Part 2: Debugging</h3>
+<p>Fix this code so it stops correctly:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter a name (or &#39;stop&#39; to end): &#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;stop&#34;</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Hello&#34;</span>, name)
+</span></span></code></pre></div><h3 id="part-3-write-your-own">Part 3: Write Your Own</h3>
+<ol>
+<li>Password checker</li>
+</ol>
+<ul>
+<li>Ask the user for a password until they type &ldquo;letmein&rdquo;</li>
+<li>If they get it right, print &ldquo;Welcome&rdquo; and stop</li>
+</ul>
+<ol start="2">
+<li>Skip multiples of 3</li>
+</ol>
+<ul>
+<li>Use a loop from 1 to 10</li>
+<li>Skip printing numbers that are multiples of 3 (use <code>continue</code>)</li>
+</ul>
+<ol start="3">
+<li>Countdown with else</li>
+</ol>
+<ul>
+<li>Start at 5 and count down to 1</li>
+<li>Use <code>while … else</code> to print &ldquo;Blast off!&rdquo; when finished</li>
+</ul>
+<ol start="4">
+<li>Nested logic</li>
+</ol>
+<ul>
+<li>Keep asking the user for a number</li>
+<li>If it’s even, print &ldquo;even&rdquo;</li>
+<li>If it’s odd, print &ldquo;odd&rdquo;</li>
+<li>Stop the loop if they enter a negative number</li>
+</ul>
+<ol start="5">
+<li>Number collector</li>
+</ol>
+<ul>
+<li>Keep asking the user for numbers until they type 0</li>
+<li>Store all positive numbers in a list</li>
+<li>After the loop, print the list</li>
+</ul>
+
+    </div>
+
+    <hr />
+  </div>
+
+          </div>
+        </div>
+      </main>
+      <footer class="shadow p-4 mt-8">
+        <div class="container mx-auto text-center text-gray-300">
+          &copy; 2025 Will Lapinel. All rights
+          reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
