@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 1.6</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/files/assignment-1-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/files/assignment-1-6/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem 1&lt;/strong&gt;: Boolean Logic Check&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ask the user for two boolean values (True or False).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Combine them using &lt;strong&gt;&lt;code&gt;and&lt;/code&gt;&lt;/strong&gt; and print the result.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Input: &lt;code&gt;True, False&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Output: &lt;code&gt;False&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem 2&lt;/strong&gt;: Odd/Even Check&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ask the user for a number.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Use &lt;strong&gt;boolean logic&lt;/strong&gt; to check if the number is &lt;strong&gt;even&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hint: You can check if &lt;code&gt;number % 2 == 0&lt;/code&gt; using boolean logic.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Input: &lt;code&gt;4&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Output: &lt;code&gt;True&lt;/code&gt; (even)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem 3&lt;/strong&gt;: True/False Assignment&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

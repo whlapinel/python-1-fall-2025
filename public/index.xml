@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python I</title>
+    <link>https://lapinel-6.course-manager.app/</link>
+    <description>Recent content on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.1: Fundamental Terms and Definitions</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2.1: Intro to &#39;if&#39; statements</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-466/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-466/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.2: Lexis, Syntax, and Semantics</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-458/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-458/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2.2: &#39;if&#39; and &#39;else&#39;</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-467/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-467/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.3: variables, print(), and input()</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-459/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-459/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2.3: &#39;if&#39; with &#39;elif&#39; and &#39;else&#39;</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-468/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-468/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.4: Types and Operators</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-460/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-460/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2.4: &#39;while&#39; loops</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-469/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-469/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.5: Boolean expressions</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2.5: &#39;while&#39; with &#39;else&#39;; nested &#39;if&#39; statements; &#39;continue&#39; and &#39;break&#39;</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-470/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-470/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.6: Truthy and Falsy values</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2.6: intro to &#39;for&#39; loops</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-471/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-471/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.7: Operators and Data Types</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-463/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-463/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2.7: more on &#39;for&#39; loops</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-472/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-472/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.8: Input/Output Operations and Unit Wrap-up</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-464/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-464/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2.8: Unit 2 Review</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-473/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-473/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>August 2025</title>
+      <link>https://lapinel-6.course-manager.app/calendar/august/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/calendar/august/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1.9: Work on Project</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-465/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-465/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>September 2025</title>
+      <link>https://lapinel-6.course-manager.app/calendar/september/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/calendar/september/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>October 2025</title>
+      <link>https://lapinel-6.course-manager.app/calendar/october/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/calendar/october/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>November 2025</title>
+      <link>https://lapinel-6.course-manager.app/calendar/november/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/calendar/november/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>December 2025</title>
+      <link>https://lapinel-6.course-manager.app/calendar/december/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/calendar/december/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/test/</guid>
+      <description>&lt;h1 id=&#34;here-is-some-markdown&#34;&gt;here is some markdown&lt;/h1&gt;&#xA;&lt;h2 id=&#34;cool&#34;&gt;cool&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;list item&lt;/li&gt;&#xA;&lt;li&gt;another&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-460/files/assignment-1-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-460/files/assignment-1-4/</guid>
+      <description>&lt;h1 id=&#34;assignment-14-data-types-and-operators-practice&#34;&gt;Assignment 1.4: Data Types and Operators Practice&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Unit 1, Lesson 4 - PREPARE Assignment&lt;/strong&gt;&#xA;&lt;strong&gt;Due: Next class period&lt;/strong&gt;&#xA;&lt;strong&gt;Submission Format: Screenshots of your Python code and output&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;part-a-data-type-exploration-25-points&#34;&gt;Part A: Data Type Exploration (25 points)&lt;/h2&gt;&#xA;&lt;p&gt;Create and test variables of each data type.&lt;/p&gt;&#xA;&lt;h3 id=&#34;task-1-create-variables&#34;&gt;Task 1: Create Variables&lt;/h3&gt;&#xA;&lt;p&gt;Write and run this program:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Integer variables&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your actual age&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;favorite_number &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your favorite number&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;negative_temp &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Float variables  &lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_height &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5.5&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your height in feet&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;price_of_gas &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.89&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pi_value &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.14159&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# String variables&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Your Name&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your actual name&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;favorite_song &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Song Title&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your favorite song&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pet_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Pet Name&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with a pet&amp;#39;s name&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Test the types&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Age:&amp;#34;&lt;/span&gt;, my_age, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Type:&amp;#34;&lt;/span&gt;, type(my_age))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Height:&amp;#34;&lt;/span&gt;, my_height, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Type:&amp;#34;&lt;/span&gt;, type(my_height))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Name:&amp;#34;&lt;/span&gt;, my_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Type:&amp;#34;&lt;/span&gt;, type(my_name))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Song:&amp;#34;&lt;/span&gt;, favorite_song, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Type:&amp;#34;&lt;/span&gt;, type(favorite_song))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Screenshot 1:&lt;/strong&gt; Show your code and the output from running this program.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-463/files/assignment-1-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-463/files/assignment-1-7/</guid>
+      <description>&lt;h1 id=&#34;assignment-17-prepare-operators-and-type-casting-practice&#34;&gt;Assignment 1.7 (Prepare): Operators and Type Casting Practice&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;PCEP 1.4 - Choose operators and data types adequate to the problem&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;&#xA;&lt;p&gt;This assignment reinforces your understanding of Python operators, operator precedence, and type casting through hands-on practice problems that mirror PCEP exam questions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;&#xA;&lt;p&gt;By completing this assignment, you will:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apply all Python operator types correctly&lt;/li&gt;&#xA;&lt;li&gt;Solve operator precedence problems&lt;/li&gt;&#xA;&lt;li&gt;Perform type casting operations&lt;/li&gt;&#xA;&lt;li&gt;Choose appropriate data types for different scenarios&lt;/li&gt;&#xA;&lt;li&gt;Debug common operator-related errors&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;part-1-operator-precedence-puzzles-25-points&#34;&gt;Part 1: Operator Precedence Puzzles (25 points)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;: Solve each expression &lt;strong&gt;by hand first&lt;/strong&gt;, showing your work step-by-step using operator precedence rules. Then verify your answers using Python.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-464/files/assignment-1-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-464/files/assignment-1-8/</guid>
+      <description>&lt;h1 id=&#34;assignment-18-unit-1-assessment---interactive-python-console-application&#34;&gt;Assignment 1.8: Unit 1 Assessment - Interactive Python Console Application&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Type: PERFORM | Due: End of Week 2 | Points: 100&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Create a comprehensive interactive console application that demonstrates mastery of all PCEP Section 1 objectives. Your program should be engaging, user-friendly, and showcase proper Python programming practices.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pcep-section-1-objectives-demonstrated&#34;&gt;PCEP Section 1 Objectives Demonstrated&lt;/h2&gt;&#xA;&lt;p&gt;Your project must clearly demonstrate ALL of the following PCEP-30-02 Section 1 objectives:&lt;/p&gt;&#xA;&lt;h3 id=&#34;pcep-11---fundamental-terms-and-definitions&#34;&gt;PCEP 1.1 - Fundamental Terms and Definitions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use Python as an interpreted language (no compilation step needed)&lt;/li&gt;&#xA;&lt;li&gt;Demonstrate understanding of proper Python syntax and semantics&lt;/li&gt;&#xA;&lt;li&gt;Include comments explaining your code&amp;rsquo;s lexical elements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pcep-12---python-logic-and-structure&#34;&gt;PCEP 1.2 - Python Logic and Structure&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use Python keywords appropriately&lt;/li&gt;&#xA;&lt;li&gt;Implement proper indentation for code blocks&lt;/li&gt;&#xA;&lt;li&gt;Include meaningful comments throughout your code&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pcep-13---literals-and-variables&#34;&gt;PCEP 1.3 - Literals and Variables&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use Boolean, integer, floating-point, and string literals&lt;/li&gt;&#xA;&lt;li&gt;Demonstrate at least 2 different numeral systems (binary, octal, hex)&lt;/li&gt;&#xA;&lt;li&gt;Create variables following PEP-8 naming conventions&lt;/li&gt;&#xA;&lt;li&gt;Use scientific notation where appropriate&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pcep-14---operators-and-data-types&#34;&gt;PCEP 1.4 - Operators and Data Types&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use arithmetic operators: &lt;code&gt;**&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;%&lt;/code&gt;, &lt;code&gt;//&lt;/code&gt;, &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;−&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Use string operators: &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;+&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Use assignment and shortcut operators&lt;/li&gt;&#xA;&lt;li&gt;Demonstrate operator precedence understanding&lt;/li&gt;&#xA;&lt;li&gt;Use Boolean operators: &lt;code&gt;not&lt;/code&gt;, &lt;code&gt;and&lt;/code&gt;, &lt;code&gt;or&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Use relational operators: &lt;code&gt;==&lt;/code&gt;, &lt;code&gt;!=&lt;/code&gt;, &lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;gt;=&lt;/code&gt;, &lt;code&gt;&amp;lt;&lt;/code&gt;, &lt;code&gt;&amp;lt;=&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Include type casting operations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pcep-15---inputoutput-operations&#34;&gt;PCEP 1.5 - Input/Output Operations&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use &lt;code&gt;print()&lt;/code&gt; function with &lt;code&gt;sep&lt;/code&gt; and &lt;code&gt;end&lt;/code&gt; parameters&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;code&gt;input()&lt;/code&gt; function for user interaction&lt;/li&gt;&#xA;&lt;li&gt;Combine input with type conversion&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;project-options&#34;&gt;Project Options&lt;/h2&gt;&#xA;&lt;p&gt;Choose ONE of the following project types:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-465/files/lesson-1-9-activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-465/files/lesson-1-9-activities/</guid>
+      <description>&lt;h1 id=&#34;lesson-19-project-work-session-activity-guide&#34;&gt;Lesson 1.9: Project Work Session Activity Guide&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Assignment 1.8 Completion Day | 50-minute class period&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;class-period-structure&#34;&gt;Class Period Structure&lt;/h2&gt;&#xA;&lt;h3 id=&#34;opening-5-minutes&#34;&gt;Opening (5 minutes)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Objectives Review and Status Check&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Quick review of PCEP Section 1 objectives&lt;/li&gt;&#xA;&lt;li&gt;Student status check (show of hands for progress level)&lt;/li&gt;&#xA;&lt;li&gt;Clarify any remaining questions about requirements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;troubleshooting-mini-lesson-10-minutes&#34;&gt;Troubleshooting Mini-Lesson (10 minutes)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Common Issues Prevention&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Review most frequent coding errors from Unit 1&lt;/li&gt;&#xA;&lt;li&gt;Live demonstration of debugging techniques&lt;/li&gt;&#xA;&lt;li&gt;Q&amp;amp;A for any conceptual confusion&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;work-session-1-15-minutes&#34;&gt;Work Session 1 (15 minutes)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Individual Coding Time&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-471/files/assignment-2-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-471/files/assignment-2-6/</guid>
+      <description>&lt;h1 id=&#34;assignment-26--prepare&#34;&gt;Assignment 2.6 – Prepare&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice writing &lt;code&gt;for&lt;/code&gt; loops with ranges and sequences.&lt;/p&gt;&#xA;&lt;h3 id=&#34;part-1-predict-the-output&#34;&gt;Part 1: Predict the Output&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-2-debugging&#34;&gt;Part 2: Debugging&lt;/h3&gt;&#xA;&lt;p&gt;Fix this code so it prints the numbers 1 to 5:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(i)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-3-write-your-own&#34;&gt;Part 3: Write Your Own&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints the numbers 1 through 10.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints the letters of your name, one per line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-473/files/assignment-2-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-473/files/assignment-2-8/</guid>
+      <description>&lt;h1 id=&#34;assignment-28--prepare-review&#34;&gt;Assignment 2.8 – Prepare (Review)&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice combining &lt;code&gt;while&lt;/code&gt; loops, &lt;code&gt;for&lt;/code&gt; loops, and &lt;code&gt;if&lt;/code&gt; statements. Approx. 10 problems.&lt;/p&gt;&#xA;&lt;h3 id=&#34;problem-1&#34;&gt;Problem 1&lt;/h3&gt;&#xA;&lt;p&gt;Write a program that prints the numbers 1 through 10 using a &lt;code&gt;for&lt;/code&gt; loop.&lt;/p&gt;&#xA;&lt;h3 id=&#34;problem-2&#34;&gt;Problem 2&lt;/h3&gt;&#xA;&lt;p&gt;Write a program that prints the numbers 10 down to 1 using a &lt;code&gt;while&lt;/code&gt; loop.&lt;/p&gt;&#xA;&lt;h3 id=&#34;problem-3&#34;&gt;Problem 3&lt;/h3&gt;&#xA;&lt;p&gt;Write a program that asks the user for a number and prints whether it is even or odd using an &lt;code&gt;if&lt;/code&gt; statement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 1.1</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/assignment-1-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/assignment-1-1/</guid>
+      <description>&lt;h1 id=&#34;assignment-11-prepare-programming-concepts-and-python-setup&#34;&gt;Assignment 1.1 (Prepare): Programming Concepts and Python Setup&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Category: Prepare&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;part-1-programming-concepts-vocabulary-10-points&#34;&gt;Part 1: Programming Concepts Vocabulary (10 points)&lt;/h2&gt;&#xA;&lt;p&gt;Complete the following definitions in your own words. Use the course materials and additional research as needed.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Algorithm&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Program&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compiler&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Interpreter&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Source Code&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Machine Code&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lexis&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Syntax&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Semantics&lt;/strong&gt;:&#xA;&lt;em&gt;Your definition here&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 1.2</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-458/files/assignment-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-458/files/assignment-1-2/</guid>
+      <description>&lt;h1 id=&#34;assignment-12-syntax-error-detective&#34;&gt;Assignment 1.2: Syntax Error Detective&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Due: Thursday, August 15 (before class)&lt;/strong&gt;&#xA;&lt;strong&gt;Type: Prepare&lt;/strong&gt;&#xA;&lt;strong&gt;Points: 20&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Practice identifying and fixing syntax errors while understanding the difference between syntax and semantic issues in Python code. This assignment reinforces PCEP 1.1 objectives on Python&amp;rsquo;s lexis, syntax, and semantics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;part-1-syntax-error-hunt-10-points&#34;&gt;Part 1: Syntax Error Hunt (10 points)&lt;/h2&gt;&#xA;&lt;p&gt;Each code sample below contains exactly &lt;strong&gt;one syntax error&lt;/strong&gt;. Your job is to:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Identify the error&lt;/li&gt;&#xA;&lt;li&gt;Explain what&amp;rsquo;s wrong&lt;/li&gt;&#xA;&lt;li&gt;Provide the corrected code&lt;/li&gt;&#xA;&lt;li&gt;Test your fix in Python to make sure it works&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;sample-format&#34;&gt;Sample Format:&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Original Code: print &amp;#34;Hello World&amp;#34;&#xA;Error: Missing parentheses around the argument&#xA;Corrected Code: print(&amp;#34;Hello World&amp;#34;)&#xA;Tested: ✓ (checkmark when you&amp;#39;ve tested it)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;code-samples-to-fix&#34;&gt;Code Samples to Fix:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 1.3</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-459/files/assignment-1-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-459/files/assignment-1-3/</guid>
+      <description>&lt;h1 id=&#34;assignment-13&#34;&gt;Assignment 1.3:&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Unit 1, Lesson 1 - PREPARE Assignment&lt;/strong&gt;&#xA;&lt;strong&gt;Due: Next class period&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;setup-instructions&#34;&gt;Setup Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open your Python interpreter (type &lt;code&gt;python&lt;/code&gt; in Command Prompt/Terminal)&lt;/li&gt;&#xA;&lt;li&gt;You should see the &lt;code&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt; prompt&lt;/li&gt;&#xA;&lt;li&gt;Type each program exactly as shown&lt;/li&gt;&#xA;&lt;li&gt;Take screenshots or write down what happens&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;program-1-personal-introduction-15-points&#34;&gt;Program 1: Personal Introduction (15 points)&lt;/h2&gt;&#xA;&lt;p&gt;Type this program and run it:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hi there!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;My name is [YOUR ACTUAL NAME]&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;I am learning Python programming&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Replace &lt;code&gt;[YOUR ACTUAL NAME]&lt;/code&gt; with your real name&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 1.5</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/files/assignment-1-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/files/assignment-1-5/</guid>
+      <description>&lt;h1 id=&#34;assignment-15--boolean-logic&#34;&gt;Assignment 1.5 – Boolean Logic&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice writing and testing boolean expressions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a Python program called &lt;code&gt;boolean_quiz.py&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Your program should:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ask the user to enter &lt;strong&gt;two numbers&lt;/strong&gt; (use &lt;code&gt;input()&lt;/code&gt; and &lt;code&gt;int()&lt;/code&gt; to convert).&lt;/li&gt;&#xA;&lt;li&gt;Print out the results of the following checks:&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Is the first number greater than the second?&lt;/li&gt;&#xA;&lt;li&gt;Are the two numbers equal?&lt;/li&gt;&#xA;&lt;li&gt;Is at least one number greater than 10?&lt;/li&gt;&#xA;&lt;li&gt;Is the first number NOT zero?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Each result should print as &lt;code&gt;True&lt;/code&gt; or &lt;code&gt;False&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Example Run:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 1.6</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/files/assignment-1-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/files/assignment-1-6/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem 1&lt;/strong&gt;: Boolean Logic Check&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ask the user for two boolean values (True or False).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Combine them using &lt;strong&gt;&lt;code&gt;and&lt;/code&gt;&lt;/strong&gt; and print the result.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Input: &lt;code&gt;True, False&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Output: &lt;code&gt;False&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem 2&lt;/strong&gt;: Odd/Even Check&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ask the user for a number.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Use &lt;strong&gt;boolean logic&lt;/strong&gt; to check if the number is &lt;strong&gt;even&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hint: You can check if &lt;code&gt;number % 2 == 0&lt;/code&gt; using boolean logic.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Input: &lt;code&gt;4&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Output: &lt;code&gt;True&lt;/code&gt; (even)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem 3&lt;/strong&gt;: True/False Assignment&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 2.2</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-467/files/assignment-2-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-467/files/assignment-2-2/</guid>
+      <description>&lt;h2 id=&#34;assignment-22--prepare&#34;&gt;Assignment 2.2 – Prepare&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice using &lt;code&gt;if … else&lt;/code&gt; with correct indentation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;part-1-predict-the-output&#34;&gt;Part 1: Predict the Output&lt;/h3&gt;&#xA;&lt;p&gt;What will Python print?&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Greater than 10&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;10 or smaller&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Done&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-2-debugging&#34;&gt;Part 2: Debugging&lt;/h3&gt;&#xA;&lt;p&gt;Fix this code:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;color &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter a color: &amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; color &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Roses are red&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Nice color!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-3-write-your-own&#34;&gt;Part 3: Write Your Own&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ask the user for their age.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If age is 16 or older → print &amp;ldquo;You can drive!&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Else → print &amp;ldquo;Not yet!&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Ask the user for a number.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If it’s divisible by 5 → print &amp;ldquo;Multiple of 5&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Else → print &amp;ldquo;Not a multiple of 5&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 2.3</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-468/files/assignment-2-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-468/files/assignment-2-3/</guid>
+      <description>&lt;h1 id=&#34;assignment-23--prepare&#34;&gt;Assignment 2.3 – Prepare&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice using &lt;code&gt;elif&lt;/code&gt; to handle multiple conditions.&lt;/p&gt;&#xA;&lt;h3 id=&#34;part-1-predict-the-output&#34;&gt;Part 1: Predict the Output&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;More than 10&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;More than 5&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;5 or less&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-2-debugging&#34;&gt;Part 2: Debugging&lt;/h3&gt;&#xA;&lt;p&gt;Fix this code so it runs correctly:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;day &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter a day: &amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; day &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Monday&amp;#34;&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Start of the week&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; day &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Friday&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Almost weekend!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Midweek day&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-3-write-your-own&#34;&gt;Part 3: Write Your Own&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ask the user for a number grade (0–100).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;90 or above → &amp;ldquo;A&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;80 or above → &amp;ldquo;B&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;70 or above → &amp;ldquo;C&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Else → &amp;ldquo;F&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Ask the user for their age.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;0–12 → &amp;ldquo;Child&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;13–19 → &amp;ldquo;Teenager&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;20 or above → &amp;ldquo;Adult&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 2.4</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-469/files/assignment-2-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-469/files/assignment-2-4/</guid>
+      <description>&lt;h1 id=&#34;assignment-24--prepare&#34;&gt;Assignment 2.4 – Prepare&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice writing and controlling &lt;code&gt;while&lt;/code&gt; loops.&lt;/p&gt;&#xA;&lt;h3 id=&#34;part-1-predict-the-output&#34;&gt;Part 1: Predict the Output&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(x)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Done&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-2-debugging&#34;&gt;Part 2: Debugging&lt;/h3&gt;&#xA;&lt;p&gt;Fix this code so it prints numbers 1 through 5:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;count &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; count &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(count)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;count &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; count &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-3-write-your-own&#34;&gt;Part 3: Write Your Own&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ask the user for a number.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;While the number is less than 10, keep asking again.&lt;/li&gt;&#xA;&lt;li&gt;When they finally enter 10 or more, print &amp;ldquo;Thanks!&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Write a guessing game.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Set a secret number (like 7).&lt;/li&gt;&#xA;&lt;li&gt;Keep asking the user to guess until they get it right.&lt;/li&gt;&#xA;&lt;li&gt;Print &amp;ldquo;Correct!&amp;rdquo; when they do.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Multiplication practice.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ask the user a multiplication problem, like &lt;code&gt;3 * 4&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;While they give the wrong answer, keep asking.&lt;/li&gt;&#xA;&lt;li&gt;When they get it right, print &amp;ldquo;Well done!&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Countdown timer.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ask the user for a number &lt;code&gt;n&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Use a &lt;code&gt;while&lt;/code&gt; loop to count down from &lt;code&gt;n&lt;/code&gt; to 1.&lt;/li&gt;&#xA;&lt;li&gt;Print &amp;ldquo;Blast off!&amp;rdquo; at the end.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Collecting names.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Keep asking the user to enter a name.&lt;/li&gt;&#xA;&lt;li&gt;Stop only when they type &amp;ldquo;stop&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;After the loop ends, print all the names they entered.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 2.5</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-470/files/assignment-2-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-470/files/assignment-2-5/</guid>
+      <description>&lt;h1 id=&#34;assignment-25--prepare&#34;&gt;Assignment 2.5 – Prepare&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice nesting, while–else, break, and continue.&lt;/p&gt;&#xA;&lt;h3 id=&#34;part-1-predict-the-output&#34;&gt;Part 1: Predict the Output&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;even&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;odd&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;done&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-2-debugging&#34;&gt;Part 2: Debugging&lt;/h3&gt;&#xA;&lt;p&gt;Fix this code so it stops correctly:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter a name (or &amp;#39;stop&amp;#39; to end): &amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;stop&amp;#34;&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;, name)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-3-write-your-own&#34;&gt;Part 3: Write Your Own&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Password checker&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ask the user for a password until they type &amp;ldquo;letmein&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;If they get it right, print &amp;ldquo;Welcome&amp;rdquo; and stop&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Skip multiples of 3&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use a loop from 1 to 10&lt;/li&gt;&#xA;&lt;li&gt;Skip printing numbers that are multiples of 3 (use &lt;code&gt;continue&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Countdown with else&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Start at 5 and count down to 1&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;code&gt;while … else&lt;/code&gt; to print &amp;ldquo;Blast off!&amp;rdquo; when finished&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Nested logic&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Keep asking the user for a number&lt;/li&gt;&#xA;&lt;li&gt;If it’s even, print &amp;ldquo;even&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;If it’s odd, print &amp;ldquo;odd&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Stop the loop if they enter a negative number&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Number collector&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Keep asking the user for numbers until they type 0&lt;/li&gt;&#xA;&lt;li&gt;Store all positive numbers in a list&lt;/li&gt;&#xA;&lt;li&gt;After the loop, print the list&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 2.7</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-472/files/assignment-2-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-472/files/assignment-2-7/</guid>
+      <description>&lt;h1 id=&#34;assignment-27--prepare&#34;&gt;Assignment 2.7 – Prepare&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice different &lt;code&gt;for&lt;/code&gt; loop patterns without using lists.&lt;/p&gt;&#xA;&lt;h3 id=&#34;part-1-predict-the-output&#34;&gt;Part 1: Predict the Output&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(i)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-2-debugging&#34;&gt;Part 2: Debugging&lt;/h3&gt;&#xA;&lt;p&gt;Fix this code so it prints the numbers 1 through 5:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(i)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-3-write-your-own&#34;&gt;Part 3: Write Your Own&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints the numbers from 10 down to 1.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints the multiples of 5 from 5 to 50.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mr. Lapinels Rules &amp; Procedures</title>
+      <link>https://lapinel-6.course-manager.app/files/rules-procedures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/files/rules-procedures/</guid>
+      <description>&lt;h1 id=&#34;welcome&#34;&gt;Welcome!&lt;/h1&gt;&#xA;&lt;h2 id=&#34;about-this-course&#34;&gt;About this course&lt;/h2&gt;&#xA;&lt;p&gt;This course is a 16-week, semester-long introduction to Python. Our main objective will be passing the Python Institute&amp;rsquo;s Certified Entry-Level Programmer (PCEP) certification.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll take the PCEP exam soon after midterms.  You&amp;rsquo;ll have 2 attempts, one on October 14th and another on October 17th.&lt;/p&gt;&#xA;&lt;h2 id=&#34;devices&#34;&gt;Devices&lt;/h2&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll be using the laptops I have in class. Personal devices are currently not authorized for use in class. You may use your personal devices for classwork outside of class, however.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Some Resources</title>
+      <link>https://lapinel-6.course-manager.app/files/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/files/resources/</guid>
+      <description>&lt;h2 id=&#34;important-other-websites-for-the-course&#34;&gt;Important (other) websites for the course&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;NCSIS (go to your &amp;ldquo;launchpad&amp;rdquo;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This is authoritative source for grades&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Canvas&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Assignments and feedback&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;CodeHS&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Some assignments may be given in CodeHS, otherwise it&amp;rsquo;s a great learning platform you have access to&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Python Institute Python Essentials 1 &lt;a href=&#34;https://edube.org/study/pe1&#34;&gt;https://edube.org/study/pe1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;no-install-python-interpreters&#34;&gt;No-install python interpreters:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.onlinegdb.com/&#34;&gt;https://www.onlinegdb.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jupyter.org/try-jupyter/lab/&#34;&gt;https://jupyter.org/try-jupyter/lab/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Syllabus</title>
+      <link>https://lapinel-6.course-manager.app/files/python-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/files/python-1/</guid>
+      <description>&lt;h1 id=&#34;python-1-programming-course-outline&#34;&gt;Python 1 Programming Course Outline&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;PCEP-30-02 Certified Entry-Level Python Programmer Aligned&lt;/strong&gt;&#xA;August 12 - December 18&lt;/p&gt;&#xA;&lt;h2 id=&#34;course-overview&#34;&gt;Course Overview&lt;/h2&gt;&#xA;&lt;p&gt;This course introduces students to programming fundamentals using Python while preparing them for the PCEP-30-02 (Certified Entry-Level Python Programmer) certification exam. The curriculum follows the official PCEP exam syllabus, ensuring students master both practical programming skills and certification requirements. The course is structured into 8 units, with the first 4 units directly aligned with the four PCEP exam sections.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unit 1: Computer Programming and Python Fundamentals</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unit 2: branches and loops</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-62/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-62/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
