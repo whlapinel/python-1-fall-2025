@@ -8,6 +8,9 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-466/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-458/</loc>
     <priority>0</priority>
   </url><url>
@@ -56,7 +59,13 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-465/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-474/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/calendar/september/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-475/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/calendar/october/</loc>
@@ -101,6 +110,8 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-470/files/assignment-2-5/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-472/files/assignment-2-7/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-474/files/assignment-2-9/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/categories/</loc>
   </url><url>
@@ -167,10 +178,25 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-473/files/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-474/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-475/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/files/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/files/rules-procedures/</loc>
@@ -187,6 +213,9 @@
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-62/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/</loc>
