@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 3.1</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/files/assignment-3-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/files/assignment-3-1/</guid>
+      <description>&lt;h1 id=&#34;assignment-31-prepare&#34;&gt;Assignment 3.1 (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;p&gt;Complete the following exercises to practice working with Python lists. Write your answers in a &lt;code&gt;.py&lt;/code&gt; file or in your notebook.&lt;/p&gt;&#xA;&lt;h3 id=&#34;part-a-create-and-access&#34;&gt;Part A: Create and Access&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a list called &lt;code&gt;animals&lt;/code&gt; with at least 4 animals of your choice.&lt;/li&gt;&#xA;&lt;li&gt;Print the first and last items in the list.&lt;/li&gt;&#xA;&lt;li&gt;Print the length of the list using &lt;code&gt;len()&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-modify&#34;&gt;Part B: Modify&lt;/h3&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Change the 2nd item in your list to a different animal.&lt;/li&gt;&#xA;&lt;li&gt;Add a new animal to the end of the list with &lt;code&gt;.append()&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Remove one animal by its name using &lt;code&gt;.remove()&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-apply&#34;&gt;Part C: Apply&lt;/h3&gt;&#xA;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;Create a list of 5 numbers.&lt;/li&gt;&#xA;&lt;li&gt;Print the 3rd number in the list.&lt;/li&gt;&#xA;&lt;li&gt;Replace the last number with 100.&lt;/li&gt;&#xA;&lt;li&gt;Add a new number at the end.&lt;/li&gt;&#xA;&lt;li&gt;Print the updated list.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;submission&#34;&gt;Submission&lt;/h2&gt;&#xA;&lt;p&gt;Turn in your completed code file for review. Be sure your file runs without errors.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
