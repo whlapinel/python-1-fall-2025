@@ -35,10 +35,16 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-469/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-479/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-470/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-480/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/</loc>
@@ -99,8 +105,6 @@
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/files/plan/</loc>
   </url><url>
-    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-478/files/assignment/</loc>
-  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/assignment-1-1/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-458/files/assignment-1-2/</loc>
@@ -126,6 +130,12 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/files/assignment-3-1/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-477/files/assignment/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-478/files/assignment/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-479/files/assignment/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-480/files/assignment/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/categories/</loc>
   </url><url>
@@ -208,6 +218,12 @@
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-478/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-479/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-480/files/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/</loc>
