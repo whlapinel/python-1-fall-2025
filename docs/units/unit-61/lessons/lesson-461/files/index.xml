@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 1.5</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/files/assignment-1-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-461/files/assignment-1-5/</guid>
+      <description>&lt;h1 id=&#34;assignment-15--boolean-logic&#34;&gt;Assignment 1.5 – Boolean Logic&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice writing and testing boolean expressions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a Python program called &lt;code&gt;boolean_quiz.py&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Your program should:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ask the user to enter &lt;strong&gt;two numbers&lt;/strong&gt; (use &lt;code&gt;input()&lt;/code&gt; and &lt;code&gt;int()&lt;/code&gt; to convert).&lt;/li&gt;&#xA;&lt;li&gt;Print out the results of the following checks:&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Is the first number greater than the second?&lt;/li&gt;&#xA;&lt;li&gt;Are the two numbers equal?&lt;/li&gt;&#xA;&lt;li&gt;Is at least one number greater than 10?&lt;/li&gt;&#xA;&lt;li&gt;Is the first number NOT zero?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Each result should print as &lt;code&gt;True&lt;/code&gt; or &lt;code&gt;False&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Example Run:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

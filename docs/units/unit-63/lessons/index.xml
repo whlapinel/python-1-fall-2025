@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lessons on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/</link>
+    <description>Recent content in Lessons on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-63/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.1: Lists</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3.2: lists: slicing and more methods</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-477/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-477/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3.3: iterating over lists</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-478/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-478/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3.4: Tuples</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-479/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-479/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3.5: Dictionaries</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-480/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-480/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
