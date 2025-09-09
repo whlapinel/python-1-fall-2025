@@ -1,0 +1,198 @@
+<!doctype html>
+<html class="h-full bg-gray-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3.5</title>
+    
+    <link href="/styles/styles.css" rel="stylesheet" />
+    <script src="/js/index.js" defer async></script>
+    <link href="/styles/markdown-styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="h-full">
+    <div class="min-h-full">
+      <div class="bg-gray-800 pb-32">
+        <nav class="bg-gray-800">
+          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="border-b border-gray-700">
+              <div class="flex h-16 items-center justify-between px-4 sm:px-0">
+                <div class="flex items-center">
+                  <span>Logo</span>
+                  <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                      
+                      <div id="confirmation"></div>
+                      
+                        <nav>
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/"
+                              >Home</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/units/"
+                              >Units</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/calendar/"
+                              >Calendar</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/files/"
+                              >Course Files</a
+                            >
+                          
+                        </nav>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <main class="-mt-32">
+        <div class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+          <div
+            class="rounded-lg bg-slate-900 px-5 py-6 shadow-sm sm:px-6 text-white"
+            id="page"
+          >
+            
+  
+  <nav class="flex gap-2 p-2">
+    
+    
+      
+        <a href="/" class="p-1">Python I</a>
+        
+          >>
+        
+      
+    
+      
+        <a href="/units/" class="p-1">Units</a>
+        
+          >>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </nav>
+
+
+  <div>
+    <details>
+  <summary>Debugging info</summary>
+  <ul>
+    
+  </ul>
+  
+    <p>Key: breadcrumbs — Value: map[items:[map[url:/] map[url:/units] map[url:/units/unit-63] map[url:/units/unit-63/lessons] map[url:/units/unit-63/lessons/lesson-480] map[url:/units/unit-63/lessons/lesson-480/files] map[url:/units/unit-63/lessons/lesson-480/files/assignment]]]</p>
+  
+    <p>Key: draft — Value: false</p>
+  
+    <p>Key: iscjklanguage — Value: false</p>
+  
+    <p>Key: parentpath — Value: units/unit_63/lessons/lesson_480/files</p>
+  
+    <p>Key: title — Value: Assignment 3.5</p>
+  
+    <p>Key: type — Value: standalone</p>
+  
+    <p>Key: url — Value: units/unit-63/lessons/lesson-480/files/assignment</p>
+  
+  <p>Kind: page</p>
+  <p>Type: standalone</p>
+  <p>Resources:</p>
+  
+</details>
+
+    <hr />
+    <div class="markdown-body p-2">
+      
+      <h1>Assignment 3.5</h1>
+      <p>Supporting Resources</p>
+      
+      <h1 id="assignment-35--dictionary-basics">Assignment 3.5 – Dictionary Basics</h1>
+<h2 id="objective">Objective</h2>
+<p>Learn how to create, access, add, and remove items from dictionaries.</p>
+<hr>
+<h3 id="part-a-creating-and-accessing">Part A: Creating and Accessing</h3>
+<ol>
+<li>
+<p>Create a dictionary called <code>car</code> with keys: <code>make</code>, <code>model</code>, <code>year</code>.</p>
+<ul>
+<li>Print the model.</li>
+</ul>
+</li>
+<li>
+<p>Add a new key <code>color</code> with any value.</p>
+<ul>
+<li>Print the full dictionary.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="part-b-modifying-and-removing">Part B: Modifying and Removing</h3>
+<ol>
+<li>Start with this dictionary:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>movie <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;title&#34;</span>: <span style="color:#e6db74">&#34;Inception&#34;</span>, <span style="color:#e6db74">&#34;year&#34;</span>: <span style="color:#ae81ff">2010</span>}
+</span></span></code></pre></div><ul>
+<li>Change the year to 2012</li>
+<li>Add a key <code>rating</code> with a value of 9</li>
+<li>Remove the <code>title</code> key</li>
+<li>Print the result</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="part-c-membership">Part C: Membership</h3>
+<ol>
+<li>Create a dictionary <code>student</code> with keys: <code>name</code>, <code>age</code>, <code>grade</code>.</li>
+<li>Write code that checks if <code>age</code> is in the dictionary. If yes, print the value.</li>
+</ol>
+<hr>
+<h3 id="part-d-mini-challenge">Part D: Mini Challenge</h3>
+<p>Write a program that:</p>
+<ul>
+<li>Creates a dictionary for a song with keys: <code>title</code>, <code>artist</code>, <code>length</code></li>
+<li>Adds a new key <code>album</code></li>
+<li>Prints just the artist</li>
+<li>Removes the <code>length</code></li>
+</ul>
+
+    </div>
+
+    <hr />
+  </div>
+
+          </div>
+        </div>
+      </main>
+      <footer class="shadow p-4 mt-8">
+        <div class="container mx-auto text-center text-gray-300">
+          &copy; 2025 Will Lapinel. All rights
+          reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
