@@ -125,45 +125,75 @@
   
 </details>
 
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      Assignment 2.2
+      &lt;/h1&gt;
+      &lt;h2 id=&#34;assignment-22--prepare&#34;&gt;Assignment 2.2 – Prepare&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice using &lt;code&gt;if … else&lt;/code&gt; with correct indentation.&lt;/p&gt;
+&lt;h3 id=&#34;part-1-predict-the-output&#34;&gt;Part 1: Predict the Output&lt;/h3&gt;
+&lt;p&gt;What will Python print?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Greater than 10&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;10 or smaller&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Done&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-2-debugging&#34;&gt;Part 2: Debugging&lt;/h3&gt;
+&lt;p&gt;Fix this code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;color &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter a color: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; color &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Roses are red&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Nice color!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-3-write-your-own&#34;&gt;Part 3: Write Your Own&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Ask the user for their age.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;If age is 16 or older → print &amp;ldquo;You can drive!&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Else → print &amp;ldquo;Not yet!&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Ask the user for a number.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;If it’s divisible by 5 → print &amp;ldquo;Multiple of 5&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Else → print &amp;ldquo;Not a multiple of 5&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
     <hr />
     <div class="markdown-body p-2">
       
-      <h1>Assignment 2.2</h1>
       <p>Supporting Resources</p>
       
-      <h2 id="assignment-22--prepare">Assignment 2.2 – Prepare</h2>
-<p><strong>Goal:</strong> Practice using <code>if … else</code> with correct indentation.</p>
-<h3 id="part-1-predict-the-output">Part 1: Predict the Output</h3>
-<p>What will Python print?</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">10</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Greater than 10&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;10 or smaller&#34;</span>)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Done&#34;</span>)
-</span></span></code></pre></div><h3 id="part-2-debugging">Part 2: Debugging</h3>
-<p>Fix this code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>color <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter a color: &#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> color <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;red&#34;</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Roses are red&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Nice color!&#34;</span>)
-</span></span></code></pre></div><h3 id="part-3-write-your-own">Part 3: Write Your Own</h3>
-<ol>
-<li>Ask the user for their age.</li>
-</ol>
-<ul>
-<li>If age is 16 or older → print &ldquo;You can drive!&rdquo;</li>
-<li>Else → print &ldquo;Not yet!&rdquo;</li>
-</ul>
-<ol start="2">
-<li>Ask the user for a number.</li>
-</ol>
-<ul>
-<li>If it’s divisible by 5 → print &ldquo;Multiple of 5&rdquo;</li>
-<li>Else → print &ldquo;Not a multiple of 5&rdquo;</li>
-</ul>
-
+      
     </div>
 
     <hr />

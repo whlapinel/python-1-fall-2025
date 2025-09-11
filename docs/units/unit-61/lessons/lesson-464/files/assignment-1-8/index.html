@@ -92,242 +92,272 @@
   
 </details>
 
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;assignment-18-unit-1-assessment---interactive-python-console-application&#34;&gt;Assignment 1.8: Unit 1 Assessment - Interactive Python Console Application&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Type: PERFORM | Due: End of Week 2 | Points: 100&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Create a comprehensive interactive console application that demonstrates mastery of all PCEP Section 1 objectives. Your program should be engaging, user-friendly, and showcase proper Python programming practices.&lt;/p&gt;
+&lt;h2 id=&#34;pcep-section-1-objectives-demonstrated&#34;&gt;PCEP Section 1 Objectives Demonstrated&lt;/h2&gt;
+&lt;p&gt;Your project must clearly demonstrate ALL of the following PCEP-30-02 Section 1 objectives:&lt;/p&gt;
+&lt;h3 id=&#34;pcep-11---fundamental-terms-and-definitions&#34;&gt;PCEP 1.1 - Fundamental Terms and Definitions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Python as an interpreted language (no compilation step needed)&lt;/li&gt;
+&lt;li&gt;Demonstrate understanding of proper Python syntax and semantics&lt;/li&gt;
+&lt;li&gt;Include comments explaining your code&amp;rsquo;s lexical elements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pcep-12---python-logic-and-structure&#34;&gt;PCEP 1.2 - Python Logic and Structure&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Python keywords appropriately&lt;/li&gt;
+&lt;li&gt;Implement proper indentation for code blocks&lt;/li&gt;
+&lt;li&gt;Include meaningful comments throughout your code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pcep-13---literals-and-variables&#34;&gt;PCEP 1.3 - Literals and Variables&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Boolean, integer, floating-point, and string literals&lt;/li&gt;
+&lt;li&gt;Demonstrate at least 2 different numeral systems (binary, octal, hex)&lt;/li&gt;
+&lt;li&gt;Create variables following PEP-8 naming conventions&lt;/li&gt;
+&lt;li&gt;Use scientific notation where appropriate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pcep-14---operators-and-data-types&#34;&gt;PCEP 1.4 - Operators and Data Types&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use arithmetic operators: &lt;code&gt;**&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;%&lt;/code&gt;, &lt;code&gt;//&lt;/code&gt;, &lt;code&gt;&#43;&lt;/code&gt;, &lt;code&gt;−&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use string operators: &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;&#43;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use assignment and shortcut operators&lt;/li&gt;
+&lt;li&gt;Demonstrate operator precedence understanding&lt;/li&gt;
+&lt;li&gt;Use Boolean operators: &lt;code&gt;not&lt;/code&gt;, &lt;code&gt;and&lt;/code&gt;, &lt;code&gt;or&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use relational operators: &lt;code&gt;==&lt;/code&gt;, &lt;code&gt;!=&lt;/code&gt;, &lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;gt;=&lt;/code&gt;, &lt;code&gt;&amp;lt;&lt;/code&gt;, &lt;code&gt;&amp;lt;=&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Include type casting operations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pcep-15---inputoutput-operations&#34;&gt;PCEP 1.5 - Input/Output Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;print()&lt;/code&gt; function with &lt;code&gt;sep&lt;/code&gt; and &lt;code&gt;end&lt;/code&gt; parameters&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;input()&lt;/code&gt; function for user interaction&lt;/li&gt;
+&lt;li&gt;Combine input with type conversion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;project-options&#34;&gt;Project Options&lt;/h2&gt;
+&lt;p&gt;Choose ONE of the following project types:&lt;/p&gt;
+&lt;h3 id=&#34;option-a-personal-information-calculator&#34;&gt;Option A: Personal Information Calculator&lt;/h3&gt;
+&lt;p&gt;Create an interactive program that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collects personal information (name, birth year, height, etc.)&lt;/li&gt;
+&lt;li&gt;Performs calculations (age, height conversions, etc.)&lt;/li&gt;
+&lt;li&gt;Uses different numeral systems to display interesting facts&lt;/li&gt;
+&lt;li&gt;Formats output professionally using print() parameters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;option-b-number-system-converter-and-calculator&#34;&gt;Option B: Number System Converter and Calculator&lt;/h3&gt;
+&lt;p&gt;Create a program that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accepts numbers in different bases (binary, octal, decimal, hex)&lt;/li&gt;
+&lt;li&gt;Converts between numeral systems&lt;/li&gt;
+&lt;li&gt;Performs calculations with the converted numbers&lt;/li&gt;
+&lt;li&gt;Shows results in multiple formats&lt;/li&gt;
+&lt;li&gt;Includes interactive menu system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;option-c-interactive-quiz-game&#34;&gt;Option C: Interactive Quiz Game&lt;/h3&gt;
+&lt;p&gt;Create a program that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Asks users questions about Python concepts&lt;/li&gt;
+&lt;li&gt;Accepts and evaluates user answers&lt;/li&gt;
+&lt;li&gt;Keeps score using various operators&lt;/li&gt;
+&lt;li&gt;Provides feedback with formatted output&lt;/li&gt;
+&lt;li&gt;Uses Boolean logic for answer checking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;option-d-custom-project-instructor-approval-required&#34;&gt;Option D: Custom Project (Instructor Approval Required)&lt;/h3&gt;
+&lt;p&gt;Design your own project that demonstrates all PCEP Section 1 objectives&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Submit a brief proposal before starting&lt;/li&gt;
+&lt;li&gt;Must be approved by instructor&lt;/li&gt;
+&lt;li&gt;Should be of similar complexity to other options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-requirements&#34;&gt;Technical Requirements&lt;/h2&gt;
+&lt;h3 id=&#34;code-quality-25-points&#34;&gt;Code Quality (25 points)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PEP-8 Compliance&lt;/strong&gt;: Proper variable naming, spacing, line length&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comments&lt;/strong&gt;: Meaningful comments explaining complex logic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: Well-organized code with logical flow&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Prevention&lt;/strong&gt;: Handle potential user input errors gracefully&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pcep-objective-coverage-50-points&#34;&gt;PCEP Objective Coverage (50 points)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Complete Coverage&lt;/strong&gt;: All 5 PCEP Section 1 objectives clearly demonstrated&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Correct Implementation&lt;/strong&gt;: Proper use of all required language features&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Appropriate Usage&lt;/strong&gt;: Choose right operators/data types for each task&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Understanding&lt;/strong&gt;: Code shows deep understanding, not just surface usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;user-experience-15-points&#34;&gt;User Experience (15 points)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clear Instructions&lt;/strong&gt;: Users understand what to do&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional Output&lt;/strong&gt;: Well-formatted, easy-to-read results&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactive Design&lt;/strong&gt;: Engaging user interaction throughout&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robust Input Handling&lt;/strong&gt;: Program doesn&amp;rsquo;t crash on unexpected input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;documentation-10-points&#34;&gt;Documentation (10 points)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Header Comment&lt;/strong&gt;: Program purpose, author, date&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Function Documentation&lt;/strong&gt;: If you create any functions (not required)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inline Comments&lt;/strong&gt;: Explain complex calculations or logic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;README&lt;/strong&gt;: Brief explanation of how to run your program&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sample-code-structure&#34;&gt;Sample Code Structure&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# ====================================&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Program: [Your Program Name]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Author: [Your Name]  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Date: [Current Date]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Description: [Brief description]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# PCEP Section 1 Assessment Project&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# ====================================&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Import statements (if needed)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Constants (demonstrate different numeral systems)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BINARY_EXAMPLE &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0b1010&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# 10 in decimal&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OCTAL_EXAMPLE &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0o12&lt;/span&gt;     &lt;span style=&#34;color:#75715e&#34;&gt;# 10 in decimal  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HEX_EXAMPLE &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0xA&lt;/span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# 10 in decimal&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Main program starts here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to [Your Program Name]!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;=&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;40&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your interactive program here...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Remember to demonstrate ALL PCEP 1.1-1.5 objectives!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;submission-requirements&#34;&gt;Submission Requirements&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Python File&lt;/strong&gt;: Single &lt;code&gt;.py&lt;/code&gt; file with your complete program&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: Brief README explaining your program&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Assessment&lt;/strong&gt;: Complete the PCEP checklist below&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test Run&lt;/strong&gt;: Include sample output showing your program working&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;pcep-section-1-self-assessment-checklist&#34;&gt;PCEP Section 1 Self-Assessment Checklist&lt;/h2&gt;
+&lt;p&gt;Before submitting, verify your project includes:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PCEP 1.1 - Fundamental Terms&lt;/strong&gt; ☐&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Code demonstrates Python as interpreted language&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Proper syntax used throughout&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Comments explain lexical elements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;PCEP 1.2 - Python Structure&lt;/strong&gt; ☐&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Python keywords used appropriately&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Proper indentation for all code blocks&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Meaningful comments throughout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;PCEP 1.3 - Literals and Variables&lt;/strong&gt; ☐&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Boolean literals used&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Integer and float literals used&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; String literals used&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; At least 2 numeral systems demonstrated&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Variables follow PEP-8 naming conventions&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Scientific notation used appropriately&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;PCEP 1.4 - Operators and Data Types&lt;/strong&gt; ☐&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Arithmetic operators: &lt;code&gt;**&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;%&lt;/code&gt;, &lt;code&gt;//&lt;/code&gt;, &lt;code&gt;&#43;&lt;/code&gt;, &lt;code&gt;−&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; String operators: &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;&#43;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Assignment and shortcut operators&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Operator precedence understanding shown&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Boolean operators: &lt;code&gt;not&lt;/code&gt;, &lt;code&gt;and&lt;/code&gt;, &lt;code&gt;or&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Relational operators used correctly&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Type casting demonstrated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;PCEP 1.5 - Input/Output&lt;/strong&gt; ☐&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;print()&lt;/code&gt; with &lt;code&gt;sep&lt;/code&gt; parameter&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;print()&lt;/code&gt; with &lt;code&gt;end&lt;/code&gt; parameter&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;input()&lt;/code&gt; function used&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Input combined with type conversion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Category&lt;/th&gt;
+          &lt;th&gt;Excellent (90-100%)&lt;/th&gt;
+          &lt;th&gt;Good (80-89%)&lt;/th&gt;
+          &lt;th&gt;Satisfactory (70-79%)&lt;/th&gt;
+          &lt;th&gt;Needs Work (&amp;lt;70%)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;PCEP Coverage&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;All objectives clearly demonstrated with sophisticated usage&lt;/td&gt;
+          &lt;td&gt;All objectives covered with good understanding&lt;/td&gt;
+          &lt;td&gt;Most objectives covered adequately&lt;/td&gt;
+          &lt;td&gt;Missing key objectives or poor implementation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Code Quality&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Exceptional PEP-8 compliance, excellent comments, perfect structure&lt;/td&gt;
+          &lt;td&gt;Good practices followed, minor issues&lt;/td&gt;
+          &lt;td&gt;Basic requirements met, some problems&lt;/td&gt;
+          &lt;td&gt;Poor practices, hard to read/understand&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Functionality&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Program works flawlessly, handles edge cases&lt;/td&gt;
+          &lt;td&gt;Program works well with minor issues&lt;/td&gt;
+          &lt;td&gt;Program works for normal use cases&lt;/td&gt;
+          &lt;td&gt;Program has significant bugs or doesn&amp;rsquo;t run&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;User Experience&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Professional, intuitive, engaging interface&lt;/td&gt;
+          &lt;td&gt;Clear and user-friendly&lt;/td&gt;
+          &lt;td&gt;Functional but basic&lt;/td&gt;
+          &lt;td&gt;Confusing or difficult to use&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;due-date-and-submission&#34;&gt;Due Date and Submission&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Due&lt;/strong&gt;: End of Week 2 (before Unit 2 begins)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Submit&lt;/strong&gt;: Upload &lt;code&gt;.py&lt;/code&gt; file and documentation to course management system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Late Policy&lt;/strong&gt;: 10% deduction per day late&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;getting-help&#34;&gt;Getting Help&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Office Hours&lt;/strong&gt;: Available for questions about PCEP objectives&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peer Review&lt;/strong&gt;: You may discuss general approaches with classmates&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Academic Integrity&lt;/strong&gt;: Your code must be your own original work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Good luck! This project will demonstrate your readiness for PCEP Section 1 and prepare you for the more advanced concepts in Unit 2.&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
     <hr />
     <div class="markdown-body p-2">
       
-      <h1></h1>
       <p>Supporting Resources</p>
       
-      <h1 id="assignment-18-unit-1-assessment---interactive-python-console-application">Assignment 1.8: Unit 1 Assessment - Interactive Python Console Application</h1>
-<p><strong>Type: PERFORM | Due: End of Week 2 | Points: 100</strong></p>
-<h2 id="overview">Overview</h2>
-<p>Create a comprehensive interactive console application that demonstrates mastery of all PCEP Section 1 objectives. Your program should be engaging, user-friendly, and showcase proper Python programming practices.</p>
-<h2 id="pcep-section-1-objectives-demonstrated">PCEP Section 1 Objectives Demonstrated</h2>
-<p>Your project must clearly demonstrate ALL of the following PCEP-30-02 Section 1 objectives:</p>
-<h3 id="pcep-11---fundamental-terms-and-definitions">PCEP 1.1 - Fundamental Terms and Definitions</h3>
-<ul>
-<li>Use Python as an interpreted language (no compilation step needed)</li>
-<li>Demonstrate understanding of proper Python syntax and semantics</li>
-<li>Include comments explaining your code&rsquo;s lexical elements</li>
-</ul>
-<h3 id="pcep-12---python-logic-and-structure">PCEP 1.2 - Python Logic and Structure</h3>
-<ul>
-<li>Use Python keywords appropriately</li>
-<li>Implement proper indentation for code blocks</li>
-<li>Include meaningful comments throughout your code</li>
-</ul>
-<h3 id="pcep-13---literals-and-variables">PCEP 1.3 - Literals and Variables</h3>
-<ul>
-<li>Use Boolean, integer, floating-point, and string literals</li>
-<li>Demonstrate at least 2 different numeral systems (binary, octal, hex)</li>
-<li>Create variables following PEP-8 naming conventions</li>
-<li>Use scientific notation where appropriate</li>
-</ul>
-<h3 id="pcep-14---operators-and-data-types">PCEP 1.4 - Operators and Data Types</h3>
-<ul>
-<li>Use arithmetic operators: <code>**</code>, <code>*</code>, <code>/</code>, <code>%</code>, <code>//</code>, <code>+</code>, <code>−</code></li>
-<li>Use string operators: <code>*</code>, <code>+</code></li>
-<li>Use assignment and shortcut operators</li>
-<li>Demonstrate operator precedence understanding</li>
-<li>Use Boolean operators: <code>not</code>, <code>and</code>, <code>or</code></li>
-<li>Use relational operators: <code>==</code>, <code>!=</code>, <code>&gt;</code>, <code>&gt;=</code>, <code>&lt;</code>, <code>&lt;=</code></li>
-<li>Include type casting operations</li>
-</ul>
-<h3 id="pcep-15---inputoutput-operations">PCEP 1.5 - Input/Output Operations</h3>
-<ul>
-<li>Use <code>print()</code> function with <code>sep</code> and <code>end</code> parameters</li>
-<li>Use <code>input()</code> function for user interaction</li>
-<li>Combine input with type conversion</li>
-</ul>
-<h2 id="project-options">Project Options</h2>
-<p>Choose ONE of the following project types:</p>
-<h3 id="option-a-personal-information-calculator">Option A: Personal Information Calculator</h3>
-<p>Create an interactive program that:</p>
-<ul>
-<li>Collects personal information (name, birth year, height, etc.)</li>
-<li>Performs calculations (age, height conversions, etc.)</li>
-<li>Uses different numeral systems to display interesting facts</li>
-<li>Formats output professionally using print() parameters</li>
-</ul>
-<h3 id="option-b-number-system-converter-and-calculator">Option B: Number System Converter and Calculator</h3>
-<p>Create a program that:</p>
-<ul>
-<li>Accepts numbers in different bases (binary, octal, decimal, hex)</li>
-<li>Converts between numeral systems</li>
-<li>Performs calculations with the converted numbers</li>
-<li>Shows results in multiple formats</li>
-<li>Includes interactive menu system</li>
-</ul>
-<h3 id="option-c-interactive-quiz-game">Option C: Interactive Quiz Game</h3>
-<p>Create a program that:</p>
-<ul>
-<li>Asks users questions about Python concepts</li>
-<li>Accepts and evaluates user answers</li>
-<li>Keeps score using various operators</li>
-<li>Provides feedback with formatted output</li>
-<li>Uses Boolean logic for answer checking</li>
-</ul>
-<h3 id="option-d-custom-project-instructor-approval-required">Option D: Custom Project (Instructor Approval Required)</h3>
-<p>Design your own project that demonstrates all PCEP Section 1 objectives</p>
-<ul>
-<li>Submit a brief proposal before starting</li>
-<li>Must be approved by instructor</li>
-<li>Should be of similar complexity to other options</li>
-</ul>
-<h2 id="technical-requirements">Technical Requirements</h2>
-<h3 id="code-quality-25-points">Code Quality (25 points)</h3>
-<ul>
-<li><strong>PEP-8 Compliance</strong>: Proper variable naming, spacing, line length</li>
-<li><strong>Comments</strong>: Meaningful comments explaining complex logic</li>
-<li><strong>Structure</strong>: Well-organized code with logical flow</li>
-<li><strong>Error Prevention</strong>: Handle potential user input errors gracefully</li>
-</ul>
-<h3 id="pcep-objective-coverage-50-points">PCEP Objective Coverage (50 points)</h3>
-<ul>
-<li><strong>Complete Coverage</strong>: All 5 PCEP Section 1 objectives clearly demonstrated</li>
-<li><strong>Correct Implementation</strong>: Proper use of all required language features</li>
-<li><strong>Appropriate Usage</strong>: Choose right operators/data types for each task</li>
-<li><strong>Understanding</strong>: Code shows deep understanding, not just surface usage</li>
-</ul>
-<h3 id="user-experience-15-points">User Experience (15 points)</h3>
-<ul>
-<li><strong>Clear Instructions</strong>: Users understand what to do</li>
-<li><strong>Professional Output</strong>: Well-formatted, easy-to-read results</li>
-<li><strong>Interactive Design</strong>: Engaging user interaction throughout</li>
-<li><strong>Robust Input Handling</strong>: Program doesn&rsquo;t crash on unexpected input</li>
-</ul>
-<h3 id="documentation-10-points">Documentation (10 points)</h3>
-<ul>
-<li><strong>Header Comment</strong>: Program purpose, author, date</li>
-<li><strong>Function Documentation</strong>: If you create any functions (not required)</li>
-<li><strong>Inline Comments</strong>: Explain complex calculations or logic</li>
-<li><strong>README</strong>: Brief explanation of how to run your program</li>
-</ul>
-<h2 id="sample-code-structure">Sample Code Structure</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># ====================================</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Program: [Your Program Name]</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Author: [Your Name]  </span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Date: [Current Date]</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Description: [Brief description]</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># PCEP Section 1 Assessment Project</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># ====================================</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Import statements (if needed)</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Constants (demonstrate different numeral systems)</span>
-</span></span><span style="display:flex;"><span>BINARY_EXAMPLE <span style="color:#f92672">=</span> <span style="color:#ae81ff">0b1010</span>  <span style="color:#75715e"># 10 in decimal</span>
-</span></span><span style="display:flex;"><span>OCTAL_EXAMPLE <span style="color:#f92672">=</span> <span style="color:#ae81ff">0o12</span>     <span style="color:#75715e"># 10 in decimal  </span>
-</span></span><span style="display:flex;"><span>HEX_EXAMPLE <span style="color:#f92672">=</span> <span style="color:#ae81ff">0xA</span>        <span style="color:#75715e"># 10 in decimal</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Main program starts here</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Welcome to [Your Program Name]!&#34;</span>)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;=&#34;</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">40</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your interactive program here...</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Remember to demonstrate ALL PCEP 1.1-1.5 objectives!</span>
-</span></span></code></pre></div><h2 id="submission-requirements">Submission Requirements</h2>
-<ol>
-<li><strong>Python File</strong>: Single <code>.py</code> file with your complete program</li>
-<li><strong>Documentation</strong>: Brief README explaining your program</li>
-<li><strong>Self-Assessment</strong>: Complete the PCEP checklist below</li>
-<li><strong>Test Run</strong>: Include sample output showing your program working</li>
-</ol>
-<h2 id="pcep-section-1-self-assessment-checklist">PCEP Section 1 Self-Assessment Checklist</h2>
-<p>Before submitting, verify your project includes:</p>
-<p><strong>PCEP 1.1 - Fundamental Terms</strong> ☐</p>
-<ul>
-<li><input disabled="" type="checkbox"> Code demonstrates Python as interpreted language</li>
-<li><input disabled="" type="checkbox"> Proper syntax used throughout</li>
-<li><input disabled="" type="checkbox"> Comments explain lexical elements</li>
-</ul>
-<p><strong>PCEP 1.2 - Python Structure</strong> ☐</p>
-<ul>
-<li><input disabled="" type="checkbox"> Python keywords used appropriately</li>
-<li><input disabled="" type="checkbox"> Proper indentation for all code blocks</li>
-<li><input disabled="" type="checkbox"> Meaningful comments throughout</li>
-</ul>
-<p><strong>PCEP 1.3 - Literals and Variables</strong> ☐</p>
-<ul>
-<li><input disabled="" type="checkbox"> Boolean literals used</li>
-<li><input disabled="" type="checkbox"> Integer and float literals used</li>
-<li><input disabled="" type="checkbox"> String literals used</li>
-<li><input disabled="" type="checkbox"> At least 2 numeral systems demonstrated</li>
-<li><input disabled="" type="checkbox"> Variables follow PEP-8 naming conventions</li>
-<li><input disabled="" type="checkbox"> Scientific notation used appropriately</li>
-</ul>
-<p><strong>PCEP 1.4 - Operators and Data Types</strong> ☐</p>
-<ul>
-<li><input disabled="" type="checkbox"> Arithmetic operators: <code>**</code>, <code>*</code>, <code>/</code>, <code>%</code>, <code>//</code>, <code>+</code>, <code>−</code></li>
-<li><input disabled="" type="checkbox"> String operators: <code>*</code>, <code>+</code></li>
-<li><input disabled="" type="checkbox"> Assignment and shortcut operators</li>
-<li><input disabled="" type="checkbox"> Operator precedence understanding shown</li>
-<li><input disabled="" type="checkbox"> Boolean operators: <code>not</code>, <code>and</code>, <code>or</code></li>
-<li><input disabled="" type="checkbox"> Relational operators used correctly</li>
-<li><input disabled="" type="checkbox"> Type casting demonstrated</li>
-</ul>
-<p><strong>PCEP 1.5 - Input/Output</strong> ☐</p>
-<ul>
-<li><input disabled="" type="checkbox"> <code>print()</code> with <code>sep</code> parameter</li>
-<li><input disabled="" type="checkbox"> <code>print()</code> with <code>end</code> parameter</li>
-<li><input disabled="" type="checkbox"> <code>input()</code> function used</li>
-<li><input disabled="" type="checkbox"> Input combined with type conversion</li>
-</ul>
-<h2 id="grading-rubric">Grading Rubric</h2>
-<table>
-  <thead>
-      <tr>
-          <th>Category</th>
-          <th>Excellent (90-100%)</th>
-          <th>Good (80-89%)</th>
-          <th>Satisfactory (70-79%)</th>
-          <th>Needs Work (&lt;70%)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>PCEP Coverage</strong></td>
-          <td>All objectives clearly demonstrated with sophisticated usage</td>
-          <td>All objectives covered with good understanding</td>
-          <td>Most objectives covered adequately</td>
-          <td>Missing key objectives or poor implementation</td>
-      </tr>
-      <tr>
-          <td><strong>Code Quality</strong></td>
-          <td>Exceptional PEP-8 compliance, excellent comments, perfect structure</td>
-          <td>Good practices followed, minor issues</td>
-          <td>Basic requirements met, some problems</td>
-          <td>Poor practices, hard to read/understand</td>
-      </tr>
-      <tr>
-          <td><strong>Functionality</strong></td>
-          <td>Program works flawlessly, handles edge cases</td>
-          <td>Program works well with minor issues</td>
-          <td>Program works for normal use cases</td>
-          <td>Program has significant bugs or doesn&rsquo;t run</td>
-      </tr>
-      <tr>
-          <td><strong>User Experience</strong></td>
-          <td>Professional, intuitive, engaging interface</td>
-          <td>Clear and user-friendly</td>
-          <td>Functional but basic</td>
-          <td>Confusing or difficult to use</td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="due-date-and-submission">Due Date and Submission</h2>
-<ul>
-<li><strong>Due</strong>: End of Week 2 (before Unit 2 begins)</li>
-<li><strong>Submit</strong>: Upload <code>.py</code> file and documentation to course management system</li>
-<li><strong>Late Policy</strong>: 10% deduction per day late</li>
-</ul>
-<h2 id="getting-help">Getting Help</h2>
-<ul>
-<li><strong>Office Hours</strong>: Available for questions about PCEP objectives</li>
-<li><strong>Peer Review</strong>: You may discuss general approaches with classmates</li>
-<li><strong>Academic Integrity</strong>: Your code must be your own original work</li>
-</ul>
-<p><strong>Good luck! This project will demonstrate your readiness for PCEP Section 1 and prepare you for the more advanced concepts in Unit 2.</strong></p>
-
+      
     </div>
 
     <hr />

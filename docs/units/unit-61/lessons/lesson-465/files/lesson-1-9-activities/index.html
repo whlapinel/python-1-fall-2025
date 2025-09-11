@@ -92,118 +92,135 @@
   
 </details>
 
-    <hr />
-    <div class="markdown-body p-2">
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
       
-      <h1></h1>
-      <p>Supporting Resources</p>
-      
-      <h1 id="lesson-19-project-work-session-activity-guide">Lesson 1.9: Project Work Session Activity Guide</h1>
-<p><strong>Assignment 1.8 Completion Day | 50-minute class period</strong></p>
-<h2 id="class-period-structure">Class Period Structure</h2>
-<h3 id="opening-5-minutes">Opening (5 minutes)</h3>
-<p><strong>Objectives Review and Status Check</strong></p>
-<ul>
-<li>Quick review of PCEP Section 1 objectives</li>
-<li>Student status check (show of hands for progress level)</li>
-<li>Clarify any remaining questions about requirements</li>
-</ul>
-<h3 id="troubleshooting-mini-lesson-10-minutes">Troubleshooting Mini-Lesson (10 minutes)</h3>
-<p><strong>Common Issues Prevention</strong></p>
-<ul>
-<li>Review most frequent coding errors from Unit 1</li>
-<li>Live demonstration of debugging techniques</li>
-<li>Q&amp;A for any conceptual confusion</li>
-</ul>
-<h3 id="work-session-1-15-minutes">Work Session 1 (15 minutes)</h3>
-<p><strong>Individual Coding Time</strong></p>
-<ul>
-<li>Students work on completing core functionality</li>
-<li>Instructor circulates for individual help</li>
-<li>Encourage peer consultation (within collaboration guidelines)</li>
-</ul>
-<h3 id="mid-session-check-and-testing-10-minutes">Mid-Session Check and Testing (10 minutes)</h3>
-<p><strong>Progress Assessment and Peer Testing</strong></p>
-<ul>
-<li>Status update from all students</li>
-<li>Partner testing exercise (5 minutes)</li>
-<li>Address any emerging issues</li>
-</ul>
-<h3 id="work-session-2-15-minutes">Work Session 2 (15 minutes)</h3>
-<p><strong>Polish and Finalization</strong></p>
-<ul>
-<li>Code refinement and testing</li>
-<li>Documentation and commenting</li>
-<li>Final troubleshooting</li>
-</ul>
-<h3 id="submission-and-wrap-up-5-minutes">Submission and Wrap-up (5 minutes)</h3>
-<p><strong>Project Submission and Unit Closure</strong></p>
-<ul>
-<li>Final submission process</li>
-<li>Unit reflection</li>
-<li>Unit 2 preview</li>
-</ul>
-<h2 id="detailed-activity-instructions">Detailed Activity Instructions</h2>
-<h3 id="activity-1-project-status-triage-5-minutes">Activity 1: Project Status Triage (5 minutes)</h3>
-<p><strong>Purpose</strong>: Assess where students are and group support accordingly</p>
-<p><strong>Instructions</strong>:</p>
-<ol>
-<li>
-<p>Display status categories on board</p>
-</li>
-<li>
-<p>Have students self-identify their current status:</p>
-<ul>
-<li>✅ <strong>Complete</strong>: Done and tested</li>
-<li>🔧 <strong>Polishing</strong>: Core done, adding finishing touches</li>
-<li>📈 <strong>Progress</strong>: Working on main requirements</li>
-<li>🆘 <strong>Help Needed</strong>: Stuck on specific issue</li>
-<li>❓ <strong>Confused</strong>: Not sure what to do next</li>
-</ul>
-</li>
-<li>
-<p>Note numbers in each category for targeted support</p>
-</li>
-</ol>
-<h3 id="activity-2-rapid-debugging-workshop-10-minutes">Activity 2: Rapid Debugging Workshop (10 minutes)</h3>
-<p><strong>Purpose</strong>: Address common errors before students encounter them</p>
-<p><strong>Common Error Examples</strong> (display and fix together):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Error 1: Type mismatch</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter age: &#34;</span>)
-</span></span><span style="display:flex;"><span>future_age <span style="color:#f92672">=</span> age <span style="color:#f92672">+</span> <span style="color:#ae81ff">10</span>  <span style="color:#75715e"># TypeError!</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Error 2: Operator precedence confusion  </span>
-</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">**</span> <span style="color:#ae81ff">2</span>  <span style="color:#75715e"># What&#39;s the result?</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Error 3: String formatting issues</span>
-</span></span><span style="display:flex;"><span>name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Alice&#34;</span>
-</span></span><span style="display:flex;"><span>score <span style="color:#f92672">=</span> <span style="color:#ae81ff">95.7</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Student: &#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Score: &#34;</span> <span style="color:#f92672">+</span> score)  <span style="color:#75715e"># TypeError!</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Error 4: Variable naming</span>
-</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span>numbers <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>  <span style="color:#75715e"># SyntaxError!</span>
-</span></span><span style="display:flex;"><span>my<span style="color:#f92672">-</span>variable <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>  <span style="color:#75715e"># SyntaxError!</span>
-</span></span></code></pre></div><p><strong>Student Task</strong>: Identify and explain each error, then provide the fix</p>
-<h3 id="activity-3-partner-code-testing-5-minutes">Activity 3: Partner Code Testing (5 minutes)</h3>
-<p><strong>Purpose</strong>: Catch bugs through fresh eyes</p>
-<p><strong>Instructions</strong>:</p>
-<ol>
-<li>Pair students with someone at similar progress level</li>
-<li>Each partner runs the other&rsquo;s code with these test cases:
-<ul>
-<li>Normal expected input</li>
-<li>Zero or negative numbers (where applicable)</li>
-<li>Very large numbers</li>
-<li>Text when numbers expected</li>
-</ul>
-</li>
-<li>Provide feedback on user experience and clarity</li>
-<li>Return to own projects with insights</li>
-</ol>
-<h3 id="activity-4-code-quality-self-assessment-during-work-time">Activity 4: Code Quality Self-Assessment (During work time)</h3>
-<p><strong>Purpose</strong>: Ensure professional standards</p>
-<p><strong>Checklist for students</strong> (provide as handout):</p>
-<pre tabindex="0"><code>□ Header comment with name, date, description
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;lesson-19-project-work-session-activity-guide&#34;&gt;Lesson 1.9: Project Work Session Activity Guide&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Assignment 1.8 Completion Day | 50-minute class period&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;class-period-structure&#34;&gt;Class Period Structure&lt;/h2&gt;
+&lt;h3 id=&#34;opening-5-minutes&#34;&gt;Opening (5 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Objectives Review and Status Check&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quick review of PCEP Section 1 objectives&lt;/li&gt;
+&lt;li&gt;Student status check (show of hands for progress level)&lt;/li&gt;
+&lt;li&gt;Clarify any remaining questions about requirements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;troubleshooting-mini-lesson-10-minutes&#34;&gt;Troubleshooting Mini-Lesson (10 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Common Issues Prevention&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Review most frequent coding errors from Unit 1&lt;/li&gt;
+&lt;li&gt;Live demonstration of debugging techniques&lt;/li&gt;
+&lt;li&gt;Q&amp;amp;A for any conceptual confusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;work-session-1-15-minutes&#34;&gt;Work Session 1 (15 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Individual Coding Time&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Students work on completing core functionality&lt;/li&gt;
+&lt;li&gt;Instructor circulates for individual help&lt;/li&gt;
+&lt;li&gt;Encourage peer consultation (within collaboration guidelines)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mid-session-check-and-testing-10-minutes&#34;&gt;Mid-Session Check and Testing (10 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Progress Assessment and Peer Testing&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Status update from all students&lt;/li&gt;
+&lt;li&gt;Partner testing exercise (5 minutes)&lt;/li&gt;
+&lt;li&gt;Address any emerging issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;work-session-2-15-minutes&#34;&gt;Work Session 2 (15 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Polish and Finalization&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code refinement and testing&lt;/li&gt;
+&lt;li&gt;Documentation and commenting&lt;/li&gt;
+&lt;li&gt;Final troubleshooting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;submission-and-wrap-up-5-minutes&#34;&gt;Submission and Wrap-up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Project Submission and Unit Closure&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Final submission process&lt;/li&gt;
+&lt;li&gt;Unit reflection&lt;/li&gt;
+&lt;li&gt;Unit 2 preview&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;detailed-activity-instructions&#34;&gt;Detailed Activity Instructions&lt;/h2&gt;
+&lt;h3 id=&#34;activity-1-project-status-triage-5-minutes&#34;&gt;Activity 1: Project Status Triage (5 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Assess where students are and group support accordingly&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Display status categories on board&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Have students self-identify their current status:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ &lt;strong&gt;Complete&lt;/strong&gt;: Done and tested&lt;/li&gt;
+&lt;li&gt;🔧 &lt;strong&gt;Polishing&lt;/strong&gt;: Core done, adding finishing touches&lt;/li&gt;
+&lt;li&gt;📈 &lt;strong&gt;Progress&lt;/strong&gt;: Working on main requirements&lt;/li&gt;
+&lt;li&gt;🆘 &lt;strong&gt;Help Needed&lt;/strong&gt;: Stuck on specific issue&lt;/li&gt;
+&lt;li&gt;❓ &lt;strong&gt;Confused&lt;/strong&gt;: Not sure what to do next&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Note numbers in each category for targeted support&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;activity-2-rapid-debugging-workshop-10-minutes&#34;&gt;Activity 2: Rapid Debugging Workshop (10 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Address common errors before students encounter them&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Common Error Examples&lt;/strong&gt; (display and fix together):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Error 1: Type mismatch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter age: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;future_age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; age &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# TypeError!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Error 2: Operator precedence confusion  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# What&amp;#39;s the result?&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Error 3: String formatting issues&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Alice&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;score &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;95.7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Student: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; name &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; Score: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; score)  &lt;span style=&#34;color:#75715e&#34;&gt;# TypeError!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Error 4: Variable naming&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;numbers &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# SyntaxError!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;variable &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# SyntaxError!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Student Task&lt;/strong&gt;: Identify and explain each error, then provide the fix&lt;/p&gt;
+&lt;h3 id=&#34;activity-3-partner-code-testing-5-minutes&#34;&gt;Activity 3: Partner Code Testing (5 minutes)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Catch bugs through fresh eyes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Pair students with someone at similar progress level&lt;/li&gt;
+&lt;li&gt;Each partner runs the other&amp;rsquo;s code with these test cases:
+&lt;ul&gt;
+&lt;li&gt;Normal expected input&lt;/li&gt;
+&lt;li&gt;Zero or negative numbers (where applicable)&lt;/li&gt;
+&lt;li&gt;Very large numbers&lt;/li&gt;
+&lt;li&gt;Text when numbers expected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Provide feedback on user experience and clarity&lt;/li&gt;
+&lt;li&gt;Return to own projects with insights&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;activity-4-code-quality-self-assessment-during-work-time&#34;&gt;Activity 4: Code Quality Self-Assessment (During work time)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Ensure professional standards&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Checklist for students&lt;/strong&gt; (provide as handout):&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;□ Header comment with name, date, description
 □ All variables follow snake_case naming
 □ Consistent 4-space indentation
 □ Lines under 79 characters
@@ -213,10 +230,10 @@
 □ Proper spacing around operators
 □ Functions (if used) have docstrings
 □ Code is readable by someone else
-</code></pre><h3 id="activity-5-pcep-objective-verification-during-work-time">Activity 5: PCEP Objective Verification (During work time)</h3>
-<p><strong>Purpose</strong>: Ensure all certification requirements met</p>
-<p><strong>Student Self-Check</strong> (provide as checklist):</p>
-<pre tabindex="0"><code>PCEP 1.1 - Fundamental Terms
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;activity-5-pcep-objective-verification-during-work-time&#34;&gt;Activity 5: PCEP Objective Verification (During work time)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Ensure all certification requirements met&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Student Self-Check&lt;/strong&gt; (provide as checklist):&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PCEP 1.1 - Fundamental Terms
 □ Code demonstrates interpreted nature of Python
 □ Proper syntax used throughout
 □ Understanding shown through comments
@@ -235,11 +252,11 @@ PCEP 1.3 - Literals and Variables
 □ Scientific notation (if appropriate)
 
 PCEP 1.4 - Operators and Data Types
-□ Arithmetic: **, *, /, %, //, +, -
-□ String: *, +
+□ Arithmetic: **, *, /, %, //, &#43;, -
+□ String: *, &#43;
 □ Assignment and shortcuts
 □ Boolean: not, and, or
-□ Comparison: ==, !=, &gt;, &gt;=, &lt;, &lt;=
+□ Comparison: ==, !=, &amp;gt;, &amp;gt;=, &amp;lt;, &amp;lt;=
 □ Type casting shown
 
 PCEP 1.5 - Input/Output
@@ -247,122 +264,135 @@ PCEP 1.5 - Input/Output
 □ print() with end parameter
 □ input() function used
 □ Input with type conversion
-</code></pre><h2 id="instructor-circulation-strategy">Instructor Circulation Strategy</h2>
-<h3 id="round-1-minutes-5-20-triage-support">Round 1 (Minutes 5-20): Triage Support</h3>
-<p><strong>Priority Order</strong>:</p>
-<ol>
-<li><strong>❓ Confused students</strong>: Help clarify requirements and get started</li>
-<li><strong>🆘 Help needed</strong>: Address specific technical issues</li>
-<li><strong>📈 Progress students</strong>: Quick check-ins, anticipate next questions</li>
-</ol>
-<h3 id="round-2-minutes-25-40-quality-assurance">Round 2 (Minutes 25-40): Quality Assurance</h3>
-<p><strong>Focus Areas</strong>:</p>
-<ol>
-<li><strong>Code quality</strong>: PEP-8 compliance, readability</li>
-<li><strong>PCEP coverage</strong>: Ensure all objectives met</li>
-<li><strong>Testing</strong>: Help students test edge cases</li>
-<li><strong>Polish</strong>: Suggest improvements for early finishers</li>
-</ol>
-<h2 id="common-questions-and-suggested-responses">Common Questions and Suggested Responses</h2>
-<h3 id="my-code-doesnt-work">&ldquo;My code doesn&rsquo;t work!&rdquo;</h3>
-<p><strong>Response Strategy</strong>:</p>
-<ol>
-<li>&ldquo;What error message are you seeing?&rdquo;</li>
-<li>&ldquo;Walk me through what you expected vs. what happened&rdquo;</li>
-<li>&ldquo;Let&rsquo;s look at line X together&rdquo;</li>
-<li>Guide them to find the solution rather than fixing it for them</li>
-</ol>
-<h3 id="is-this-enough-to-meet-the-requirements">&ldquo;Is this enough to meet the requirements?&rdquo;</h3>
-<p><strong>Response Strategy</strong>:</p>
-<ol>
-<li>Review their code against the PCEP checklist</li>
-<li>&ldquo;Show me where you demonstrate [specific objective]&rdquo;</li>
-<li>Suggest specific additions if objectives are missing</li>
-<li>Praise what they&rsquo;ve done well</li>
-</ol>
-<h3 id="im-done-early-what-should-i-add">&ldquo;I&rsquo;m done early, what should I add?&rdquo;</h3>
-<p><strong>Enhancement Suggestions</strong>:</p>
-<ul>
-<li>Input validation (reject invalid entries gracefully)</li>
-<li>More sophisticated error handling</li>
-<li>Additional numeral system conversions</li>
-<li>Menu system for multiple operations</li>
-<li>Better output formatting</li>
-<li>More interactive features</li>
-</ul>
-<h3 id="i-dont-think-ill-finish-in-time">&ldquo;I don&rsquo;t think I&rsquo;ll finish in time&rdquo;</h3>
-<p><strong>Support Strategy</strong>:</p>
-<ol>
-<li>Help prioritize core requirements over polish</li>
-<li>&ldquo;What&rsquo;s the minimum viable version that meets all PCEP objectives?&rdquo;</li>
-<li>Offer to help troubleshoot the biggest blocker</li>
-<li>Remind about office hours for additional support</li>
-</ol>
-<h2 id="assessment-notes-for-instructor">Assessment Notes for Instructor</h2>
-<h3 id="what-to-look-for">What to Look For:</h3>
-<ul>
-<li><strong>Functionality</strong>: Does the program run without errors?</li>
-<li><strong>PCEP Coverage</strong>: Are all Section 1 objectives clearly demonstrated?</li>
-<li><strong>Code Quality</strong>: Professional presentation, PEP-8 compliance</li>
-<li><strong>User Experience</strong>: Clear instructions, good formatting</li>
-<li><strong>Understanding</strong>: Code shows comprehension, not just copying</li>
-</ul>
-<h3 id="red-flags">Red Flags:</h3>
-<ul>
-<li>Copy-pasted code from internet (unusual complexity for beginner)</li>
-<li>Missing major PCEP objectives</li>
-<li>Poor variable naming or no comments</li>
-<li>Program crashes on normal input</li>
-<li>No evidence of testing</li>
-</ul>
-<h3 id="quick-feedback-phrases">Quick Feedback Phrases:</h3>
-<ul>
-<li>&ldquo;Great use of [specific PCEP objective]!&rdquo;</li>
-<li>&ldquo;Consider adding a comment here to explain why&hellip;&rdquo;</li>
-<li>&ldquo;This variable name could be more descriptive&rdquo;</li>
-<li>&ldquo;Nice job handling the user input conversion!&rdquo;</li>
-<li>&ldquo;Remember to test with different types of input&rdquo;</li>
-</ul>
-<h2 id="submission-process-details">Submission Process Details</h2>
-<h3 id="file-requirements">File Requirements:</h3>
-<ul>
-<li><strong>Naming</strong>: <code>lastname_firstname_unit1.py</code></li>
-<li><strong>Format</strong>: Single Python file</li>
-<li><strong>Testing</strong>: Must run without errors</li>
-<li><strong>Documentation</strong>: Proper header and comments</li>
-</ul>
-<h3 id="submission-checklist">Submission Checklist:</h3>
-<ol>
-<li>Save file with correct naming convention</li>
-<li>Test program one final time</li>
-<li>Upload to course management system</li>
-<li>Include brief project description in submission notes</li>
-<li>Verify submission was received</li>
-</ol>
-<h3 id="late-policy-reminder">Late Policy Reminder:</h3>
-<ul>
-<li><strong>On time</strong>: Full credit potential</li>
-<li><strong>Late</strong>: 10% deduction per day</li>
-<li><strong>Weekend</strong>: Counts as 2 days</li>
-<li><strong>Emergency situations</strong>: Contact instructor immediately</li>
-</ul>
-<h2 id="wrap-up-and-transition">Wrap-up and Transition</h2>
-<h3 id="unit-1-reflection-questions">Unit 1 Reflection Questions:</h3>
-<ol>
-<li>&ldquo;What was the most challenging concept in Unit 1?&rdquo;</li>
-<li>&ldquo;Which PCEP objective do you feel most confident about?&rdquo;</li>
-<li>&ldquo;How do you feel about your readiness for certification?&rdquo;</li>
-<li>&ldquo;What would you do differently if starting Unit 1 over?&rdquo;</li>
-</ol>
-<h3 id="unit-2-preview">Unit 2 Preview:</h3>
-<ul>
-<li><strong>Monday</strong>: Introduction to conditional statements (if, elif, else)</li>
-<li><strong>Topics</strong>: Decision-making, Boolean logic, nested conditions</li>
-<li><strong>PCEP Focus</strong>: Section 2 objectives (29% of exam)</li>
-<li><strong>Project Ideas</strong>: Programs that make decisions based on user input</li>
-</ul>
-<p><strong>Congratulations on completing Unit 1! You&rsquo;ve built a strong foundation for more advanced Python programming.</strong></p>
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;instructor-circulation-strategy&#34;&gt;Instructor Circulation Strategy&lt;/h2&gt;
+&lt;h3 id=&#34;round-1-minutes-5-20-triage-support&#34;&gt;Round 1 (Minutes 5-20): Triage Support&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Priority Order&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;❓ Confused students&lt;/strong&gt;: Help clarify requirements and get started&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🆘 Help needed&lt;/strong&gt;: Address specific technical issues&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📈 Progress students&lt;/strong&gt;: Quick check-ins, anticipate next questions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;round-2-minutes-25-40-quality-assurance&#34;&gt;Round 2 (Minutes 25-40): Quality Assurance&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Focus Areas&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Code quality&lt;/strong&gt;: PEP-8 compliance, readability&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PCEP coverage&lt;/strong&gt;: Ensure all objectives met&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Help students test edge cases&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Polish&lt;/strong&gt;: Suggest improvements for early finishers&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;common-questions-and-suggested-responses&#34;&gt;Common Questions and Suggested Responses&lt;/h2&gt;
+&lt;h3 id=&#34;my-code-doesnt-work&#34;&gt;&amp;ldquo;My code doesn&amp;rsquo;t work!&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Response Strategy&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;What error message are you seeing?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Walk me through what you expected vs. what happened&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Let&amp;rsquo;s look at line X together&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Guide them to find the solution rather than fixing it for them&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;is-this-enough-to-meet-the-requirements&#34;&gt;&amp;ldquo;Is this enough to meet the requirements?&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Response Strategy&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Review their code against the PCEP checklist&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Show me where you demonstrate [specific objective]&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Suggest specific additions if objectives are missing&lt;/li&gt;
+&lt;li&gt;Praise what they&amp;rsquo;ve done well&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;im-done-early-what-should-i-add&#34;&gt;&amp;ldquo;I&amp;rsquo;m done early, what should I add?&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Enhancement Suggestions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input validation (reject invalid entries gracefully)&lt;/li&gt;
+&lt;li&gt;More sophisticated error handling&lt;/li&gt;
+&lt;li&gt;Additional numeral system conversions&lt;/li&gt;
+&lt;li&gt;Menu system for multiple operations&lt;/li&gt;
+&lt;li&gt;Better output formatting&lt;/li&gt;
+&lt;li&gt;More interactive features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;i-dont-think-ill-finish-in-time&#34;&gt;&amp;ldquo;I don&amp;rsquo;t think I&amp;rsquo;ll finish in time&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Support Strategy&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Help prioritize core requirements over polish&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What&amp;rsquo;s the minimum viable version that meets all PCEP objectives?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Offer to help troubleshoot the biggest blocker&lt;/li&gt;
+&lt;li&gt;Remind about office hours for additional support&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;assessment-notes-for-instructor&#34;&gt;Assessment Notes for Instructor&lt;/h2&gt;
+&lt;h3 id=&#34;what-to-look-for&#34;&gt;What to Look For:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Functionality&lt;/strong&gt;: Does the program run without errors?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PCEP Coverage&lt;/strong&gt;: Are all Section 1 objectives clearly demonstrated?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code Quality&lt;/strong&gt;: Professional presentation, PEP-8 compliance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User Experience&lt;/strong&gt;: Clear instructions, good formatting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Understanding&lt;/strong&gt;: Code shows comprehension, not just copying&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;red-flags&#34;&gt;Red Flags:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy-pasted code from internet (unusual complexity for beginner)&lt;/li&gt;
+&lt;li&gt;Missing major PCEP objectives&lt;/li&gt;
+&lt;li&gt;Poor variable naming or no comments&lt;/li&gt;
+&lt;li&gt;Program crashes on normal input&lt;/li&gt;
+&lt;li&gt;No evidence of testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quick-feedback-phrases&#34;&gt;Quick Feedback Phrases:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Great use of [specific PCEP objective]!&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Consider adding a comment here to explain why&amp;hellip;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;This variable name could be more descriptive&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Nice job handling the user input conversion!&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Remember to test with different types of input&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;submission-process-details&#34;&gt;Submission Process Details&lt;/h2&gt;
+&lt;h3 id=&#34;file-requirements&#34;&gt;File Requirements:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Naming&lt;/strong&gt;: &lt;code&gt;lastname_firstname_unit1.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format&lt;/strong&gt;: Single Python file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Must run without errors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: Proper header and comments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;submission-checklist&#34;&gt;Submission Checklist:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Save file with correct naming convention&lt;/li&gt;
+&lt;li&gt;Test program one final time&lt;/li&gt;
+&lt;li&gt;Upload to course management system&lt;/li&gt;
+&lt;li&gt;Include brief project description in submission notes&lt;/li&gt;
+&lt;li&gt;Verify submission was received&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;late-policy-reminder&#34;&gt;Late Policy Reminder:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;On time&lt;/strong&gt;: Full credit potential&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Late&lt;/strong&gt;: 10% deduction per day&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Weekend&lt;/strong&gt;: Counts as 2 days&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Emergency situations&lt;/strong&gt;: Contact instructor immediately&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wrap-up-and-transition&#34;&gt;Wrap-up and Transition&lt;/h2&gt;
+&lt;h3 id=&#34;unit-1-reflection-questions&#34;&gt;Unit 1 Reflection Questions:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;What was the most challenging concept in Unit 1?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Which PCEP objective do you feel most confident about?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How do you feel about your readiness for certification?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What would you do differently if starting Unit 1 over?&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;unit-2-preview&#34;&gt;Unit 2 Preview:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Monday&lt;/strong&gt;: Introduction to conditional statements (if, elif, else)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics&lt;/strong&gt;: Decision-making, Boolean logic, nested conditions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PCEP Focus&lt;/strong&gt;: Section 2 objectives (29% of exam)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Ideas&lt;/strong&gt;: Programs that make decisions based on user input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations on completing Unit 1! You&amp;rsquo;ve built a strong foundation for more advanced Python programming.&lt;/strong&gt;&lt;/p&gt;
 
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
+    <hr />
+    <div class="markdown-body p-2">
+      
+      <p>Supporting Resources</p>
+      
+      
     </div>
 
     <hr />

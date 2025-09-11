@@ -123,180 +123,210 @@
   
 </details>
 
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;assignment-14-data-types-and-operators-practice&#34;&gt;Assignment 1.4: Data Types and Operators Practice&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Unit 1, Lesson 4 - PREPARE Assignment&lt;/strong&gt;
+&lt;strong&gt;Due: Next class period&lt;/strong&gt;
+&lt;strong&gt;Submission Format: Screenshots of your Python code and output&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;part-a-data-type-exploration-25-points&#34;&gt;Part A: Data Type Exploration (25 points)&lt;/h2&gt;
+&lt;p&gt;Create and test variables of each data type.&lt;/p&gt;
+&lt;h3 id=&#34;task-1-create-variables&#34;&gt;Task 1: Create Variables&lt;/h3&gt;
+&lt;p&gt;Write and run this program:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Integer variables&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your actual age&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;favorite_number &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your favorite number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;negative_temp &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Float variables  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_height &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5.5&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your height in feet&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;price_of_gas &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.89&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pi_value &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.14159&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# String variables&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Your Name&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your actual name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;favorite_song &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Song Title&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your favorite song&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pet_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Pet Name&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with a pet&amp;#39;s name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Test the types&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Age:&amp;#34;&lt;/span&gt;, my_age, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Type:&amp;#34;&lt;/span&gt;, type(my_age))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Height:&amp;#34;&lt;/span&gt;, my_height, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Type:&amp;#34;&lt;/span&gt;, type(my_height))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Name:&amp;#34;&lt;/span&gt;, my_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Type:&amp;#34;&lt;/span&gt;, type(my_name))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Song:&amp;#34;&lt;/span&gt;, favorite_song, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Type:&amp;#34;&lt;/span&gt;, type(favorite_song))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Screenshot 1:&lt;/strong&gt; Show your code and the output from running this program.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;part-b-type-conversion-practice-25-points&#34;&gt;Part B: Type Conversion Practice (25 points)&lt;/h2&gt;
+&lt;h3 id=&#34;task-2-age-calculator&#34;&gt;Task 2: Age Calculator&lt;/h3&gt;
+&lt;p&gt;Write and run this program:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Age Calculator&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;birth_year &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;What year were you born? &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;current_year &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; current_year &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; int(birth_year)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;You are&amp;#34;&lt;/span&gt;, age, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;years old&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Birth year type:&amp;#34;&lt;/span&gt;, type(birth_year))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Age type:&amp;#34;&lt;/span&gt;, type(age))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Screenshot 2:&lt;/strong&gt; Show the program running with your actual birth year.&lt;/p&gt;
+&lt;h3 id=&#34;task-3-price-calculator-with-tax&#34;&gt;Task 3: Price Calculator with Tax&lt;/h3&gt;
+&lt;p&gt;Write and run this program:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Price Calculator&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;item &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;What are you buying? &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;price_input &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter the price: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;price &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; float(price_input)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tax_rate &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.08&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tax_amount &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; price &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; tax_rate
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;total &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; price &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; tax_amount
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Item:&amp;#34;&lt;/span&gt;, item)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Price: $&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; str(price))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Tax: $&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; str(tax_amount))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Total: $&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; str(total))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Screenshot 3:&lt;/strong&gt; Show this program running with a real item and price.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;part-c-operator-practice-30-points&#34;&gt;Part C: Operator Practice (30 points)&lt;/h2&gt;
+&lt;h3 id=&#34;task-4-math-operations&#34;&gt;Task 4: Math Operations&lt;/h3&gt;
+&lt;p&gt;Write and run this program:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Math Operations Practice&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;15&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;a =&amp;#34;&lt;/span&gt;, a, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;and b =&amp;#34;&lt;/span&gt;, b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Addition:&amp;#34;&lt;/span&gt;, a &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Subtraction:&amp;#34;&lt;/span&gt;, a &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Multiplication:&amp;#34;&lt;/span&gt;, a &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Division:&amp;#34;&lt;/span&gt;, a &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Floor Division:&amp;#34;&lt;/span&gt;, a &lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt; b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Remainder:&amp;#34;&lt;/span&gt;, a &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Exponentiation:&amp;#34;&lt;/span&gt;, a &lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt; b)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Screenshot 4:&lt;/strong&gt; Show this program&amp;rsquo;s output.&lt;/p&gt;
+&lt;h3 id=&#34;task-5-assignment-operators&#34;&gt;Task 5: Assignment Operators&lt;/h3&gt;
+&lt;p&gt;Write and run this program:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Assignment Operators Practice&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;score &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Starting score:&amp;#34;&lt;/span&gt;, score)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;score &lt;span style=&#34;color:#f92672&#34;&gt;&#43;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;After adding 25:&amp;#34;&lt;/span&gt;, score)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;score &lt;span style=&#34;color:#f92672&#34;&gt;-=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;After subtracting 10:&amp;#34;&lt;/span&gt;, score)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;score &lt;span style=&#34;color:#f92672&#34;&gt;*=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;After multiplying by 2:&amp;#34;&lt;/span&gt;, score)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;score &lt;span style=&#34;color:#f92672&#34;&gt;/=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;After dividing by 4:&amp;#34;&lt;/span&gt;, score)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Screenshot 5:&lt;/strong&gt; Show this program&amp;rsquo;s output.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;part-d-string-operations-10-points&#34;&gt;Part D: String Operations (10 points)&lt;/h2&gt;
+&lt;h3 id=&#34;task-6-string-manipulation&#34;&gt;Task 6: String Manipulation&lt;/h3&gt;
+&lt;p&gt;Write and run this program:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;String Operations Practice&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# String concatenation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;first_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter your first name: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;last_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter your last name: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;full_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; first_name &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; last_name
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Full name:&amp;#34;&lt;/span&gt;, full_name)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# String multiplication&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;favorite_word &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter a favorite word: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;repeated &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; favorite_word &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Repeated word:&amp;#34;&lt;/span&gt;, repeated)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# String with numbers&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter your age: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;message &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;I am &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; age &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; years old&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(message)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Screenshot 6:&lt;/strong&gt; Show this program running with your actual information.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;part-e-number-systems-challenge-10-points&#34;&gt;Part E: Number Systems Challenge (10 points)&lt;/h2&gt;
+&lt;h3 id=&#34;task-7-number-system-conversions&#34;&gt;Task 7: Number System Conversions&lt;/h3&gt;
+&lt;p&gt;Write and run this program:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Number Systems Practice&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Try with your favorite number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_number &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;42&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Replace with your favorite number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;My favorite number is:&amp;#34;&lt;/span&gt;, my_number)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;In binary:&amp;#34;&lt;/span&gt;, bin(my_number))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;In octal:&amp;#34;&lt;/span&gt;, oct(my_number))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;In hexadecimal:&amp;#34;&lt;/span&gt;, hex(my_number))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Try with a different number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;another_number &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Another number:&amp;#34;&lt;/span&gt;, another_number)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;In binary:&amp;#34;&lt;/span&gt;, bin(another_number))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;In octal:&amp;#34;&lt;/span&gt;, oct(another_number))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;In hexadecimal:&amp;#34;&lt;/span&gt;, hex(another_number))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Screenshot 7:&lt;/strong&gt; Show this program&amp;rsquo;s output using your own favorite number.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;submission-instructions&#34;&gt;Submission Instructions&lt;/h2&gt;
+&lt;p&gt;Create a document (Word, Google Doc, etc.) with:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Your name and Assignment 1.4&lt;/strong&gt; at the top&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screenshot 1:&lt;/strong&gt; Data type exploration program and output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screenshot 2:&lt;/strong&gt; Age calculator program running&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screenshot 3:&lt;/strong&gt; Price calculator program running&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screenshot 4:&lt;/strong&gt; Math operations program output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screenshot 5:&lt;/strong&gt; Assignment operators program output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screenshot 6:&lt;/strong&gt; String operations program running&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screenshot 7:&lt;/strong&gt; Number systems program output&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;grading-criteria&#34;&gt;Grading Criteria&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code Quality (40%):&lt;/strong&gt; Programs typed correctly and run without errors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screenshots (40%):&lt;/strong&gt; Clear, readable screenshots showing both code and output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personalization (20%):&lt;/strong&gt; Used your own information where requested&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-for-success&#34;&gt;Tips for Success&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Test each program before taking the screenshot&lt;/li&gt;
+&lt;li&gt;Make sure your screenshots are clear and readable&lt;/li&gt;
+&lt;li&gt;Include both your code AND the output in each screenshot&lt;/li&gt;
+&lt;li&gt;Replace placeholder values with your own information&lt;/li&gt;
+&lt;li&gt;If a program doesn&amp;rsquo;t work, debug it step by step&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;getting-help&#34;&gt;Getting Help&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Double-check parentheses, quotes, and spelling&lt;/li&gt;
+&lt;li&gt;Remember that &lt;code&gt;input()&lt;/code&gt; always returns a string&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;int()&lt;/code&gt; and &lt;code&gt;float()&lt;/code&gt; to convert strings to numbers&lt;/li&gt;
+&lt;li&gt;Make sure you&amp;rsquo;re running the programs in Python, not just typing them&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
     <hr />
     <div class="markdown-body p-2">
       
-      <h1></h1>
       <p>Supporting Resources</p>
       
-      <h1 id="assignment-14-data-types-and-operators-practice">Assignment 1.4: Data Types and Operators Practice</h1>
-<p><strong>Unit 1, Lesson 4 - PREPARE Assignment</strong>
-<strong>Due: Next class period</strong>
-<strong>Submission Format: Screenshots of your Python code and output</strong></p>
-<h2 id="part-a-data-type-exploration-25-points">Part A: Data Type Exploration (25 points)</h2>
-<p>Create and test variables of each data type.</p>
-<h3 id="task-1-create-variables">Task 1: Create Variables</h3>
-<p>Write and run this program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Integer variables</span>
-</span></span><span style="display:flex;"><span>my_age <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>  <span style="color:#75715e"># Replace with your actual age</span>
-</span></span><span style="display:flex;"><span>favorite_number <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span>  <span style="color:#75715e"># Replace with your favorite number</span>
-</span></span><span style="display:flex;"><span>negative_temp <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Float variables  </span>
-</span></span><span style="display:flex;"><span>my_height <span style="color:#f92672">=</span> <span style="color:#ae81ff">5.5</span>  <span style="color:#75715e"># Replace with your height in feet</span>
-</span></span><span style="display:flex;"><span>price_of_gas <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.89</span>
-</span></span><span style="display:flex;"><span>pi_value <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14159</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># String variables</span>
-</span></span><span style="display:flex;"><span>my_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Your Name&#34;</span>  <span style="color:#75715e"># Replace with your actual name</span>
-</span></span><span style="display:flex;"><span>favorite_song <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Song Title&#34;</span>  <span style="color:#75715e"># Replace with your favorite song</span>
-</span></span><span style="display:flex;"><span>pet_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Pet Name&#34;</span>  <span style="color:#75715e"># Replace with a pet&#39;s name</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Test the types</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Age:&#34;</span>, my_age, <span style="color:#e6db74">&#34;Type:&#34;</span>, type(my_age))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Height:&#34;</span>, my_height, <span style="color:#e6db74">&#34;Type:&#34;</span>, type(my_height))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Name:&#34;</span>, my_name, <span style="color:#e6db74">&#34;Type:&#34;</span>, type(my_name))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Song:&#34;</span>, favorite_song, <span style="color:#e6db74">&#34;Type:&#34;</span>, type(favorite_song))
-</span></span></code></pre></div><p><strong>Screenshot 1:</strong> Show your code and the output from running this program.</p>
-<hr>
-<h2 id="part-b-type-conversion-practice-25-points">Part B: Type Conversion Practice (25 points)</h2>
-<h3 id="task-2-age-calculator">Task 2: Age Calculator</h3>
-<p>Write and run this program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Age Calculator&#34;</span>)
-</span></span><span style="display:flex;"><span>birth_year <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;What year were you born? &#34;</span>)
-</span></span><span style="display:flex;"><span>current_year <span style="color:#f92672">=</span> <span style="color:#ae81ff">2025</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#f92672">=</span> current_year <span style="color:#f92672">-</span> int(birth_year)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;You are&#34;</span>, age, <span style="color:#e6db74">&#34;years old&#34;</span>)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Birth year type:&#34;</span>, type(birth_year))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Age type:&#34;</span>, type(age))
-</span></span></code></pre></div><p><strong>Screenshot 2:</strong> Show the program running with your actual birth year.</p>
-<h3 id="task-3-price-calculator-with-tax">Task 3: Price Calculator with Tax</h3>
-<p>Write and run this program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Price Calculator&#34;</span>)
-</span></span><span style="display:flex;"><span>item <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;What are you buying? &#34;</span>)
-</span></span><span style="display:flex;"><span>price_input <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter the price: &#34;</span>)
-</span></span><span style="display:flex;"><span>price <span style="color:#f92672">=</span> float(price_input)
-</span></span><span style="display:flex;"><span>tax_rate <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.08</span>
-</span></span><span style="display:flex;"><span>tax_amount <span style="color:#f92672">=</span> price <span style="color:#f92672">*</span> tax_rate
-</span></span><span style="display:flex;"><span>total <span style="color:#f92672">=</span> price <span style="color:#f92672">+</span> tax_amount
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Item:&#34;</span>, item)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Price: $&#34;</span> <span style="color:#f92672">+</span> str(price))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Tax: $&#34;</span> <span style="color:#f92672">+</span> str(tax_amount))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Total: $&#34;</span> <span style="color:#f92672">+</span> str(total))
-</span></span></code></pre></div><p><strong>Screenshot 3:</strong> Show this program running with a real item and price.</p>
-<hr>
-<h2 id="part-c-operator-practice-30-points">Part C: Operator Practice (30 points)</h2>
-<h3 id="task-4-math-operations">Task 4: Math Operations</h3>
-<p>Write and run this program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Math Operations Practice&#34;</span>)
-</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>
-</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;a =&#34;</span>, a, <span style="color:#e6db74">&#34;and b =&#34;</span>, b)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Addition:&#34;</span>, a <span style="color:#f92672">+</span> b)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Subtraction:&#34;</span>, a <span style="color:#f92672">-</span> b)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Multiplication:&#34;</span>, a <span style="color:#f92672">*</span> b)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Division:&#34;</span>, a <span style="color:#f92672">/</span> b)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Floor Division:&#34;</span>, a <span style="color:#f92672">//</span> b)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Remainder:&#34;</span>, a <span style="color:#f92672">%</span> b)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Exponentiation:&#34;</span>, a <span style="color:#f92672">**</span> b)
-</span></span></code></pre></div><p><strong>Screenshot 4:</strong> Show this program&rsquo;s output.</p>
-<h3 id="task-5-assignment-operators">Task 5: Assignment Operators</h3>
-<p>Write and run this program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Assignment Operators Practice&#34;</span>)
-</span></span><span style="display:flex;"><span>score <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Starting score:&#34;</span>, score)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>score <span style="color:#f92672">+=</span> <span style="color:#ae81ff">25</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;After adding 25:&#34;</span>, score)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>score <span style="color:#f92672">-=</span> <span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;After subtracting 10:&#34;</span>, score)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>score <span style="color:#f92672">*=</span> <span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;After multiplying by 2:&#34;</span>, score)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>score <span style="color:#f92672">/=</span> <span style="color:#ae81ff">4</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;After dividing by 4:&#34;</span>, score)
-</span></span></code></pre></div><p><strong>Screenshot 5:</strong> Show this program&rsquo;s output.</p>
-<hr>
-<h2 id="part-d-string-operations-10-points">Part D: String Operations (10 points)</h2>
-<h3 id="task-6-string-manipulation">Task 6: String Manipulation</h3>
-<p>Write and run this program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;String Operations Practice&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># String concatenation</span>
-</span></span><span style="display:flex;"><span>first_name <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter your first name: &#34;</span>)
-</span></span><span style="display:flex;"><span>last_name <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter your last name: &#34;</span>)
-</span></span><span style="display:flex;"><span>full_name <span style="color:#f92672">=</span> first_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> last_name
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Full name:&#34;</span>, full_name)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># String multiplication</span>
-</span></span><span style="display:flex;"><span>favorite_word <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter a favorite word: &#34;</span>)
-</span></span><span style="display:flex;"><span>repeated <span style="color:#f92672">=</span> favorite_word <span style="color:#f92672">*</span> <span style="color:#ae81ff">3</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Repeated word:&#34;</span>, repeated)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># String with numbers</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter your age: &#34;</span>)
-</span></span><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;I am &#34;</span> <span style="color:#f92672">+</span> age <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; years old&#34;</span>
-</span></span><span style="display:flex;"><span>print(message)
-</span></span></code></pre></div><p><strong>Screenshot 6:</strong> Show this program running with your actual information.</p>
-<hr>
-<h2 id="part-e-number-systems-challenge-10-points">Part E: Number Systems Challenge (10 points)</h2>
-<h3 id="task-7-number-system-conversions">Task 7: Number System Conversions</h3>
-<p>Write and run this program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Number Systems Practice&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Try with your favorite number</span>
-</span></span><span style="display:flex;"><span>my_number <span style="color:#f92672">=</span> <span style="color:#ae81ff">42</span>  <span style="color:#75715e"># Replace with your favorite number</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;My favorite number is:&#34;</span>, my_number)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;In binary:&#34;</span>, bin(my_number))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;In octal:&#34;</span>, oct(my_number))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;In hexadecimal:&#34;</span>, hex(my_number))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Try with a different number</span>
-</span></span><span style="display:flex;"><span>another_number <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Another number:&#34;</span>, another_number)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;In binary:&#34;</span>, bin(another_number))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;In octal:&#34;</span>, oct(another_number))
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;In hexadecimal:&#34;</span>, hex(another_number))
-</span></span></code></pre></div><p><strong>Screenshot 7:</strong> Show this program&rsquo;s output using your own favorite number.</p>
-<hr>
-<h2 id="submission-instructions">Submission Instructions</h2>
-<p>Create a document (Word, Google Doc, etc.) with:</p>
-<ol>
-<li><strong>Your name and Assignment 1.4</strong> at the top</li>
-<li><strong>Screenshot 1:</strong> Data type exploration program and output</li>
-<li><strong>Screenshot 2:</strong> Age calculator program running</li>
-<li><strong>Screenshot 3:</strong> Price calculator program running</li>
-<li><strong>Screenshot 4:</strong> Math operations program output</li>
-<li><strong>Screenshot 5:</strong> Assignment operators program output</li>
-<li><strong>Screenshot 6:</strong> String operations program running</li>
-<li><strong>Screenshot 7:</strong> Number systems program output</li>
-</ol>
-<h2 id="grading-criteria">Grading Criteria</h2>
-<ul>
-<li><strong>Code Quality (40%):</strong> Programs typed correctly and run without errors</li>
-<li><strong>Screenshots (40%):</strong> Clear, readable screenshots showing both code and output</li>
-<li><strong>Personalization (20%):</strong> Used your own information where requested</li>
-</ul>
-<h2 id="tips-for-success">Tips for Success</h2>
-<ul>
-<li>Test each program before taking the screenshot</li>
-<li>Make sure your screenshots are clear and readable</li>
-<li>Include both your code AND the output in each screenshot</li>
-<li>Replace placeholder values with your own information</li>
-<li>If a program doesn&rsquo;t work, debug it step by step</li>
-</ul>
-<h2 id="getting-help">Getting Help</h2>
-<ul>
-<li>Double-check parentheses, quotes, and spelling</li>
-<li>Remember that <code>input()</code> always returns a string</li>
-<li>Use <code>int()</code> and <code>float()</code> to convert strings to numbers</li>
-<li>Make sure you&rsquo;re running the programs in Python, not just typing them</li>
-</ul>
-
+      
     </div>
 
     <hr />

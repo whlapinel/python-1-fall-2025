@@ -125,78 +125,108 @@
   
 </details>
 
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      Assignment 1.6
+      &lt;/h1&gt;
+      &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Problem 1&lt;/strong&gt;: Boolean Logic Check&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ask the user for two boolean values (True or False).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Combine them using &lt;strong&gt;&lt;code&gt;and&lt;/code&gt;&lt;/strong&gt; and print the result.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input: &lt;code&gt;True, False&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Output: &lt;code&gt;False&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Problem 2&lt;/strong&gt;: Odd/Even Check&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ask the user for a number.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use &lt;strong&gt;boolean logic&lt;/strong&gt; to check if the number is &lt;strong&gt;even&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hint: You can check if &lt;code&gt;number % 2 == 0&lt;/code&gt; using boolean logic.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input: &lt;code&gt;4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Output: &lt;code&gt;True&lt;/code&gt; (even)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Problem 3&lt;/strong&gt;: True/False Assignment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Assign boolean values to two variables, &lt;code&gt;is_raining&lt;/code&gt; and &lt;code&gt;is_sunny&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use &lt;strong&gt;&lt;code&gt;or&lt;/code&gt;&lt;/strong&gt; to check if either condition is true and store the result in &lt;code&gt;can_go_outside&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input: &lt;code&gt;True, False&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Output: &lt;code&gt;True&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
     <hr />
     <div class="markdown-body p-2">
       
-      <h1>Assignment 1.6</h1>
       <p>Supporting Resources</p>
       
-      <ol>
-<li>
-<p><strong>Problem 1</strong>: Boolean Logic Check</p>
-<ul>
-<li>
-<p>Ask the user for two boolean values (True or False).</p>
-</li>
-<li>
-<p>Combine them using <strong><code>and</code></strong> and print the result.</p>
-<ul>
-<li>
-<p>Example:</p>
-<ul>
-<li>Input: <code>True, False</code></li>
-<li>Output: <code>False</code></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Problem 2</strong>: Odd/Even Check</p>
-<ul>
-<li>
-<p>Ask the user for a number.</p>
-</li>
-<li>
-<p>Use <strong>boolean logic</strong> to check if the number is <strong>even</strong>.</p>
-<ul>
-<li>
-<p>Hint: You can check if <code>number % 2 == 0</code> using boolean logic.</p>
-</li>
-<li>
-<p>Example:</p>
-<ul>
-<li>Input: <code>4</code></li>
-<li>Output: <code>True</code> (even)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Problem 3</strong>: True/False Assignment</p>
-<ul>
-<li>
-<p>Assign boolean values to two variables, <code>is_raining</code> and <code>is_sunny</code>.</p>
-</li>
-<li>
-<p>Use <strong><code>or</code></strong> to check if either condition is true and store the result in <code>can_go_outside</code>.</p>
-<ul>
-<li>
-<p>Example:</p>
-<ul>
-<li>Input: <code>True, False</code></li>
-<li>Output: <code>True</code></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-
+      
     </div>
 
     <hr />

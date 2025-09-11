@@ -94,158 +94,188 @@
   
 </details>
 
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      Assignment 1.2
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;assignment-12-syntax-error-detective&#34;&gt;Assignment 1.2: Syntax Error Detective&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Due: Thursday, August 15 (before class)&lt;/strong&gt;
+&lt;strong&gt;Type: Prepare&lt;/strong&gt;
+&lt;strong&gt;Points: 20&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Practice identifying and fixing syntax errors while understanding the difference between syntax and semantic issues in Python code. This assignment reinforces PCEP 1.1 objectives on Python&amp;rsquo;s lexis, syntax, and semantics.&lt;/p&gt;
+&lt;h2 id=&#34;part-1-syntax-error-hunt-10-points&#34;&gt;Part 1: Syntax Error Hunt (10 points)&lt;/h2&gt;
+&lt;p&gt;Each code sample below contains exactly &lt;strong&gt;one syntax error&lt;/strong&gt;. Your job is to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Identify the error&lt;/li&gt;
+&lt;li&gt;Explain what&amp;rsquo;s wrong&lt;/li&gt;
+&lt;li&gt;Provide the corrected code&lt;/li&gt;
+&lt;li&gt;Test your fix in Python to make sure it works&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;sample-format&#34;&gt;Sample Format:&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Original Code: print &amp;#34;Hello World&amp;#34;
+Error: Missing parentheses around the argument
+Corrected Code: print(&amp;#34;Hello World&amp;#34;)
+Tested: ✓ (checkmark when you&amp;#39;ve tested it)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;code-samples-to-fix&#34;&gt;Code Samples to Fix:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;You are&amp;#34;&lt;/span&gt; age &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;years old&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; temperature &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;90&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;It&amp;#39;s hot outside!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;favorite&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;color &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;blue&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(my&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;favorite&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;color)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Alice&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;, name)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;price &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10.99&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tax &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.08&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;total &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; price &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; tax
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Total cost:&amp;#34;&lt;/span&gt;, total
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;student_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;John&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(student_name)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;score &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;95&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Your score is:, score)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&#43;&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(result)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;9.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;message &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to Python!&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(message))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;10.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grade &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;85&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; grade &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;90&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Excellent!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;part-2-syntax-vs-semantics-5-points&#34;&gt;Part 2: Syntax vs Semantics (5 points)&lt;/h2&gt;
+&lt;p&gt;For each code sample, determine if the issue is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Syntax Error&lt;/strong&gt;: Python can&amp;rsquo;t understand the code (won&amp;rsquo;t run)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semantic Error&lt;/strong&gt;: Code runs but doesn&amp;rsquo;t do what you probably intended&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No Error&lt;/strong&gt;: Code is correct&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Write &amp;ldquo;Syntax&amp;rdquo;, &amp;ldquo;Semantic&amp;rdquo;, or &amp;ldquo;No Error&amp;rdquo; for each:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;25&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;next_age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; age &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Your answer: _______________&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;radius &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;area &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.14&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; radius &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; radius
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Your answer: _______________&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello World!)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Your answer: _______________&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bob&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;, age, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;my name is&amp;#34;&lt;/span&gt;, name)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Your answer: _______________&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;temperature &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;75&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; temperature &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;It&amp;#39;s cold today!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Your answer: _______________&lt;/p&gt;
+&lt;h2 id=&#34;part-3-error-message-practice-5-points&#34;&gt;Part 3: Error Message Practice (5 points)&lt;/h2&gt;
+&lt;p&gt;Run each piece of code in Python and copy the exact error message you receive. Then explain in simple terms what the error means.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Missing quote)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Error message:
+Simple explanation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(x &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; y)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Error message:
+Simple explanation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Math works!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Error message:
+Simple explanation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;number &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(number &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;5&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Error message:
+Simple explanation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello World&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Python is fun!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Error message:
+Simple explanation:&lt;/p&gt;
+&lt;h2 id=&#34;submission-requirements&#34;&gt;Submission Requirements&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Complete all three parts&lt;/strong&gt; with your answers clearly marked&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test all your fixes&lt;/strong&gt; in Python before submitting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Submit as&lt;/strong&gt;: PDF, Word document, or handwritten (legible) paper&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Include your name&lt;/strong&gt; and &amp;ldquo;Assignment 1.2&amp;rdquo; at the top&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Part 1 (10 pts)&lt;/strong&gt;: 1 point per correctly identified and fixed syntax error&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part 2 (5 pts)&lt;/strong&gt;: 1 point per correct classification of error type&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part 3 (5 pts)&lt;/strong&gt;: 1 point per accurate error message and explanation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-for-success&#34;&gt;Tips for Success&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Use Python to test everything&lt;/strong&gt; - don&amp;rsquo;t just guess!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Read error messages carefully&lt;/strong&gt; - they often tell you exactly what&amp;rsquo;s wrong&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Remember the difference&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Syntax = grammar rules (will Python understand this?)&lt;/li&gt;
+&lt;li&gt;Semantics = meaning (does this do what I intended?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pay attention to&lt;/strong&gt;: quotes, parentheses, colons, indentation, variable names&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pcep-connection&#34;&gt;PCEP Connection&lt;/h2&gt;
+&lt;p&gt;This assignment directly prepares you for PCEP-30-02 Section 1.1 questions about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding Python&amp;rsquo;s lexical elements&lt;/li&gt;
+&lt;li&gt;Recognizing syntax vs semantic issues&lt;/li&gt;
+&lt;li&gt;Interpreting error messages&lt;/li&gt;
+&lt;li&gt;Following Python&amp;rsquo;s grammar rules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Questions?&lt;/strong&gt; Ask in class or email before the due date!&lt;/p&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
     <hr />
     <div class="markdown-body p-2">
       
-      <h1>Assignment 1.2</h1>
       <p>Supporting Resources</p>
       
-      <h1 id="assignment-12-syntax-error-detective">Assignment 1.2: Syntax Error Detective</h1>
-<p><strong>Due: Thursday, August 15 (before class)</strong>
-<strong>Type: Prepare</strong>
-<strong>Points: 20</strong></p>
-<h2 id="overview">Overview</h2>
-<p>Practice identifying and fixing syntax errors while understanding the difference between syntax and semantic issues in Python code. This assignment reinforces PCEP 1.1 objectives on Python&rsquo;s lexis, syntax, and semantics.</p>
-<h2 id="part-1-syntax-error-hunt-10-points">Part 1: Syntax Error Hunt (10 points)</h2>
-<p>Each code sample below contains exactly <strong>one syntax error</strong>. Your job is to:</p>
-<ol>
-<li>Identify the error</li>
-<li>Explain what&rsquo;s wrong</li>
-<li>Provide the corrected code</li>
-<li>Test your fix in Python to make sure it works</li>
-</ol>
-<h3 id="sample-format">Sample Format:</h3>
-<pre tabindex="0"><code>Original Code: print &#34;Hello World&#34;
-Error: Missing parentheses around the argument
-Corrected Code: print(&#34;Hello World&#34;)
-Tested: ✓ (checkmark when you&#39;ve tested it)
-</code></pre><h3 id="code-samples-to-fix">Code Samples to Fix:</h3>
-<p><strong>1.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>age <span style="color:#f92672">=</span> <span style="color:#ae81ff">25</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;You are&#34;</span> age <span style="color:#e6db74">&#34;years old&#34;</span>)
-</span></span></code></pre></div><p><strong>2.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> temperature <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">90</span>
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;It&#39;s hot outside!&#34;</span>)
-</span></span></code></pre></div><p><strong>3.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my<span style="color:#f92672">-</span>favorite<span style="color:#f92672">-</span>color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;blue&#34;</span>
-</span></span><span style="display:flex;"><span>print(my<span style="color:#f92672">-</span>favorite<span style="color:#f92672">-</span>color)
-</span></span></code></pre></div><p><strong>4.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Alice</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello&#34;</span>, name)
-</span></span></code></pre></div><p><strong>5.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>price <span style="color:#f92672">=</span> <span style="color:#ae81ff">10.99</span>
-</span></span><span style="display:flex;"><span>tax <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.08</span>
-</span></span><span style="display:flex;"><span>total <span style="color:#f92672">=</span> price <span style="color:#f92672">+</span> tax
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Total cost:&#34;</span>, total
-</span></span></code></pre></div><p><strong>6.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>student_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;John&#34;</span>
-</span></span><span style="display:flex;"><span>print(student_name)
-</span></span></code></pre></div><p><strong>7.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>score <span style="color:#f92672">=</span> <span style="color:#ae81ff">95</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Your score is:, score)</span>
-</span></span></code></pre></div><p><strong>8.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> x <span style="color:#f92672">++</span> y
-</span></span><span style="display:flex;"><span>print(result)
-</span></span></code></pre></div><p><strong>9.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Welcome to Python!&#34;</span>
-</span></span><span style="display:flex;"><span>print(message))
-</span></span></code></pre></div><p><strong>10.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>grade <span style="color:#f92672">=</span> <span style="color:#ae81ff">85</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> grade <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">90</span>:
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Excellent!&#34;</span>)
-</span></span></code></pre></div><h2 id="part-2-syntax-vs-semantics-5-points">Part 2: Syntax vs Semantics (5 points)</h2>
-<p>For each code sample, determine if the issue is:</p>
-<ul>
-<li><strong>Syntax Error</strong>: Python can&rsquo;t understand the code (won&rsquo;t run)</li>
-<li><strong>Semantic Error</strong>: Code runs but doesn&rsquo;t do what you probably intended</li>
-<li><strong>No Error</strong>: Code is correct</li>
-</ul>
-<p><strong>Write &ldquo;Syntax&rdquo;, &ldquo;Semantic&rdquo;, or &ldquo;No Error&rdquo; for each:</strong></p>
-<p><strong>1.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>age <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;25&#34;</span>
-</span></span><span style="display:flex;"><span>next_age <span style="color:#f92672">=</span> age <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
-</span></span></code></pre></div><p>Your answer: _______________</p>
-<p><strong>2.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>radius <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-</span></span><span style="display:flex;"><span>area <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14</span> <span style="color:#f92672">*</span> radius <span style="color:#f92672">*</span> radius
-</span></span></code></pre></div><p>Your answer: _______________</p>
-<p><strong>3.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello World!)</span>
-</span></span></code></pre></div><p>Your answer: _______________</p>
-<p><strong>4.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Bob&#34;</span>
-</span></span><span style="display:flex;"><span>age <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello&#34;</span>, age, <span style="color:#e6db74">&#34;my name is&#34;</span>, name)
-</span></span></code></pre></div><p>Your answer: _______________</p>
-<p><strong>5.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>temperature <span style="color:#f92672">=</span> <span style="color:#ae81ff">75</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> temperature <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">80</span>:
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;It&#39;s cold today!&#34;</span>)
-</span></span></code></pre></div><p>Your answer: _______________</p>
-<h2 id="part-3-error-message-practice-5-points">Part 3: Error Message Practice (5 points)</h2>
-<p>Run each piece of code in Python and copy the exact error message you receive. Then explain in simple terms what the error means.</p>
-<p><strong>1.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Missing quote)</span>
-</span></span></code></pre></div><p>Error message:
-Simple explanation:</p>
-<p><strong>2.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> 
-</span></span><span style="display:flex;"><span>print(x <span style="color:#f92672">+</span> y)
-</span></span></code></pre></div><p>Error message:
-Simple explanation:</p>
-<p><strong>3.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">3</span>
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Math works!&#34;</span>)
-</span></span></code></pre></div><p>Error message:
-Simple explanation:</p>
-<p><strong>4.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>number <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span>print(number <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;5&#34;</span>)
-</span></span></code></pre></div><p>Error message:
-Simple explanation:</p>
-<p><strong>5.</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello World&#34;</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Python is fun!&#34;</span>)
-</span></span></code></pre></div><p>Error message:
-Simple explanation:</p>
-<h2 id="submission-requirements">Submission Requirements</h2>
-<ol>
-<li><strong>Complete all three parts</strong> with your answers clearly marked</li>
-<li><strong>Test all your fixes</strong> in Python before submitting</li>
-<li><strong>Submit as</strong>: PDF, Word document, or handwritten (legible) paper</li>
-<li><strong>Include your name</strong> and &ldquo;Assignment 1.2&rdquo; at the top</li>
-</ol>
-<h2 id="grading-rubric">Grading Rubric</h2>
-<ul>
-<li><strong>Part 1 (10 pts)</strong>: 1 point per correctly identified and fixed syntax error</li>
-<li><strong>Part 2 (5 pts)</strong>: 1 point per correct classification of error type</li>
-<li><strong>Part 3 (5 pts)</strong>: 1 point per accurate error message and explanation</li>
-</ul>
-<h2 id="tips-for-success">Tips for Success</h2>
-<ul>
-<li><strong>Use Python to test everything</strong> - don&rsquo;t just guess!</li>
-<li><strong>Read error messages carefully</strong> - they often tell you exactly what&rsquo;s wrong</li>
-<li><strong>Remember the difference</strong>:
-<ul>
-<li>Syntax = grammar rules (will Python understand this?)</li>
-<li>Semantics = meaning (does this do what I intended?)</li>
-</ul>
-</li>
-<li><strong>Pay attention to</strong>: quotes, parentheses, colons, indentation, variable names</li>
-</ul>
-<h2 id="pcep-connection">PCEP Connection</h2>
-<p>This assignment directly prepares you for PCEP-30-02 Section 1.1 questions about:</p>
-<ul>
-<li>Understanding Python&rsquo;s lexical elements</li>
-<li>Recognizing syntax vs semantic issues</li>
-<li>Interpreting error messages</li>
-<li>Following Python&rsquo;s grammar rules</li>
-</ul>
-<p><strong>Questions?</strong> Ask in class or email before the due date!</p>
-
+      
     </div>
 
     <hr />

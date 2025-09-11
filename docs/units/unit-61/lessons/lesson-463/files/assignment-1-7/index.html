@@ -92,206 +92,223 @@
   
 </details>
 
-    <hr />
-    <div class="markdown-body p-2">
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
       
-      <h1></h1>
-      <p>Supporting Resources</p>
-      
-      <h1 id="assignment-17-prepare-operators-and-type-casting-practice">Assignment 1.7 (Prepare): Operators and Type Casting Practice</h1>
-<p><strong>PCEP 1.4 - Choose operators and data types adequate to the problem</strong></p>
-<h2 id="assignment-overview">Assignment Overview</h2>
-<p>This assignment reinforces your understanding of Python operators, operator precedence, and type casting through hands-on practice problems that mirror PCEP exam questions.</p>
-<h2 id="learning-objectives">Learning Objectives</h2>
-<p>By completing this assignment, you will:</p>
-<ul>
-<li>Apply all Python operator types correctly</li>
-<li>Solve operator precedence problems</li>
-<li>Perform type casting operations</li>
-<li>Choose appropriate data types for different scenarios</li>
-<li>Debug common operator-related errors</li>
-</ul>
-<hr>
-<h2 id="part-1-operator-precedence-puzzles-25-points">Part 1: Operator Precedence Puzzles (25 points)</h2>
-<p><strong>Instructions</strong>: Solve each expression <strong>by hand first</strong>, showing your work step-by-step using operator precedence rules. Then verify your answers using Python.</p>
-<h3 id="problem-11-5-points">Problem 1.1 (5 points)</h3>
-<p>Calculate the result of: <code>3 + 4 * 2 ** 3 - 1</code></p>
-<p><strong>Show your work:</strong></p>
-<pre tabindex="0"><code>Step 1: ___________________
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;assignment-17-prepare-operators-and-type-casting-practice&#34;&gt;Assignment 1.7 (Prepare): Operators and Type Casting Practice&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;PCEP 1.4 - Choose operators and data types adequate to the problem&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h2&gt;
+&lt;p&gt;This assignment reinforces your understanding of Python operators, operator precedence, and type casting through hands-on practice problems that mirror PCEP exam questions.&lt;/p&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
+&lt;p&gt;By completing this assignment, you will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply all Python operator types correctly&lt;/li&gt;
+&lt;li&gt;Solve operator precedence problems&lt;/li&gt;
+&lt;li&gt;Perform type casting operations&lt;/li&gt;
+&lt;li&gt;Choose appropriate data types for different scenarios&lt;/li&gt;
+&lt;li&gt;Debug common operator-related errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;part-1-operator-precedence-puzzles-25-points&#34;&gt;Part 1: Operator Precedence Puzzles (25 points)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;: Solve each expression &lt;strong&gt;by hand first&lt;/strong&gt;, showing your work step-by-step using operator precedence rules. Then verify your answers using Python.&lt;/p&gt;
+&lt;h3 id=&#34;problem-11-5-points&#34;&gt;Problem 1.1 (5 points)&lt;/h3&gt;
+&lt;p&gt;Calculate the result of: &lt;code&gt;3 &#43; 4 * 2 ** 3 - 1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Show your work:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Step 1: ___________________
 Step 2: ___________________
 Step 3: ___________________
 Step 4: ___________________
 Final answer: ______________
-</code></pre><p><strong>Python verification code:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">**</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Answer: </span><span style="color:#e6db74">{</span>result<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><h3 id="problem-12-5-points">Problem 1.2 (5 points)</h3>
-<p>Calculate the result of: <code>(8 + 2) / 5 * 3 - 1</code></p>
-<p><strong>Show your work:</strong></p>
-<pre tabindex="0"><code>Step 1: ___________________
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Python verification code:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Answer: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;result&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;problem-12-5-points&#34;&gt;Problem 1.2 (5 points)&lt;/h3&gt;
+&lt;p&gt;Calculate the result of: &lt;code&gt;(8 &#43; 2) / 5 * 3 - 1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Show your work:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Step 1: ___________________
 Step 2: ___________________
 Step 3: ___________________
 Step 4: ___________________
 Final answer: ______________
-</code></pre><h3 id="problem-13-5-points">Problem 1.3 (5 points)</h3>
-<p>Calculate the result of: <code>15 % 4 + 2 ** 3 // 2</code></p>
-<p><strong>Show your work:</strong></p>
-<pre tabindex="0"><code>Step 1: ___________________
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;problem-13-5-points&#34;&gt;Problem 1.3 (5 points)&lt;/h3&gt;
+&lt;p&gt;Calculate the result of: &lt;code&gt;15 % 4 &#43; 2 ** 3 // 2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Show your work:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Step 1: ___________________
 Step 2: ___________________
 Step 3: ___________________
 Step 4: ___________________
 Final answer: ______________
-</code></pre><h3 id="problem-14-5-points">Problem 1.4 (5 points)</h3>
-<p>Calculate the result of: <code>not 5 &lt; 3 and 10 &gt; 8 or False</code></p>
-<p><strong>Show your work:</strong></p>
-<pre tabindex="0"><code>Step 1: ___________________
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;problem-14-5-points&#34;&gt;Problem 1.4 (5 points)&lt;/h3&gt;
+&lt;p&gt;Calculate the result of: &lt;code&gt;not 5 &amp;lt; 3 and 10 &amp;gt; 8 or False&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Show your work:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Step 1: ___________________
 Step 2: ___________________
 Step 3: ___________________
 Step 4: ___________________
 Final answer: ______________
-</code></pre><h3 id="problem-15-5-points">Problem 1.5 (5 points)</h3>
-<p>Calculate the result of: <code>2 * 3 ** 2 + 4 / 2 - 1</code></p>
-<p><strong>Show your work:</strong></p>
-<pre tabindex="0"><code>Step 1: ___________________
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;problem-15-5-points&#34;&gt;Problem 1.5 (5 points)&lt;/h3&gt;
+&lt;p&gt;Calculate the result of: &lt;code&gt;2 * 3 ** 2 &#43; 4 / 2 - 1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Show your work:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Step 1: ___________________
 Step 2: ___________________
 Step 3: ___________________
 Step 4: ___________________
 Final answer: ______________
-</code></pre><hr>
-<h2 id="part-2-type-casting-challenges-25-points">Part 2: Type Casting Challenges (25 points)</h2>
-<p><strong>Instructions</strong>: Write Python code to solve each problem. Include error handling where appropriate.</p>
-<h3 id="problem-21-5-points">Problem 2.1 (5 points)</h3>
-<p>Write code that takes a string representation of a decimal number and converts it to an integer (truncating decimal places).</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example: &#34;3.7&#34; should become 3</span>
-</span></span><span style="display:flex;"><span>decimal_string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;3.7&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here:</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Original: </span><span style="color:#e6db74">{</span>decimal_string<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;As integer: </span><span style="color:#e6db74">{</span>your_result<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><h3 id="problem-22-5-points">Problem 2.2 (5 points)</h3>
-<p>Write code that safely converts user input to a float, handling the case where the input might not be a valid number.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>user_input <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter a number: &#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here (use try-except):</span>
-</span></span></code></pre></div><h3 id="problem-23-5-points">Problem 2.3 (5 points)</h3>
-<p>Write code that takes an integer and creates a string that repeats a character that many times.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example: number = 5, character = &#34;*&#34; should produce &#34;*****&#34;</span>
-</span></span><span style="display:flex;"><span>number <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span>
-</span></span><span style="display:flex;"><span>character <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;-&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here:</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(result)
-</span></span></code></pre></div><h3 id="problem-24-5-points">Problem 2.4 (5 points)</h3>
-<p>Write code that takes a floating-point number and converts it to a string with exactly 2 decimal places.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example: 3.14159 should become &#34;3.14&#34;</span>
-</span></span><span style="display:flex;"><span>pi <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14159</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here:</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Formatted: </span><span style="color:#e6db74">{</span>your_result<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><h3 id="problem-25-5-points">Problem 2.5 (5 points)</h3>
-<p>Write code that takes a boolean value and converts it to the strings &ldquo;Yes&rdquo; or &ldquo;No&rdquo;.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example: True should become &#34;Yes&#34;, False should become &#34;No&#34;</span>
-</span></span><span style="display:flex;"><span>is_sunny <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
-</span></span><span style="display:flex;"><span>is_raining <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here:</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Sunny: </span><span style="color:#e6db74">{</span>sunny_result<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Raining: </span><span style="color:#e6db74">{</span>rain_result<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><hr>
-<h2 id="part-3-shortcut-operators-practice-20-points">Part 3: Shortcut Operators Practice (20 points)</h2>
-<p><strong>Instructions</strong>: Complete each problem using shortcut operators (+=, -=, *=, /=, etc.).</p>
-<h3 id="problem-31-5-points">Problem 3.1 (5 points)</h3>
-<p>Start with <code>score = 100</code>. Use shortcut operators to:</p>
-<ol>
-<li>Increase by 25</li>
-<li>Double the score</li>
-<li>Decrease by 50</li>
-<li>Divide by 3</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>score <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Starting score: </span><span style="color:#e6db74">{</span>score<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Step 1: Increase by 25</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Step 2: Double the score  </span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Step 3: Decrease by 50</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Step 4: Divide by 3</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Final score: </span><span style="color:#e6db74">{</span>score<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><h3 id="problem-32-5-points">Problem 3.2 (5 points)</h3>
-<p>Create a program that simulates a bank account with deposits and withdrawals using shortcut operators.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>balance <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000.00</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Starting balance: $</span><span style="color:#e6db74">{</span>balance<span style="color:#e6db74">:</span><span style="color:#e6db74">.2f</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Make a deposit of $250</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Make a withdrawal of $75.50</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here  </span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Apply 2% interest (multiply by 1.02)</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Final balance: $</span><span style="color:#e6db74">{</span>balance<span style="color:#e6db74">:</span><span style="color:#e6db74">.2f</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><h3 id="problem-33-10-points">Problem 3.3 (10 points)</h3>
-<p>Write a program that calculates compound interest using shortcut operators. Start with $1000, apply 5% interest 3 times.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>principal <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>
-</span></span><span style="display:flex;"><span>interest_rate <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.05</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Starting amount: $</span><span style="color:#e6db74">{</span>principal<span style="color:#e6db74">:</span><span style="color:#e6db74">.2f</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Apply interest 3 times using a shortcut operator</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Year 1:</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;After year 1: $</span><span style="color:#e6db74">{</span>principal<span style="color:#e6db74">:</span><span style="color:#e6db74">.2f</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Year 2:</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;After year 2: $</span><span style="color:#e6db74">{</span>principal<span style="color:#e6db74">:</span><span style="color:#e6db74">.2f</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Year 3:</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your code here</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;After year 3: $</span><span style="color:#e6db74">{</span>principal<span style="color:#e6db74">:</span><span style="color:#e6db74">.2f</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><hr>
-<h2 id="part-4-real-world-application-30-points">Part 4: Real-World Application (30 points)</h2>
-<p><strong>Instructions</strong>: Create a complete program that demonstrates your understanding of operators and data types.</p>
-<h3 id="problem-41-grade-calculator-30-points">Problem 4.1: Grade Calculator (30 points)</h3>
-<p>Write a program that:</p>
-<ol>
-<li>Takes three test scores as string input</li>
-<li>Converts them to floats</li>
-<li>Calculates the average using arithmetic operators</li>
-<li>Determines letter grade using comparison operators</li>
-<li>Shows whether the student passed (≥70%) using boolean operators</li>
-<li>Formats the output nicely</li>
-</ol>
-<p><strong>Grading scale:</strong></p>
-<ul>
-<li>A: ≥90%</li>
-<li>B: ≥80%</li>
-<li>C: ≥70%</li>
-<li>D: ≥60%</li>
-<li>F: &lt;60%</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Your complete program here:</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;=== Grade Calculator ===&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Get input (with type conversion)</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Calculate average</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Determine letter grade  </span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if passed</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Display results</span>
-</span></span></code></pre></div><p><strong>Expected output format:</strong></p>
-<pre tabindex="0"><code>=== Grade Calculator ===
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&#34;part-2-type-casting-challenges-25-points&#34;&gt;Part 2: Type Casting Challenges (25 points)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;: Write Python code to solve each problem. Include error handling where appropriate.&lt;/p&gt;
+&lt;h3 id=&#34;problem-21-5-points&#34;&gt;Problem 2.1 (5 points)&lt;/h3&gt;
+&lt;p&gt;Write code that takes a string representation of a decimal number and converts it to an integer (truncating decimal places).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Example: &amp;#34;3.7&amp;#34; should become 3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;decimal_string &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;3.7&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Original: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;decimal_string&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;As integer: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;your_result&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;problem-22-5-points&#34;&gt;Problem 2.2 (5 points)&lt;/h3&gt;
+&lt;p&gt;Write code that safely converts user input to a float, handling the case where the input might not be a valid number.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user_input &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Enter a number: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here (use try-except):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;problem-23-5-points&#34;&gt;Problem 2.3 (5 points)&lt;/h3&gt;
+&lt;p&gt;Write code that takes an integer and creates a string that repeats a character that many times.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Example: number = 5, character = &amp;#34;*&amp;#34; should produce &amp;#34;*****&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;number &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;character &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(result)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;problem-24-5-points&#34;&gt;Problem 2.4 (5 points)&lt;/h3&gt;
+&lt;p&gt;Write code that takes a floating-point number and converts it to a string with exactly 2 decimal places.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Example: 3.14159 should become &amp;#34;3.14&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pi &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.14159&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Formatted: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;your_result&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;problem-25-5-points&#34;&gt;Problem 2.5 (5 points)&lt;/h3&gt;
+&lt;p&gt;Write code that takes a boolean value and converts it to the strings &amp;ldquo;Yes&amp;rdquo; or &amp;ldquo;No&amp;rdquo;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Example: True should become &amp;#34;Yes&amp;#34;, False should become &amp;#34;No&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;is_sunny &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;is_raining &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Sunny: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;sunny_result&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Raining: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;rain_result&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;part-3-shortcut-operators-practice-20-points&#34;&gt;Part 3: Shortcut Operators Practice (20 points)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;: Complete each problem using shortcut operators (&#43;=, -=, *=, /=, etc.).&lt;/p&gt;
+&lt;h3 id=&#34;problem-31-5-points&#34;&gt;Problem 3.1 (5 points)&lt;/h3&gt;
+&lt;p&gt;Start with &lt;code&gt;score = 100&lt;/code&gt;. Use shortcut operators to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Increase by 25&lt;/li&gt;
+&lt;li&gt;Double the score&lt;/li&gt;
+&lt;li&gt;Decrease by 50&lt;/li&gt;
+&lt;li&gt;Divide by 3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;score &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Starting score: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;score&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Step 1: Increase by 25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Step 2: Double the score  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Step 3: Decrease by 50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Step 4: Divide by 3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Final score: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;score&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;problem-32-5-points&#34;&gt;Problem 3.2 (5 points)&lt;/h3&gt;
+&lt;p&gt;Create a program that simulates a bank account with deposits and withdrawals using shortcut operators.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;balance &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1000.00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Starting balance: $&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;balance&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;.2f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Make a deposit of $250&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Make a withdrawal of $75.50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Apply 2% interest (multiply by 1.02)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Final balance: $&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;balance&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;.2f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;problem-33-10-points&#34;&gt;Problem 3.3 (10 points)&lt;/h3&gt;
+&lt;p&gt;Write a program that calculates compound interest using shortcut operators. Start with $1000, apply 5% interest 3 times.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;principal &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;interest_rate &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.05&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Starting amount: $&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;principal&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;.2f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Apply interest 3 times using a shortcut operator&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Year 1:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;After year 1: $&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;principal&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;.2f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Year 2:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;After year 2: $&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;principal&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;.2f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Year 3:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your code here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;After year 3: $&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;principal&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;.2f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;part-4-real-world-application-30-points&#34;&gt;Part 4: Real-World Application (30 points)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;: Create a complete program that demonstrates your understanding of operators and data types.&lt;/p&gt;
+&lt;h3 id=&#34;problem-41-grade-calculator-30-points&#34;&gt;Problem 4.1: Grade Calculator (30 points)&lt;/h3&gt;
+&lt;p&gt;Write a program that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Takes three test scores as string input&lt;/li&gt;
+&lt;li&gt;Converts them to floats&lt;/li&gt;
+&lt;li&gt;Calculates the average using arithmetic operators&lt;/li&gt;
+&lt;li&gt;Determines letter grade using comparison operators&lt;/li&gt;
+&lt;li&gt;Shows whether the student passed (≥70%) using boolean operators&lt;/li&gt;
+&lt;li&gt;Formats the output nicely&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Grading scale:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A: ≥90%&lt;/li&gt;
+&lt;li&gt;B: ≥80%&lt;/li&gt;
+&lt;li&gt;C: ≥70%&lt;/li&gt;
+&lt;li&gt;D: ≥60%&lt;/li&gt;
+&lt;li&gt;F: &amp;lt;60%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your complete program here:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;=== Grade Calculator ===&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Get input (with type conversion)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Calculate average&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Determine letter grade  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Check if passed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Display results&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Expected output format:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;=== Grade Calculator ===
 Enter test score 1: 85.5
 Enter test score 2: 92.0
 Enter test score 3: 78.5
@@ -300,64 +317,77 @@ Test Scores: 85.5, 92.0, 78.5
 Average: 85.33%
 Letter Grade: B
 Passed: Yes
-</code></pre><hr>
-<h2 id="submission-requirements">Submission Requirements</h2>
-<ol>
-<li><strong>File name</strong>: <code>assignment_1_7_lastname_firstname.py</code></li>
-<li><strong>Include</strong>: All code from Parts 1-4</li>
-<li><strong>Comments</strong>: Add comments explaining your operator precedence steps</li>
-<li><strong>Testing</strong>: Verify all code runs without errors</li>
-<li><strong>Formatting</strong>: Use proper PEP-8 naming conventions</li>
-</ol>
-<h2 id="grading-rubric">Grading Rubric</h2>
-<table>
-  <thead>
-      <tr>
-          <th>Component</th>
-          <th>Points</th>
-          <th>Criteria</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Part 1: Precedence</td>
-          <td>25</td>
-          <td>Correct precedence calculations and verification</td>
-      </tr>
-      <tr>
-          <td>Part 2: Type Casting</td>
-          <td>25</td>
-          <td>Proper type conversions and error handling</td>
-      </tr>
-      <tr>
-          <td>Part 3: Shortcuts</td>
-          <td>20</td>
-          <td>Correct use of shortcut operators</td>
-      </tr>
-      <tr>
-          <td>Part 4: Application</td>
-          <td>30</td>
-          <td>Complete, working program with all requirements</td>
-      </tr>
-      <tr>
-          <td><strong>Total</strong></td>
-          <td><strong>100</strong></td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="due-date">Due Date</h2>
-<p>Submit by the beginning of next class period.</p>
-<h2 id="study-tips-for-pcep-success">Study Tips for PCEP Success</h2>
-<ul>
-<li>Practice operator precedence daily with flashcards</li>
-<li>Memorize the shortcut operator patterns</li>
-<li>Understand when to use each data type</li>
-<li>Practice type casting error scenarios</li>
-<li>Review Python&rsquo;s operator hierarchy chart</li>
-</ul>
-<p><strong>Next assignment</strong>: Assignment 1.8 will focus on input/output operations and review all Unit 1 concepts in preparation for our unit assessment.</p>
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id=&#34;submission-requirements&#34;&gt;Submission Requirements&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;File name&lt;/strong&gt;: &lt;code&gt;assignment_1_7_lastname_firstname.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Include&lt;/strong&gt;: All code from Parts 1-4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comments&lt;/strong&gt;: Add comments explaining your operator precedence steps&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Verify all code runs without errors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Formatting&lt;/strong&gt;: Use proper PEP-8 naming conventions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;grading-rubric&#34;&gt;Grading Rubric&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Component&lt;/th&gt;
+          &lt;th&gt;Points&lt;/th&gt;
+          &lt;th&gt;Criteria&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Part 1: Precedence&lt;/td&gt;
+          &lt;td&gt;25&lt;/td&gt;
+          &lt;td&gt;Correct precedence calculations and verification&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Part 2: Type Casting&lt;/td&gt;
+          &lt;td&gt;25&lt;/td&gt;
+          &lt;td&gt;Proper type conversions and error handling&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Part 3: Shortcuts&lt;/td&gt;
+          &lt;td&gt;20&lt;/td&gt;
+          &lt;td&gt;Correct use of shortcut operators&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Part 4: Application&lt;/td&gt;
+          &lt;td&gt;30&lt;/td&gt;
+          &lt;td&gt;Complete, working program with all requirements&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;100&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;due-date&#34;&gt;Due Date&lt;/h2&gt;
+&lt;p&gt;Submit by the beginning of next class period.&lt;/p&gt;
+&lt;h2 id=&#34;study-tips-for-pcep-success&#34;&gt;Study Tips for PCEP Success&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Practice operator precedence daily with flashcards&lt;/li&gt;
+&lt;li&gt;Memorize the shortcut operator patterns&lt;/li&gt;
+&lt;li&gt;Understand when to use each data type&lt;/li&gt;
+&lt;li&gt;Practice type casting error scenarios&lt;/li&gt;
+&lt;li&gt;Review Python&amp;rsquo;s operator hierarchy chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Next assignment&lt;/strong&gt;: Assignment 1.8 will focus on input/output operations and review all Unit 1 concepts in preparation for our unit assessment.&lt;/p&gt;
 
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
+    <hr />
+    <div class="markdown-body p-2">
+      
+      <p>Supporting Resources</p>
+      
+      
     </div>
 
     <hr />

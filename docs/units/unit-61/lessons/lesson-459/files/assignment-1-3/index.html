@@ -125,65 +125,95 @@
   
 </details>
 
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      Assignment 1.3
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;assignment-13&#34;&gt;Assignment 1.3:&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Unit 1, Lesson 1 - PREPARE Assignment&lt;/strong&gt;
+&lt;strong&gt;Due: Next class period&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;setup-instructions&#34;&gt;Setup Instructions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open your Python interpreter (type &lt;code&gt;python&lt;/code&gt; in Command Prompt/Terminal)&lt;/li&gt;
+&lt;li&gt;You should see the &lt;code&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt; prompt&lt;/li&gt;
+&lt;li&gt;Type each program exactly as shown&lt;/li&gt;
+&lt;li&gt;Take screenshots or write down what happens&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;program-1-personal-introduction-15-points&#34;&gt;Program 1: Personal Introduction (15 points)&lt;/h2&gt;
+&lt;p&gt;Type this program and run it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hi there!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;My name is [YOUR ACTUAL NAME]&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;I am learning Python programming&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Replace &lt;code&gt;[YOUR ACTUAL NAME]&lt;/code&gt; with your real name&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What to submit:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write down exactly what your program printed&lt;/li&gt;
+&lt;li&gt;Screenshot optional but encouraged&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;program-2-python-calculator-20-points&#34;&gt;Program 2: Python Calculator (20 points)&lt;/h2&gt;
+&lt;p&gt;Try each calculation and write down the result:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;9&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;15&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;program-3-variables-practice-20-points&#34;&gt;Program 3: Variables Practice (20 points)&lt;/h2&gt;
+&lt;p&gt;Type and run this program:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_favorite_number &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my_age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;My favorite number is&amp;#34;&lt;/span&gt;, my_favorite_number)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;I am&amp;#34;&lt;/span&gt;, my_age, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;years old&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;program-4-interactive-program-25-points&#34;&gt;Program 4: Interactive Program (25 points)&lt;/h2&gt;
+&lt;p&gt;Type this program exactly:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to my survey!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;favorite_color &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;What is your favorite color? &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;favorite_food &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;What is your favorite food? &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Cool! You like&amp;#34;&lt;/span&gt;, favorite_color, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;and&amp;#34;&lt;/span&gt;, favorite_food)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Thanks for answering!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;program-5-create-your-own-20-points&#34;&gt;Program 5: Create Your Own (20 points)&lt;/h2&gt;
+&lt;p&gt;Now write your OWN program that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prints a welcome message&lt;/li&gt;
+&lt;li&gt;Asks the user for TWO pieces of information&lt;/li&gt;
+&lt;li&gt;Does ONE math calculation (like adding two numbers)&lt;/li&gt;
+&lt;li&gt;Prints everything in a final message&lt;/li&gt;
+&lt;/ol&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
     <hr />
     <div class="markdown-body p-2">
       
-      <h1>Assignment 1.3</h1>
       <p>Supporting Resources</p>
       
-      <h1 id="assignment-13">Assignment 1.3:</h1>
-<p><strong>Unit 1, Lesson 1 - PREPARE Assignment</strong>
-<strong>Due: Next class period</strong></p>
-<h2 id="setup-instructions">Setup Instructions</h2>
-<ol>
-<li>Open your Python interpreter (type <code>python</code> in Command Prompt/Terminal)</li>
-<li>You should see the <code>&gt;&gt;&gt;</code> prompt</li>
-<li>Type each program exactly as shown</li>
-<li>Take screenshots or write down what happens</li>
-</ol>
-<hr>
-<h2 id="program-1-personal-introduction-15-points">Program 1: Personal Introduction (15 points)</h2>
-<p>Type this program and run it:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hi there!&#34;</span>)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;My name is [YOUR ACTUAL NAME]&#34;</span>)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;I am learning Python programming&#34;</span>)
-</span></span></code></pre></div><p><strong>Replace <code>[YOUR ACTUAL NAME]</code> with your real name</strong></p>
-<p><strong>What to submit:</strong></p>
-<ul>
-<li>Write down exactly what your program printed</li>
-<li>Screenshot optional but encouraged</li>
-</ul>
-<h2 id="program-2-python-calculator-20-points">Program 2: Python Calculator (20 points)</h2>
-<p>Try each calculation and write down the result:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ae81ff">8</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">5</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ae81ff">20</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">7</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ae81ff">6</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">9</span>  
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ae81ff">15</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">3</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ae81ff">2</span> <span style="color:#f92672">**</span> <span style="color:#ae81ff">4</span>
-</span></span></code></pre></div><hr>
-<h2 id="program-3-variables-practice-20-points">Program 3: Variables Practice (20 points)</h2>
-<p>Type and run this program:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_favorite_number <span style="color:#f92672">=</span> <span style="color:#ae81ff">7</span>
-</span></span><span style="display:flex;"><span>my_age <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;My favorite number is&#34;</span>, my_favorite_number)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;I am&#34;</span>, my_age, <span style="color:#e6db74">&#34;years old&#34;</span>)
-</span></span></code></pre></div><h2 id="program-4-interactive-program-25-points">Program 4: Interactive Program (25 points)</h2>
-<p>Type this program exactly:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Welcome to my survey!&#34;</span>)
-</span></span><span style="display:flex;"><span>favorite_color <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;What is your favorite color? &#34;</span>)
-</span></span><span style="display:flex;"><span>favorite_food <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;What is your favorite food? &#34;</span>)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Cool! You like&#34;</span>, favorite_color, <span style="color:#e6db74">&#34;and&#34;</span>, favorite_food)
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Thanks for answering!&#34;</span>)
-</span></span></code></pre></div><hr>
-<h2 id="program-5-create-your-own-20-points">Program 5: Create Your Own (20 points)</h2>
-<p>Now write your OWN program that:</p>
-<ol>
-<li>Prints a welcome message</li>
-<li>Asks the user for TWO pieces of information</li>
-<li>Does ONE math calculation (like adding two numbers)</li>
-<li>Prints everything in a final message</li>
-</ol>
-
+      
     </div>
 
     <hr />

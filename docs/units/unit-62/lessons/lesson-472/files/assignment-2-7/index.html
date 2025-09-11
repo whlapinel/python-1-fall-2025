@@ -125,40 +125,70 @@
   
 </details>
 
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      Assignment 2.7
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;assignment-27--prepare&#34;&gt;Assignment 2.7 – Prepare&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Practice different &lt;code&gt;for&lt;/code&gt; loop patterns without using lists.&lt;/p&gt;
+&lt;h3 id=&#34;part-1-predict-the-output&#34;&gt;Part 1: Predict the Output&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(i)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-2-debugging&#34;&gt;Part 2: Debugging&lt;/h3&gt;
+&lt;p&gt;Fix this code so it prints the numbers 1 through 5:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(i)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;part-3-write-your-own&#34;&gt;Part 3: Write Your Own&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints the numbers from 10 down to 1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints the multiples of 5 from 5 to 50.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints each character of the word &amp;ldquo;Python&amp;rdquo; on its own line.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints the squares of the numbers 1 through 10.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write a program that prints only the odd numbers between 1 and 20.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
     <hr />
     <div class="markdown-body p-2">
       
-      <h1>Assignment 2.7</h1>
       <p>Supporting Resources</p>
       
-      <h1 id="assignment-27--prepare">Assignment 2.7 – Prepare</h1>
-<p><strong>Goal:</strong> Practice different <code>for</code> loop patterns without using lists.</p>
-<h3 id="part-1-predict-the-output">Part 1: Predict the Output</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">3</span>):
-</span></span><span style="display:flex;"><span>    print(i)
-</span></span></code></pre></div><h3 id="part-2-debugging">Part 2: Debugging</h3>
-<p>Fix this code so it prints the numbers 1 through 5:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>):
-</span></span><span style="display:flex;"><span>print(i)
-</span></span></code></pre></div><h3 id="part-3-write-your-own">Part 3: Write Your Own</h3>
-<ol>
-<li>
-<p>Write a <code>for</code> loop that prints the numbers from 10 down to 1.</p>
-</li>
-<li>
-<p>Write a <code>for</code> loop that prints the multiples of 5 from 5 to 50.</p>
-</li>
-<li>
-<p>Write a <code>for</code> loop that prints each character of the word &ldquo;Python&rdquo; on its own line.</p>
-</li>
-<li>
-<p>Write a <code>for</code> loop that prints the squares of the numbers 1 through 10.</p>
-</li>
-<li>
-<p>Write a program that prints only the odd numbers between 1 and 20.</p>
-</li>
-</ol>
-
+      
     </div>
 
     <hr />
