@@ -53,6 +53,9 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-471/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-481/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-463/</loc>
     <priority>0</priority>
   </url><url>
@@ -136,6 +139,8 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-479/files/assignment/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-480/files/assignment/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-481/files/assignment/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/categories/</loc>
   </url><url>
@@ -224,6 +229,9 @@
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-480/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-481/files/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/</loc>
