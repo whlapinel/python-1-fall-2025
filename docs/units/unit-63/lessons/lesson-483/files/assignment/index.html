@@ -1,0 +1,228 @@
+<!doctype html>
+<html class="h-full bg-gray-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3.7</title>
+    
+    <link href="/styles/styles.css" rel="stylesheet" />
+    <script src="/js/index.js" defer async></script>
+    <link href="/styles/markdown-styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="h-full">
+    <div class="min-h-full">
+      <div class="bg-gray-800 pb-32">
+        <nav class="bg-gray-800">
+          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="border-b border-gray-700">
+              <div class="flex h-16 items-center justify-between px-4 sm:px-0">
+                <div class="flex items-center">
+                  <span>Logo</span>
+                  <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                      
+                      <div id="confirmation"></div>
+                      
+                        <nav>
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/"
+                              >Home</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/units/"
+                              >Units</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/calendar/"
+                              >Calendar</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/files/"
+                              >Course Files</a
+                            >
+                          
+                        </nav>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <main class="-mt-32">
+        <div class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+          <div
+            class="rounded-lg bg-slate-900 px-5 py-6 shadow-sm sm:px-6 text-white"
+            id="page"
+          >
+            
+  
+  <nav class="flex gap-2 p-2">
+    
+    
+      
+        <a href="/" class="p-1">Python I</a>
+        
+          >>
+        
+      
+    
+      
+        <a href="/units/" class="p-1">Units</a>
+        
+          >>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </nav>
+
+
+  <div>
+    <details>
+  <summary>Debugging info</summary>
+  <ul>
+    
+  </ul>
+  
+    <p>Key: breadcrumbs — Value: map[items:[map[url:/] map[url:/units] map[url:/units/unit-63] map[url:/units/unit-63/lessons] map[url:/units/unit-63/lessons/lesson-483] map[url:/units/unit-63/lessons/lesson-483/files] map[url:/units/unit-63/lessons/lesson-483/files/assignment]]]</p>
+  
+    <p>Key: draft — Value: false</p>
+  
+    <p>Key: iscjklanguage — Value: false</p>
+  
+    <p>Key: parentpath — Value: units/unit_63/lessons/lesson_483/files</p>
+  
+    <p>Key: title — Value: Assignment 3.7</p>
+  
+    <p>Key: type — Value: standalone</p>
+  
+    <p>Key: url — Value: units/unit-63/lessons/lesson-483/files/assignment</p>
+  
+  <p>Kind: page</p>
+  <p>Type: standalone</p>
+  <p>Resources:</p>
+  
+</details>
+
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      Assignment 3.7
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;assignment-37--list-comprehensions-drills&#34;&gt;Assignment 3.7 — List Comprehensions Drills&lt;/h1&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Practice mapping and filtering with Python list comprehensions. Complete the tasks
+below in a single script named &lt;code&gt;assignment_3_7.py&lt;/code&gt;. Unless specified otherwise,
+solve using list comprehensions (no explicit &lt;code&gt;for&lt;/code&gt; loops for the core result).&lt;/p&gt;
+&lt;h2 id=&#34;tasks&#34;&gt;Tasks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Squares 1..20&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Build a list of squares for numbers 1 through 20 (inclusive).&lt;/li&gt;
+&lt;li&gt;Variable name: &lt;code&gt;squares_1_20&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Example: first five are &lt;code&gt;[1, 4, 9, 16, 25]&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Keep Evens, Double Them&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Given &lt;code&gt;nums = [3, 8, 11, 14, 2, 7]&lt;/code&gt;, produce &lt;code&gt;[16, 28, 4]&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Filter even numbers, then map by doubling.&lt;/li&gt;
+&lt;li&gt;Variable name: &lt;code&gt;doubled_evens&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Clean Names&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Given &lt;code&gt;names = [&#39;  ALIce&#39;, &#39;bob  &#39;, &#39;   &#39;, &#39;Eve&#39;]&lt;/code&gt;, build &lt;code&gt;[&#39;Alice&#39;, &#39;Bob&#39;, &#39;Eve&#39;]&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Strip whitespace and title-case, skip blanks.&lt;/li&gt;
+&lt;li&gt;One comprehension. Variable: &lt;code&gt;clean_names&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Flatten One Level&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Given &lt;code&gt;matrix = [[1, 2], [3, 4, 5], [6]]&lt;/code&gt;, build &lt;code&gt;[1, 2, 3, 4, 5, 6]&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Use a nested comprehension. Variable: &lt;code&gt;flat&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Words ≥ 5 Letters (Lowercased)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Given &lt;code&gt;text = &#39;Time flies like an arrow; fruit flies like a banana.&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Split on whitespace, strip leading/trailing punctuation &lt;code&gt;,.;:!?&lt;/code&gt; from each token,
+keep words with length ≥ 5, and lowercase them.&lt;/li&gt;
+&lt;li&gt;Example output (order matters): &lt;code&gt;[&#39;flies&#39;, &#39;arrow&#39;, &#39;fruit&#39;, &#39;flies&#39;, &#39;banana&#39;]&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Variable: &lt;code&gt;long_words&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
+    <hr />
+    <div class="markdown-body p-2">
+      
+      <p>Supporting Resources</p>
+      
+      
+    </div>
+
+    <hr />
+  </div>
+
+          </div>
+        </div>
+      </main>
+      <footer class="shadow p-4 mt-8">
+        <div class="container mx-auto text-center text-gray-300">
+          &copy; 2025 Will Lapinel. All rights
+          reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

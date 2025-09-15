@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignmnent 3.8</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-38--2d-lists-practice&#34;&gt;Assignment 3.8 — 2D Lists Practice&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Build comfort with nested list creation, indexing, iteration, and common utilities&#xA;like transpose and aggregations. Complete the tasks below in a single script named&#xA;&lt;code&gt;assignment_3_8.py&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;tasks&#34;&gt;Tasks&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Safe 3x3 Grid Initialization&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create a 3x3 grid of zeros as independent rows (no aliasing).&lt;/li&gt;&#xA;&lt;li&gt;Variable: &lt;code&gt;grid&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Place Values&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Place values into &lt;code&gt;grid&lt;/code&gt; at positions: &lt;code&gt;(0,2)=7&lt;/code&gt;, &lt;code&gt;(1,1)=5&lt;/code&gt;, &lt;code&gt;(2,0)=9&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;After placement, print the grid rows.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Row and Column Sums&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Build &lt;code&gt;row_sums&lt;/code&gt; as the sum of each row using a comprehension.&lt;/li&gt;&#xA;&lt;li&gt;Build &lt;code&gt;col_sums&lt;/code&gt; for your 3x3 grid.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Transpose&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create &lt;code&gt;grid_T&lt;/code&gt;, the transpose of &lt;code&gt;grid&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Verify: &lt;code&gt;grid_T[r][c] == grid[c][r]&lt;/code&gt; for all valid indices.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Flatten Positives&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Build a flat list &lt;code&gt;positives&lt;/code&gt; with all values &amp;gt; 0 from &lt;code&gt;grid&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;Diagonal Sums&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Compute &lt;code&gt;main_diag&lt;/code&gt; (top-left to bottom-right) and &lt;code&gt;anti_diag&lt;/code&gt; (top-right to bottom-left).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;Safe Copy and Modify&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create &lt;code&gt;clone&lt;/code&gt; as a safe copy where inner rows are independent of &lt;code&gt;grid&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Modify &lt;code&gt;clone[0][0] = 99&lt;/code&gt; and show &lt;code&gt;grid[0][0]&lt;/code&gt; is unchanged.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

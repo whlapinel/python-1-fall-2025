@@ -62,10 +62,16 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-472/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-483/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-464/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-473/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/calendar/august/</loc>
@@ -77,10 +83,16 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-474/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-485/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/calendar/september/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-62/lessons/lesson-475/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-482/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/calendar/october/</loc>
@@ -108,7 +120,7 @@
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/files/plan/</loc>
   </url><url>
-    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-481/files/quiz-3-1-v2/</loc>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/files/quiz-3-1/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/assignment-1-1/</loc>
   </url><url>
@@ -143,6 +155,12 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-480/files/assignment/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-481/files/assignment/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-482/files/assignment/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-483/files/assignment/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/files/assignment/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/categories/</loc>
   </url><url>
@@ -234,6 +252,18 @@
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-481/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-482/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-483/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-485/files/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/</loc>
