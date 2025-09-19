@@ -26,126 +26,101 @@
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="4" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="lesson-41--why-functions-defining-and-calling">Lesson 4.1 — Why Functions? Defining And Calling</h1>
+<h1 id="lesson-41-%E2%80%93-why-functions">Lesson 4.1 – Why Functions?</h1>
+<h2 id="what-is-a-function">What is a Function?</h2>
 <ul>
-<li>Goal: write and call simple functions; distinguish return vs print.</li>
-<li>Today you’ll define and test three small functions live.</li>
+<li>A reusable block of code</li>
+<li>Performs a specific task</li>
+<li>Can be called many times</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="5" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="warm-up-predict-the-output">Warm-Up: Predict The Output</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">greet</span>(<span class="hljs-params">name</span>):
-    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&#34;Hello, <span class="hljs-subst">{name}</span>!&#34;</span>)
-
-x = greet(<span class="hljs-string">&#34;Ada&#34;</span>)
-<span class="hljs-built_in">print</span>(<span class="hljs-string">&#34;x is:&#34;</span>, x)
-</code></pre>
+<h1 id="why-use-functions">Why Use Functions?</h1>
 <ul>
-<li>Question: what lines print, and what is <code>x</code>?</li>
-<li>Call on a student to explain the difference between side effects and values.</li>
+<li>Avoid repeating code</li>
+<li>Make programs easier to read</li>
+<li>Easier to debug and test</li>
+<li>Organize big problems into smaller steps</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="6" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="why-functions">Why Functions?</h1>
-<ul>
-<li>Reduce repetition: write once, reuse many times.</li>
-<li>Improve readability: give names to ideas and steps.</li>
-<li>Enable testing: small pieces are easier to verify.</li>
-<li>Question: name a task from a prior unit you’d extract into a function.</li>
-</ul>
+<h1 id="example-without-functions">Example: Without Functions</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&#34;Hello, Alice!&#34;</span>)
+<span class="hljs-built_in">print</span>(<span class="hljs-string">&#34;Hello, Bob!&#34;</span>)
+<span class="hljs-built_in">print</span>(<span class="hljs-string">&#34;Hello, Charlie!&#34;</span>)
+</code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="7" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="define-%E2%86%92-call-%E2%86%92-get-a-result">Define → Call → Get A Result</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">add</span>(<span class="hljs-params">a, b</span>):
-    <span class="hljs-keyword">return</span> a + b
+<h1 id="example-with-a-function">Example: With a Function</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">say_hello</span>(<span class="hljs-params">name</span>):
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">&#34;Hello,&#34;</span>, name)
 
-result = add(<span class="hljs-number">2</span>, <span class="hljs-number">3</span>)
-<span class="hljs-built_in">print</span>(result)
+say_hello(<span class="hljs-string">&#34;Alice&#34;</span>)
+say_hello(<span class="hljs-string">&#34;Bob&#34;</span>)
+say_hello(<span class="hljs-string">&#34;Charlie&#34;</span>)
 </code></pre>
-<ul>
-<li>Try it: change <code>a</code> and <code>b</code>. What type does <code>add</code> return?</li>
-<li>Rule: a function returns exactly one object (which can be a tuple).</li>
-</ul>
+<p>Question: Which version is easier to extend?</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="8" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="return-vs-print">Return vs Print</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">greet_print</span>(<span class="hljs-params">name</span>):
-    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&#34;Hello, <span class="hljs-subst">{name}</span>!&#34;</span>)  <span class="hljs-comment"># side effect only</span>
-
-<span class="hljs-keyword">def</span> <span class="hljs-title function_">greet_return</span>(<span class="hljs-params">name</span>):
-    <span class="hljs-keyword">return</span> <span class="hljs-string">f&#34;Hello, <span class="hljs-subst">{name}</span>!&#34;</span>   <span class="hljs-comment"># value you can store/use</span>
-
-msg = greet_return(<span class="hljs-string">&#34;Lin&#34;</span>)
-<span class="hljs-built_in">print</span>(<span class="hljs-string">&#34;stored:&#34;</span>, msg)
-</code></pre>
+<h1 id="function-basics">Function Basics</h1>
 <ul>
-<li>Question: when would <code>print</code> be fine? When is <code>return</code> required?</li>
+<li>Defined with <code>def</code></li>
+<li>Has a <strong>name</strong></li>
+<li>May take <strong>parameters</strong></li>
+<li>May return a <strong>value</strong></li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="9" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="calling-with-positional-or-keyword-args">Calling With Positional Or Keyword Args</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">power</span>(<span class="hljs-params">base, exp</span>):
-    <span class="hljs-keyword">return</span> base ** exp
-
-<span class="hljs-built_in">print</span>(power(<span class="hljs-number">2</span>, <span class="hljs-number">5</span>))
-<span class="hljs-built_in">print</span>(power(base=<span class="hljs-number">2</span>, exp=<span class="hljs-number">5</span>))
+<h1 id="defining-a-function">Defining a Function</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">greet</span>():
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">&#34;Hello, world!&#34;</span>)
 </code></pre>
 <ul>
-<li>Note: we’ll cover defaults next lesson; today is basic calling.</li>
-<li>Quick check: what happens with <code>power(exp=3, base=2)</code>?</li>
+<li><code>def</code> starts the function</li>
+<li><code>greet</code> is the function name</li>
+<li>No parameters in this example</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="10" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="quick-drill--implement-and-test">Quick Drill — Implement And Test</h1>
-<ul>
-<li>Write <code>square(n)</code> returning n squared.</li>
-<li>Write <code>is_even(n)</code> returning True if <code>n</code> is even.</li>
-<li>Test: print results for 0, 1, 2, 15, 100.</li>
-</ul>
+<h1 id="calling-a-function">Calling a Function</h1>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python">greet()
+greet()
+</code></pre>
+<p>Output:</p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code>Hello, world!
+Hello, world!
+</code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="11" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="function-contracts-and-docstrings">Function Contracts And Docstrings</h1>
-<ul>
-<li>A good function has: a clear name, parameters, and a return value.</li>
-<li>Optional short docstring says what it does and what it returns.</li>
-</ul>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">area_rect</span>(<span class="hljs-params">w, h</span>):
-    <span class="hljs-string">&#34;&#34;&#34;Return the area of a rectangle given width and height (numbers).&#34;&#34;&#34;</span>
-    <span class="hljs-keyword">return</span> w * h
-</code></pre>
-<ul>
-<li>Try it: add a one-line docstring to <code>square</code>.</li>
-</ul>
+<h1 id="practice-question">Practice Question</h1>
+<p>What happens if you <strong>define</strong> a function but never call it?</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="12" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="separate-io-from-logic">Separate I/O From Logic</h1>
+<h1 id="real-life-analogy">Real-Life Analogy</h1>
 <ul>
-<li>Keep input/prints outside your core logic when possible.</li>
-</ul>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">c_to_f</span>(<span class="hljs-params">c</span>):
-    <span class="hljs-keyword">return</span> c * <span class="hljs-number">9</span>/<span class="hljs-number">5</span> + <span class="hljs-number">32</span>
-
-c = <span class="hljs-built_in">float</span>(<span class="hljs-built_in">input</span>(<span class="hljs-string">&#34;Celsius: &#34;</span>))
-<span class="hljs-built_in">print</span>(<span class="hljs-string">&#34;Fahrenheit:&#34;</span>, c_to_f(c))
-</code></pre>
-<ul>
-<li>Question: why is this easier to test than a function that calls <code>input</code>?</li>
+<li>Function = A recipe</li>
+<li>Defining = Writing the recipe down</li>
+<li>Calling = Actually cooking the meal</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="13" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="mini-lab--decompose-a-tiny-task">Mini Lab — Decompose A Tiny Task</h1>
+<h1 id="key-takeaways">Key Takeaways</h1>
 <ul>
-<li>Task: read two ints, compute sum and product, then print nicely.</li>
-<li>Write helpers: <code>read_int(prompt)</code>, <code>sum_prod(a, b)</code> returning a tuple.</li>
-<li>Stretch: reuse <code>read_int</code> twice; print results in one formatted line.</li>
+<li>Functions let us reuse code</li>
+<li><code>def</code> keyword defines a function</li>
+<li>Call functions by writing their name + ()</li>
+<li>Functions make programs simpler and cleaner</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="14" data-class="invert" data-paginate="true" data-background-color="black" data-theme="default" data-heading-divider="1" lang="POSIX" class="invert" data-marpit-pagination="14" style="--class:invert;--paginate:true;--background-color:black;--theme:default;--heading-divider:1;background-color:black;background-image:none;" data-marpit-pagination-total="14">
-<h1 id="exit-ticket">Exit Ticket</h1>
+<h1 id="tips">Tips</h1>
 <ul>
-<li>What’s the difference between returning a value and printing one?</li>
-<li>Write a one-liner call to <code>add</code> that prints 12 for inputs 5 and 7.</li>
-<li>Where would you add a docstring in your <code>square</code> function?</li>
+<li>&#34;Pure&#34; functions preferred over those with &#34;side effects&#34;
+<ul>
+<li>For example, instead of printing in the function, return a string</li>
+</ul>
+</li>
+<li>Think about the functions required inputs (parameters) and outputs (return values) first, then worry about the implementation</li>
 </ul>
 </section>
 <script>!function(){"use strict";const t={h1:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"1"},style:"display: block; font-size: 2em; margin-block-start: 0.67em; margin-block-end: 0.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h2:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"2"},style:"display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h3:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"3"},style:"display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h4:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"4"},style:"display: block; margin-block-start: 1.33em; margin-block-end: 1.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h5:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"5"},style:"display: block; font-size: 0.83em; margin-block-start: 1.67em; margin-block-end: 1.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h6:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"6"},style:"display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},span:{proto:()=>HTMLSpanElement},pre:{proto:()=>HTMLElement,style:"display: block; font-family: monospace; white-space: pre; margin: 1em 0; --marp-auto-scaling-white-space: pre;"}},e="data-marp-auto-scaling-wrapper",i="data-marp-auto-scaling-svg",n="data-marp-auto-scaling-container";class s extends HTMLElement{container;containerSize;containerObserver;svg;svgComputedStyle;svgPreserveAspectRatio="xMinYMid meet";wrapper;wrapperSize;wrapperObserver;constructor(){super();const t=t=>([e])=>{const{width:i,height:n}=e.contentRect;this[t]={width:i,height:n},this.updateSVGRect()};this.attachShadow({mode:"open"}),this.containerObserver=new ResizeObserver(t("containerSize")),this.wrapperObserver=new ResizeObserver(((...e)=>{t("wrapperSize")(...e),this.flushSvgDisplay()}))}static get observedAttributes(){return["data-downscale-only"]}connectedCallback(){this.shadowRoot.innerHTML=`\n<style>\n  svg[${i}] { display: block; width: 100%; height: auto; vertical-align: top; }\n  span[${n}] { display: table; white-space: var(--marp-auto-scaling-white-space, nowrap); width: max-content; }\n</style>\n<div ${e}>\n  <svg part="svg" ${i}>\n    <foreignObject><span ${n}><slot></slot></span></foreignObject>\n  </svg>\n</div>\n    `.split(/\n\s*/).join(""),this.wrapper=this.shadowRoot.querySelector(`div[${e}]`)??void 0;const t=this.svg;this.svg=this.wrapper?.querySelector(`svg[${i}]`)??void 0,this.svg!==t&&(this.svgComputedStyle=this.svg?window.getComputedStyle(this.svg):void 0),this.container=this.svg?.querySelector(`span[${n}]`)??void 0,this.observe()}disconnectedCallback(){this.svg=void 0,this.svgComputedStyle=void 0,this.wrapper=void 0,this.container=void 0,this.observe()}attributeChangedCallback(){this.observe()}flushSvgDisplay(){const{svg:t}=this;t&&(t.style.display="inline",requestAnimationFrame((()=>{t.style.display=""})))}observe(){this.containerObserver.disconnect(),this.wrapperObserver.disconnect(),this.wrapper&&this.wrapperObserver.observe(this.wrapper),this.container&&this.containerObserver.observe(this.container),this.svgComputedStyle&&this.observeSVGStyle(this.svgComputedStyle)}observeSVGStyle(t){const e=()=>{const i=(()=>{const e=t.getPropertyValue("--preserve-aspect-ratio");if(e)return e.trim();return`x${(({textAlign:t,direction:e})=>{if(t.endsWith("left"))return"Min";if(t.endsWith("right"))return"Max";if("start"===t||"end"===t){let i="rtl"===e;return"end"===t&&(i=!i),i?"Max":"Min"}return"Mid"})(t)}YMid meet`})();i!==this.svgPreserveAspectRatio&&(this.svgPreserveAspectRatio=i,this.updateSVGRect()),t===this.svgComputedStyle&&requestAnimationFrame(e)};e()}updateSVGRect(){let t=Math.ceil(this.containerSize?.width??0);const e=Math.ceil(this.containerSize?.height??0);void 0!==this.dataset.downscaleOnly&&(t=Math.max(t,this.wrapperSize?.width??0));const i=this.svg?.querySelector(":scope > foreignObject");if(i?.setAttribute("width",`${t}`),i?.setAttribute("height",`${e}`),this.svg&&(this.svg.setAttribute("viewBox",`0 0 ${t} ${e}`),this.svg.setAttribute("preserveAspectRatio",this.svgPreserveAspectRatio),this.svg.style.height=t<=0||e<=0?"0":""),this.container){const t=this.svgPreserveAspectRatio.toLowerCase();this.container.style.marginLeft=t.startsWith("xmid")||t.startsWith("xmax")?"auto":"0",this.container.style.marginRight=t.startsWith("xmi")?"auto":"0"}}}const r=(t,{attrs:e={},style:i})=>class extends t{constructor(...t){super(...t);for(const[t,i]of Object.entries(e))this.hasAttribute(t)||this.setAttribute(t,i);this._shadow()}static get observedAttributes(){return["data-auto-scaling"]}connectedCallback(){this._update()}attributeChangedCallback(){this._update()}_shadow(){if(!this.shadowRoot)try{this.attachShadow({mode:"open"})}catch(t){if(!(t instanceof Error&&"NotSupportedError"===t.name))throw t}return this.shadowRoot}_update(){const t=this._shadow();if(t){const e=i?`<style>:host { ${i} }</style>`:"";let n="<slot></slot>";const{autoScaling:s}=this.dataset;if(void 0!==s){n=`<marp-auto-scaling exportparts="svg:auto-scaling" ${"downscale-only"===s?"data-downscale-only":""}>${n}</marp-auto-scaling>`}t.innerHTML=e+n}}};let o;const a=Symbol();let l;const c="marpitSVGPolyfill:setZoomFactor,",d=Symbol(),h=Symbol();const g=()=>{const t="Apple Computer, Inc."===navigator.vendor,e=t?[u]:[],i={then:e=>(t?(async()=>{if(void 0===l){const t=document.createElement("canvas");t.width=10,t.height=10;const e=t.getContext("2d"),i=new Image(10,10),n=new Promise((t=>{i.addEventListener("load",(()=>t()))}));i.crossOrigin="anonymous",i.src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%201%201%22%3E%3CforeignObject%20width%3D%221%22%20height%3D%221%22%20requiredExtensions%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22width%3A%201px%3B%20height%3A%201px%3B%20background%3A%20red%3B%20position%3A%20relative%22%3E%3C%2Fdiv%3E%3C%2FforeignObject%3E%3C%2Fsvg%3E",await n,e.drawImage(i,0,0),l=e.getImageData(5,5,1,1).data[3]<128}return l})().then((t=>{null==e||e(t?[u]:[])})):null==e||e([]),i)};return Object.assign(e,i)};let p,m;function u(t){const e="object"==typeof t&&t.target||document,i="object"==typeof t?t.zoom:t;window[h]||(Object.defineProperty(window,h,{configurable:!0,value:!0}),document.body.style.zoom=1.0001,document.body.offsetHeight,document.body.style.zoom=1,window.addEventListener("message",(({data:t,origin:e})=>{if(e===window.origin)try{if(t&&"string"==typeof t&&t.startsWith(c)){const[,e]=t.split(","),i=Number.parseFloat(e);Number.isNaN(i)||(m=i)}}catch(t){console.error(t)}})));let n=!1;Array.from(e.querySelectorAll("svg[data-marpit-svg]"),(t=>{var e,s,r,o;t.style.transform||(t.style.transform="translateZ(0)");const a=i||m||t.currentScale||1;p!==a&&(p=a,n=a);const l=t.getBoundingClientRect(),{length:c}=t.children;for(let i=0;i<c;i+=1){const n=t.children[i];if(n.getScreenCTM){const t=n.getScreenCTM();if(t){const i=null!==(s=null===(e=n.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==s?s:0,c=null!==(o=null===(r=n.y)||void 0===r?void 0:r.baseVal.value)&&void 0!==o?o:0,d=n.children.length;for(let e=0;e<d;e+=1){const s=n.children[e];if("SECTION"===s.tagName){const{style:e}=s;e.transformOrigin||(e.transformOrigin=`${-i}px ${-c}px`),e.transform=`scale(${a}) matrix(${t.a}, ${t.b}, ${t.c}, ${t.d}, ${t.e-l.left}, ${t.f-l.top}) translateZ(0.0001px)`;break}}}}}})),!1!==n&&Array.from(e.querySelectorAll("iframe"),(({contentWindow:t})=>{null==t||t.postMessage(`${c}${n}`,"null"===window.origin?"*":window.origin)}))}function v({once:t=!1,target:e=document}={}){const i=function(t=document){if(t[d])return t[d];let e=!0;const i=()=>{e=!1,delete t[d]};Object.defineProperty(t,d,{configurable:!0,value:i});let n=[],s=!1;(async()=>{try{n=await g()}finally{s=!0}})();const r=()=>{for(const e of n)e({target:t});s&&0===n.length||e&&window.requestAnimationFrame(r)};return r(),i}(e);return t?(i(),()=>{}):i}p=1,m=void 0;const w=Symbol(),b=(e=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(((e=document)=>{const i=window[a];i||customElements.define("marp-auto-scaling",s);for(const n of Object.keys(t)){const s=`marp-${n}`,a=t[n].proto();(o??(o=!!document.createElement("div",{is:"marp-auto-scaling"}).outerHTML.startsWith("<div is"),o))&&a!==HTMLElement?i||customElements.define(s,r(a,{style:t[n].style}),{extends:n}):(i||customElements.define(s,r(HTMLElement,t[n])),e.querySelectorAll(`${n}[is="${s}"]`).forEach((t=>{t.outerHTML=t.outerHTML.replace(new RegExp(`^<${n}`,"i"),`<${s}`).replace(new RegExp(`</${n}>$`,"i"),`</${s}>`)})))}window[a]=!0})(e),e[w])return e[w];const i=v({target:e}),n=()=>{i(),delete e[w]},l=Object.assign(n,{cleanup:n,update:()=>b(e)});return Object.defineProperty(e,w,{configurable:!0,value:l}),l},y=document.currentScript;b(y?y.getRootNode():document)}();
