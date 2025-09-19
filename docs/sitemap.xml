@@ -11,6 +11,9 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-476/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-458/</loc>
     <priority>0</priority>
   </url><url>
@@ -121,6 +124,8 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-63/files/plan/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/files/quiz-3-1/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/files/assignment/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/assignment-1-1/</loc>
   </url><url>
@@ -268,6 +273,12 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-485/files/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-64/files/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/files/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/</loc>
     <priority>0</priority>
   </url><url>
@@ -275,6 +286,9 @@
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-64/lessons/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/files/rules-procedures/</loc>
@@ -296,6 +310,9 @@
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-63/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/units/unit-64/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/</loc>

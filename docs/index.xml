@@ -29,6 +29,13 @@
       <description></description>
     </item>
     <item>
+      <title>4.1: Why functions?</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>1.2: Lexis, Syntax, and Semantics</title>
       <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-458/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -309,6 +316,13 @@
       <description></description>
     </item>
     <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-41--tiny-functions&#34;&gt;Assignment 4.1 — Tiny Functions&lt;/h1&gt;&#xA;&lt;p&gt;Category: prepare&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Write three small, pure functions and verify their behavior with simple tests.&#xA;Focus on returning values (not printing inside the functions).&lt;/p&gt;&#xA;&lt;h2 id=&#34;tasks&#34;&gt;Tasks&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;square(n)&lt;/code&gt; → int&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Return n squared. Assume &lt;code&gt;n&lt;/code&gt; is an integer.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&lt;code&gt;is_even(n)&lt;/code&gt; → bool&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Return True if &lt;code&gt;n&lt;/code&gt; is even, else False.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;&lt;code&gt;greet(name)&lt;/code&gt; → str&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Return a greeting string like &lt;code&gt;&amp;quot;Hello, Ada!&amp;quot;&lt;/code&gt; (do not print inside).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Test Calls&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;print example calls and expected results.&lt;/li&gt;&#xA;&lt;li&gt;Include at least 2 test cases per function.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-to-submit&#34;&gt;What To Submit&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;File: &lt;code&gt;assignment_4_1.py&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Ensure the script runs without errors and prints your test outputs.&lt;/li&gt;&#xA;&lt;li&gt;Keep lines ≤ 100 chars where practical. Follow PEP 8 for names/spacing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rubric-10-points&#34;&gt;Rubric (10 points)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Correct function behavior: 6 points (2 per function)&lt;/li&gt;&#xA;&lt;li&gt;Test coverage: 2 points (≥2 cases per function, printed)&lt;/li&gt;&#xA;&lt;li&gt;Code quality: 2 points (clear names, docstrings, no extra prints in functions)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;hints&#34;&gt;Hints&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Return values from functions; do not &lt;code&gt;print&lt;/code&gt; inside the core logic.&lt;/li&gt;&#xA;&lt;li&gt;Keep your tests outside functions in the &lt;code&gt;__main__&lt;/code&gt; guard.&lt;/li&gt;&#xA;&lt;li&gt;Prefer small, descriptive names and one responsibility per function.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>Assignment 1.1</title>
       <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/assignment-1-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -502,6 +516,13 @@
       <link>https://lapinel-6.course-manager.app/units/unit-63/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/units/unit-63/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unit 4: Functions and Exceptions</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/</guid>
       <description></description>
     </item>
   </channel>
