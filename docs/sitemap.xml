@@ -128,8 +128,6 @@
     <loc>https://lapinel-6.course-manager.app/calendar/december/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://lapinel-6.course-manager.app/files/testing-helper/</loc>
-  </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-457/files/test/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-460/files/assignment-1-4/</loc>
@@ -207,6 +205,8 @@
     <loc>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/files/assignment/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/categories/</loc>
+  </url><url>
+    <loc>https://lapinel-6.course-manager.app/files/testing-helper/</loc>
   </url><url>
     <loc>https://lapinel-6.course-manager.app/calendar/</loc>
     <priority>0</priority>
