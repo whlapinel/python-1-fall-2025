@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-491/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-491/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 4.6</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-491/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-491/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-46-raising-exceptions&#34;&gt;Assignment 4.6: Raising Exceptions&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review Lesson 4.6 slides.&lt;/li&gt;&#xA;&lt;li&gt;Revisit the Python Essentials section on raising exceptions.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-a-simple-raise&#34;&gt;Part A: Simple Raise&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;divide(a, b)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raises a &lt;code&gt;ZeroDivisionError&lt;/code&gt; if &lt;code&gt;b&lt;/code&gt; is zero&lt;/li&gt;&#xA;&lt;li&gt;Otherwise returns the result of &lt;code&gt;a / b&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-validating-input&#34;&gt;Part B: Validating Input&lt;/h3&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;set_age(age)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raises a &lt;code&gt;ValueError&lt;/code&gt; if &lt;code&gt;age&lt;/code&gt; is negative&lt;/li&gt;&#xA;&lt;li&gt;Returns the age otherwise&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-adding-messages&#34;&gt;Part C: Adding Messages&lt;/h3&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Write code that checks if a number &lt;code&gt;n&lt;/code&gt; is negative.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If so, raise a &lt;code&gt;ValueError&lt;/code&gt; with the message: &lt;code&gt;&amp;quot;Number cannot be negative&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-d-custom-function&#34;&gt;Part D: Custom Function&lt;/h3&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;get_grade(score)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raises a &lt;code&gt;ValueError&lt;/code&gt; if the score is less than 0 or greater than 100&lt;/li&gt;&#xA;&lt;li&gt;Returns the letter grade (A, B, C, D, F) otherwise&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

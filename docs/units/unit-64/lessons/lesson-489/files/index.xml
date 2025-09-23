@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-489/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-489/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-489/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-489/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-44-errors-and-exceptions&#34;&gt;Assignment 4.4: Errors and Exceptions&lt;/h1&gt;&#xA;&lt;h2 id=&#34;prepare&#34;&gt;Prepare&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review Lesson 4.4 slides.&lt;/li&gt;&#xA;&lt;li&gt;Revisit the Python Essentials section on exceptions.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;practice&#34;&gt;Practice&lt;/h2&gt;&#xA;&lt;h3 id=&#34;part-a-syntax-vs-runtime&#34;&gt;Part A: Syntax vs. Runtime&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a line of code that causes a &lt;strong&gt;SyntaxError&lt;/strong&gt;. (Don’t fix it yet!)&lt;/li&gt;&#xA;&lt;li&gt;Write code that causes a &lt;strong&gt;ValueError&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Write code that causes an &lt;strong&gt;IndexError&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-observing-errors&#34;&gt;Part B: Observing Errors&lt;/h3&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Run each program and record the error message Python gives you.&lt;/li&gt;&#xA;&lt;li&gt;Explain in your own words the difference between a syntax error and an exception.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-common-exceptions&#34;&gt;Part C: Common Exceptions&lt;/h3&gt;&#xA;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;Write code that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Divides 10 by 0 (ZeroDivisionError)&lt;/li&gt;&#xA;&lt;li&gt;Converts &lt;code&gt;&amp;quot;abc&amp;quot;&lt;/code&gt; into an integer (ValueError)&lt;/li&gt;&#xA;&lt;li&gt;Accesses a key that doesn’t exist in a dictionary (KeyError)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-d-reflection&#34;&gt;Part D: Reflection&lt;/h3&gt;&#xA;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;Why do unhandled exceptions stop a program?&lt;/li&gt;&#xA;&lt;li&gt;Why do you think Python separates syntax errors from runtime exceptions?&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

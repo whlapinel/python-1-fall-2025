@@ -85,6 +85,13 @@
       <description></description>
     </item>
     <item>
+      <title>4.3: Variable scope</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-488/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-488/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>1.4: Types and Operators</title>
       <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-460/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -103,6 +110,13 @@
       <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-479/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-479/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>4.4: Errors and Exceptions</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-489/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-489/</guid>
       <description></description>
     </item>
     <item>
@@ -127,6 +141,13 @@
       <description></description>
     </item>
     <item>
+      <title>4.5: Handling Exceptions</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-490/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-490/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>1.6: Truthy and Falsy values</title>
       <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-462/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -145,6 +166,13 @@
       <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-481/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-481/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>4.6: Raising exceptions</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-491/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-491/</guid>
       <description></description>
     </item>
     <item>
@@ -169,6 +197,13 @@
       <description></description>
     </item>
     <item>
+      <title>4.7: Functions &#43; exceptions</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-492/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-492/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>1.8: Input/Output Operations and Unit Wrap-up</title>
       <link>https://lapinel-6.course-manager.app/units/unit-61/lessons/lesson-464/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -187,6 +222,13 @@
       <link>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-484/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>4.8: Review Rehearse</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-493/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-493/</guid>
       <description></description>
     </item>
     <item>
@@ -324,6 +366,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/files/plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/files/plan/</guid>
+      <description>&lt;h1 id=&#34;unit-4-functions-and-exceptions&#34;&gt;Unit 4: Functions and Exceptions&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: ~10 lessons (2 weeks)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Focus&lt;/strong&gt;: Writing reusable functions and handling errors with exceptions.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Goal&lt;/strong&gt;: By the end of this unit, you will be able to write testable functions, pass information with parameters, and handle errors gracefully.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;lessons&#34;&gt;Lessons&lt;/h2&gt;&#xA;&lt;h3 id=&#34;lesson-41--intro-to-functions&#34;&gt;Lesson 4.1 – Intro to Functions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What functions are and why we use them&lt;/li&gt;&#xA;&lt;li&gt;Defining functions with &lt;code&gt;def&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Writing and calling simple functions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-42--function-parameters&#34;&gt;Lesson 4.2 – Function Parameters&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Positional, keyword, and default parameters&lt;/li&gt;&#xA;&lt;li&gt;Variable-length parameters: &lt;code&gt;*args&lt;/code&gt; and &lt;code&gt;**kwargs&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Writing functions that avoid side effects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-43--return-values-vs-side-effects&#34;&gt;Lesson 4.3 – Return Values vs. Side Effects&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Returning values from functions&lt;/li&gt;&#xA;&lt;li&gt;Returning multiple values&lt;/li&gt;&#xA;&lt;li&gt;Why returning is better than printing (testability)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-44--scope-and-lifetime&#34;&gt;Lesson 4.4 – Scope and Lifetime&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Local vs. global variables&lt;/li&gt;&#xA;&lt;li&gt;Why globals are risky&lt;/li&gt;&#xA;&lt;li&gt;How variable scope affects functions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-45--errors-and-exceptions&#34;&gt;Lesson 4.5 – Errors and Exceptions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Common runtime errors (&lt;code&gt;ZeroDivisionError&lt;/code&gt;, &lt;code&gt;ValueError&lt;/code&gt;, &lt;code&gt;IndexError&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Why programs crash without handling errors&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-46--handling-exceptions&#34;&gt;Lesson 4.6 – Handling Exceptions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;try&lt;/code&gt;/&lt;code&gt;except&lt;/code&gt; blocks&lt;/li&gt;&#xA;&lt;li&gt;Catching specific vs. general exceptions&lt;/li&gt;&#xA;&lt;li&gt;Preventing program crashes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-47--raising-exceptions&#34;&gt;Lesson 4.7 – Raising Exceptions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Using &lt;code&gt;raise&lt;/code&gt; to trigger errors&lt;/li&gt;&#xA;&lt;li&gt;Validating inputs&lt;/li&gt;&#xA;&lt;li&gt;Making your code more predictable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-48--functions--exceptions-together&#34;&gt;Lesson 4.8 – Functions + Exceptions Together&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Combining functions with error handling&lt;/li&gt;&#xA;&lt;li&gt;Example: safe division, safe file opening&lt;/li&gt;&#xA;&lt;li&gt;Writing robust programs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-49--review--rehearse&#34;&gt;Lesson 4.9 – Review &amp;amp; Rehearse&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Quiz&lt;/li&gt;&#xA;&lt;li&gt;Debugging activity: “Name That Error”&lt;/li&gt;&#xA;&lt;li&gt;Review games&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lesson-410--perform-exam&#34;&gt;Lesson 4.10 – Perform (Exam)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Exam: Functions and Exceptions&lt;/li&gt;&#xA;&lt;li&gt;Show what you can do independently&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;by-the-end-of-unit-4-you-will-be-able-to&#34;&gt;By the end of Unit 4, you will be able to:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Define and call your own functions&lt;/li&gt;&#xA;&lt;li&gt;Use different types of parameters&lt;/li&gt;&#xA;&lt;li&gt;Write functions without side effects&lt;/li&gt;&#xA;&lt;li&gt;Handle exceptions with &lt;code&gt;try&lt;/code&gt;, &lt;code&gt;except&lt;/code&gt;, and &lt;code&gt;raise&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Build programs that are robust and testable&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/files/assignment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-486/files/assignment/</guid>
@@ -335,6 +384,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-487/files/assignment/</guid>
       <description>&lt;h1 id=&#34;assignment-42-function-parameters&#34;&gt;Assignment 4.2: Function Parameters&lt;/h1&gt;&#xA;&lt;h2 id=&#34;prepare&#34;&gt;Prepare&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review the lesson slides on function parameters.&lt;/li&gt;&#xA;&lt;li&gt;Re-read the Python Essentials section on functions with parameters.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;practice&#34;&gt;Practice&lt;/h2&gt;&#xA;&lt;h3 id=&#34;part-a-positional--keyword-parameters&#34;&gt;Part A: Positional &amp;amp; Keyword Parameters&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;rectangle_area(length, width)&lt;/code&gt; that returns the area.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Call it once with positional arguments.&lt;/li&gt;&#xA;&lt;li&gt;Call it again using keyword arguments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-default-parameters&#34;&gt;Part B: Default Parameters&lt;/h3&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;introduce(name, hobby=&amp;quot;reading&amp;quot;)&lt;/code&gt; that returns a sentence like:&#xA;&lt;code&gt;&amp;quot;My name is Alex and I enjoy reading.&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-variable-length-parameters&#34;&gt;Part C: Variable-Length Parameters&lt;/h3&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write a function &lt;code&gt;multiply_all(*nums)&lt;/code&gt; that multiplies any number of inputs together.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-489/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-489/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-44-errors-and-exceptions&#34;&gt;Assignment 4.4: Errors and Exceptions&lt;/h1&gt;&#xA;&lt;h2 id=&#34;prepare&#34;&gt;Prepare&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review Lesson 4.4 slides.&lt;/li&gt;&#xA;&lt;li&gt;Revisit the Python Essentials section on exceptions.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;practice&#34;&gt;Practice&lt;/h2&gt;&#xA;&lt;h3 id=&#34;part-a-syntax-vs-runtime&#34;&gt;Part A: Syntax vs. Runtime&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a line of code that causes a &lt;strong&gt;SyntaxError&lt;/strong&gt;. (Don’t fix it yet!)&lt;/li&gt;&#xA;&lt;li&gt;Write code that causes a &lt;strong&gt;ValueError&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Write code that causes an &lt;strong&gt;IndexError&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-observing-errors&#34;&gt;Part B: Observing Errors&lt;/h3&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Run each program and record the error message Python gives you.&lt;/li&gt;&#xA;&lt;li&gt;Explain in your own words the difference between a syntax error and an exception.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-common-exceptions&#34;&gt;Part C: Common Exceptions&lt;/h3&gt;&#xA;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;Write code that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Divides 10 by 0 (ZeroDivisionError)&lt;/li&gt;&#xA;&lt;li&gt;Converts &lt;code&gt;&amp;quot;abc&amp;quot;&lt;/code&gt; into an integer (ValueError)&lt;/li&gt;&#xA;&lt;li&gt;Accesses a key that doesn’t exist in a dictionary (KeyError)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-d-reflection&#34;&gt;Part D: Reflection&lt;/h3&gt;&#xA;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;Why do unhandled exceptions stop a program?&lt;/li&gt;&#xA;&lt;li&gt;Why do you think Python separates syntax errors from runtime exceptions?&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-490/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-490/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-45-handling-exceptions&#34;&gt;Assignment 4.5: Handling Exceptions&lt;/h1&gt;&#xA;&lt;h2 id=&#34;prepare&#34;&gt;Prepare&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review Lesson 4.5 slides.&lt;/li&gt;&#xA;&lt;li&gt;Revisit the Python Essentials section on handling exceptions.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;practice&#34;&gt;Practice&lt;/h2&gt;&#xA;&lt;h3 id=&#34;part-a-basic-tryexcept&#34;&gt;Part A: Basic Try/Except&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write code that asks the user to enter a number and divides 100 by it.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Catch any error with a simple &lt;code&gt;except:&lt;/code&gt; and print a message.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-specific-exceptions&#34;&gt;Part B: Specific Exceptions&lt;/h3&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Improve your code to catch specific errors:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;ValueError&lt;/code&gt; when the input isn’t a number&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ZeroDivisionError&lt;/code&gt; when dividing by zero&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-function-with-exception-handling&#34;&gt;Part C: Function with Exception Handling&lt;/h3&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;safe_divide(a, b)&lt;/code&gt; that returns the result of division, or a string error message if it fails.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-d-more-practice&#34;&gt;Part D: More Practice&lt;/h3&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;to_int(s)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Converts a string to an integer&lt;/li&gt;&#xA;&lt;li&gt;Returns the integer if successful&lt;/li&gt;&#xA;&lt;li&gt;Returns the string &lt;code&gt;&amp;quot;Error: not a number&amp;quot;&lt;/code&gt; if it fails&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Assignment 1.1</title>
@@ -475,6 +538,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/units/unit-63/lessons/lesson-485/files/assignment/</guid>
       <description>&lt;h1 id=&#34;assignment-39--operating-with-strings&#34;&gt;Assignment 3.9 – Operating with Strings&lt;/h1&gt;&#xA;&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;&#xA;&lt;p&gt;Practice constructing, slicing, and modifying strings using functions and methods.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;part-a-basics&#34;&gt;Part A: Basics&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a string with your favorite food.&lt;/li&gt;&#xA;&lt;li&gt;Print the first character and the last character.&lt;/li&gt;&#xA;&lt;li&gt;Print the string sliced from index 1 to 4.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;part-b-escape-characters--quoting&#34;&gt;Part B: Escape Characters &amp;amp; Quoting&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a string that contains both single and double quotes.&lt;/li&gt;&#xA;&lt;li&gt;Write a string with a newline character (&lt;code&gt;\n&lt;/code&gt;) and print it.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;part-c-multi-line-strings&#34;&gt;Part C: Multi-line Strings&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a multi-line string with two lines of text (like a poem or song lyric).&lt;/li&gt;&#xA;&lt;li&gt;Print it.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;part-d-functions--methods&#34;&gt;Part D: Functions &amp;amp; Methods&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Create the string &lt;code&gt;language = &amp;quot;Python&amp;quot;&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 4.3</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-488/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-488/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-43-scope&#34;&gt;Assignment 4.3: Scope&lt;/h1&gt;&#xA;&lt;h2 id=&#34;prepare&#34;&gt;Prepare&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review Lesson 4.3 slides.&lt;/li&gt;&#xA;&lt;li&gt;Revisit Python Essentials on local vs. global variables.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;practice&#34;&gt;Practice&lt;/h2&gt;&#xA;&lt;h3 id=&#34;part-a-local-scope&#34;&gt;Part A: Local Scope&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;make_local()&lt;/code&gt; that creates a variable &lt;code&gt;x = 10&lt;/code&gt; inside the function and returns it.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Try printing &lt;code&gt;x&lt;/code&gt; outside the function. What happens?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-global-scope&#34;&gt;Part B: Global Scope&lt;/h3&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Create a global variable &lt;code&gt;school = &amp;quot;Berry&amp;quot;&lt;/code&gt;.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;get_school()&lt;/code&gt; that returns &lt;code&gt;school&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Call the function and print the result.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-shadowing&#34;&gt;Part C: Shadowing&lt;/h3&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Write a global variable &lt;code&gt;score = 100&lt;/code&gt;.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Inside a function, create a local &lt;code&gt;score = 50&lt;/code&gt; and return it.&lt;/li&gt;&#xA;&lt;li&gt;Print both values (inside and outside the function).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-d-global-keyword&#34;&gt;Part D: Global Keyword&lt;/h3&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Write a global variable &lt;code&gt;counter = 0&lt;/code&gt;.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;increment()&lt;/code&gt; that uses &lt;code&gt;global counter&lt;/code&gt; to add 1 each time it runs.&lt;/li&gt;&#xA;&lt;li&gt;Call it multiple times and print &lt;code&gt;counter&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Explain why this is not a good practice.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-e-better-design&#34;&gt;Part E: Better Design&lt;/h3&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Rewrite the &lt;code&gt;increment()&lt;/code&gt; function so that it takes a number as input and returns it increased by 1 (no globals).&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 4.6</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-491/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-491/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-46-raising-exceptions&#34;&gt;Assignment 4.6: Raising Exceptions&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review Lesson 4.6 slides.&lt;/li&gt;&#xA;&lt;li&gt;Revisit the Python Essentials section on raising exceptions.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-a-simple-raise&#34;&gt;Part A: Simple Raise&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;divide(a, b)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raises a &lt;code&gt;ZeroDivisionError&lt;/code&gt; if &lt;code&gt;b&lt;/code&gt; is zero&lt;/li&gt;&#xA;&lt;li&gt;Otherwise returns the result of &lt;code&gt;a / b&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-validating-input&#34;&gt;Part B: Validating Input&lt;/h3&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;set_age(age)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raises a &lt;code&gt;ValueError&lt;/code&gt; if &lt;code&gt;age&lt;/code&gt; is negative&lt;/li&gt;&#xA;&lt;li&gt;Returns the age otherwise&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-adding-messages&#34;&gt;Part C: Adding Messages&lt;/h3&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Write code that checks if a number &lt;code&gt;n&lt;/code&gt; is negative.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If so, raise a &lt;code&gt;ValueError&lt;/code&gt; with the message: &lt;code&gt;&amp;quot;Number cannot be negative&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-d-custom-function&#34;&gt;Part D: Custom Function&lt;/h3&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;get_grade(score)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raises a &lt;code&gt;ValueError&lt;/code&gt; if the score is less than 0 or greater than 100&lt;/li&gt;&#xA;&lt;li&gt;Returns the letter grade (A, B, C, D, F) otherwise&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 4.7</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-492/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-492/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-47-functions--exceptions-together&#34;&gt;Assignment 4.7: Functions + Exceptions Together&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review Lesson 4.7 slides.&lt;/li&gt;&#xA;&lt;li&gt;Revisit the Python Essentials section on combining functions with exceptions.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-a-safe-division&#34;&gt;Part A: Safe Division&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;safe_divide(a, b)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Returns the result of &lt;code&gt;a / b&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Returns the string &lt;code&gt;&amp;quot;Error: Division by zero&amp;quot;&lt;/code&gt; if &lt;code&gt;b&lt;/code&gt; is zero&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-b-validating-input&#34;&gt;Part B: Validating Input&lt;/h3&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;get_age(age)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raises a &lt;code&gt;ValueError&lt;/code&gt; if &lt;code&gt;age&lt;/code&gt; is negative&lt;/li&gt;&#xA;&lt;li&gt;Returns the age otherwise&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-c-safe-list-access&#34;&gt;Part C: Safe List Access&lt;/h3&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;get_item(lst, index)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Returns the item at the given index&lt;/li&gt;&#xA;&lt;li&gt;Returns the string &lt;code&gt;&amp;quot;Error: Index out of range&amp;quot;&lt;/code&gt; if the index is invalid&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;part-d-custom-function&#34;&gt;Part D: Custom Function&lt;/h3&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Write a function &lt;code&gt;read_number(prompt)&lt;/code&gt; that:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Asks the user for input&lt;/li&gt;&#xA;&lt;li&gt;Tries to convert it to an integer&lt;/li&gt;&#xA;&lt;li&gt;Returns the integer if valid&lt;/li&gt;&#xA;&lt;li&gt;Returns the string &lt;code&gt;&amp;quot;Error: not a number&amp;quot;&lt;/code&gt; if invalid&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;submission&#34;&gt;Submission&lt;/h2&gt;&#xA;&lt;p&gt;Submit your &lt;code&gt;.py&lt;/code&gt; file with all code labeled clearly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Assignmnent 3.8</title>

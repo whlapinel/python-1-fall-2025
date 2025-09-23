@@ -1,0 +1,251 @@
+<!doctype html>
+<html class="h-full bg-gray-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    
+    <link href="/styles/styles.css" rel="stylesheet" />
+    <script src="/js/index.js" defer async></script>
+    <link href="/styles/markdown-styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="h-full">
+    <div class="min-h-full">
+      <div class="bg-gray-800 pb-32">
+        <nav class="bg-gray-800">
+          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="border-b border-gray-700">
+              <div class="flex h-16 items-center justify-between px-4 sm:px-0">
+                <div class="flex items-center">
+                  <span>Logo</span>
+                  <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                      
+                      <div id="confirmation"></div>
+                      
+                        <nav>
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/"
+                              >Home</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/units/"
+                              >Units</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/calendar/"
+                              >Calendar</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/files/"
+                              >Course Files</a
+                            >
+                          
+                        </nav>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <main class="-mt-32">
+        <div class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+          <div
+            class="rounded-lg bg-slate-900 px-5 py-6 shadow-sm sm:px-6 text-white"
+            id="page"
+          >
+            
+  
+  <nav class="flex gap-2 p-2">
+    
+    
+      
+        <a href="/" class="p-1">Python I</a>
+        
+          >>
+        
+      
+    
+      
+        <a href="/units/" class="p-1">Units</a>
+        
+          >>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+  </nav>
+
+
+  <div>
+    <details>
+  <summary>Debugging info</summary>
+  <ul>
+    
+  </ul>
+  
+    <p>Key: breadcrumbs — Value: map[items:[map[url:/] map[url:/units] map[url:/units/unit-64] map[url:/units/unit-64/files] map[url:/units/unit-64/files/plan]]]</p>
+  
+    <p>Key: draft — Value: false</p>
+  
+    <p>Key: iscjklanguage — Value: false</p>
+  
+    <p>Key: parentpath — Value: units/unit_64/files</p>
+  
+    <p>Key: type — Value: standalone</p>
+  
+    <p>Key: url — Value: units/unit-64/files/plan</p>
+  
+  <p>Kind: page</p>
+  <p>Type: standalone</p>
+  <p>Resources:</p>
+  
+</details>
+
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;unit-4-functions-and-exceptions&#34;&gt;Unit 4: Functions and Exceptions&lt;/h1&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt;: ~10 lessons (2 weeks)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Focus&lt;/strong&gt;: Writing reusable functions and handling errors with exceptions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Goal&lt;/strong&gt;: By the end of this unit, you will be able to write testable functions, pass information with parameters, and handle errors gracefully.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;lessons&#34;&gt;Lessons&lt;/h2&gt;
+&lt;h3 id=&#34;lesson-41--intro-to-functions&#34;&gt;Lesson 4.1 – Intro to Functions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What functions are and why we use them&lt;/li&gt;
+&lt;li&gt;Defining functions with &lt;code&gt;def&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Writing and calling simple functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-42--function-parameters&#34;&gt;Lesson 4.2 – Function Parameters&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Positional, keyword, and default parameters&lt;/li&gt;
+&lt;li&gt;Variable-length parameters: &lt;code&gt;*args&lt;/code&gt; and &lt;code&gt;**kwargs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Writing functions that avoid side effects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-43--return-values-vs-side-effects&#34;&gt;Lesson 4.3 – Return Values vs. Side Effects&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Returning values from functions&lt;/li&gt;
+&lt;li&gt;Returning multiple values&lt;/li&gt;
+&lt;li&gt;Why returning is better than printing (testability)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-44--scope-and-lifetime&#34;&gt;Lesson 4.4 – Scope and Lifetime&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Local vs. global variables&lt;/li&gt;
+&lt;li&gt;Why globals are risky&lt;/li&gt;
+&lt;li&gt;How variable scope affects functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-45--errors-and-exceptions&#34;&gt;Lesson 4.5 – Errors and Exceptions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Common runtime errors (&lt;code&gt;ZeroDivisionError&lt;/code&gt;, &lt;code&gt;ValueError&lt;/code&gt;, &lt;code&gt;IndexError&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Why programs crash without handling errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-46--handling-exceptions&#34;&gt;Lesson 4.6 – Handling Exceptions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;try&lt;/code&gt;/&lt;code&gt;except&lt;/code&gt; blocks&lt;/li&gt;
+&lt;li&gt;Catching specific vs. general exceptions&lt;/li&gt;
+&lt;li&gt;Preventing program crashes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-47--raising-exceptions&#34;&gt;Lesson 4.7 – Raising Exceptions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Using &lt;code&gt;raise&lt;/code&gt; to trigger errors&lt;/li&gt;
+&lt;li&gt;Validating inputs&lt;/li&gt;
+&lt;li&gt;Making your code more predictable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-48--functions--exceptions-together&#34;&gt;Lesson 4.8 – Functions &#43; Exceptions Together&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Combining functions with error handling&lt;/li&gt;
+&lt;li&gt;Example: safe division, safe file opening&lt;/li&gt;
+&lt;li&gt;Writing robust programs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-49--review--rehearse&#34;&gt;Lesson 4.9 – Review &amp;amp; Rehearse&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Quiz&lt;/li&gt;
+&lt;li&gt;Debugging activity: “Name That Error”&lt;/li&gt;
+&lt;li&gt;Review games&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lesson-410--perform-exam&#34;&gt;Lesson 4.10 – Perform (Exam)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Exam: Functions and Exceptions&lt;/li&gt;
+&lt;li&gt;Show what you can do independently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;by-the-end-of-unit-4-you-will-be-able-to&#34;&gt;By the end of Unit 4, you will be able to:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Define and call your own functions&lt;/li&gt;
+&lt;li&gt;Use different types of parameters&lt;/li&gt;
+&lt;li&gt;Write functions without side effects&lt;/li&gt;
+&lt;li&gt;Handle exceptions with &lt;code&gt;try&lt;/code&gt;, &lt;code&gt;except&lt;/code&gt;, and &lt;code&gt;raise&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Build programs that are robust and testable&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
+    <hr />
+    <div class="markdown-body p-2">
+      
+      <p>Supporting Resources</p>
+      
+      
+    </div>
+
+    <hr />
+  </div>
+
+          </div>
+        </div>
+      </main>
+      <footer class="shadow p-4 mt-8">
+        <div class="container mx-auto text-center text-gray-300">
+          &copy; 2025 Will Lapinel. All rights
+          reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
