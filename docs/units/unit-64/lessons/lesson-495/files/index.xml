@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-495/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-495/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Midterm Review</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-495/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-64/lessons/lesson-495/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;midterm-practice-problems-units-14&#34;&gt;Midterm Practice Problems (Units 1–4)&lt;/h1&gt;&#xA;&lt;h3 id=&#34;unit-1-basics-variables-booleans&#34;&gt;Unit 1: Basics, Variables, Booleans&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write a program that stores your name in a variable and prints a greeting.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Predict the output:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(x &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; y)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Convert the string &lt;code&gt;&amp;quot;42&amp;quot;&lt;/code&gt; into an integer and add 8.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What is the difference between &lt;code&gt;=&lt;/code&gt; and &lt;code&gt;==&lt;/code&gt;? Give an example.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write code that checks if a number is both greater than 10 &lt;strong&gt;and&lt;/strong&gt; even.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;unit-2-loops&#34;&gt;Unit 2: Loops&lt;/h3&gt;&#xA;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write a &lt;code&gt;for&lt;/code&gt; loop that prints the numbers 1 through 10.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
