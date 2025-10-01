@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-503/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-503/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 5.8</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-503/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-503/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-58-group-adventure-game-checkpoint-prepare&#34;&gt;Assignment 5.8: Group Adventure Game Checkpoint (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Work as a team to combine your Adventure Games into one larger, working project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Form a group of 2–3 students.&lt;/li&gt;&#xA;&lt;li&gt;Share your individual Adventure Game drafts.&lt;/li&gt;&#xA;&lt;li&gt;Combine them into a &lt;strong&gt;single Python file&lt;/strong&gt; with a continuous storyline.&lt;/li&gt;&#xA;&lt;li&gt;Organize code with &lt;strong&gt;functions&lt;/strong&gt; for different story paths.&lt;/li&gt;&#xA;&lt;li&gt;Make sure the game runs smoothly without crashing.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-group-plan&#34;&gt;Example Group Plan&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Student A: Intro + first choice&lt;/li&gt;&#xA;&lt;li&gt;Student B: Left path storyline&lt;/li&gt;&#xA;&lt;li&gt;Student C: Right path storyline&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add at least one “secret path” that can only be discovered with a special input.&lt;/li&gt;&#xA;&lt;li&gt;Use a loop to let the player restart the game without rerunning the program.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;submission&#34;&gt;Submission&lt;/h2&gt;&#xA;&lt;p&gt;Upload your group’s &lt;code&gt;.py&lt;/code&gt; file to Canvas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

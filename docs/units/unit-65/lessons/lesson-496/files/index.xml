@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-496/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-496/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-496/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-496/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-51-number-guessing-game-prepare&#34;&gt;Assignment 5.1: Number Guessing Game (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Modify the number guessing game we wrote in class to allow &lt;strong&gt;5 tries&lt;/strong&gt; instead of just 1.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Copy the number guessing code from today’s slides.&lt;/li&gt;&#xA;&lt;li&gt;Add a loop so the player gets &lt;strong&gt;5 attempts&lt;/strong&gt; to guess the number.&lt;/li&gt;&#xA;&lt;li&gt;If the player guesses correctly, print a winning message and end the game immediately.&lt;/li&gt;&#xA;&lt;li&gt;If the player uses all 5 tries without success, print &lt;code&gt;&amp;quot;You lost! The number was X&amp;quot;&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Submit your &lt;code&gt;.py&lt;/code&gt; file in Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-run&#34;&gt;Example Run&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Guess a number 1–10: 5&#xA;Wrong!&#xA;Guess a number 1–10: 7&#xA;Wrong!&#xA;Guess a number 1–10: 9&#xA;Correct!&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;rubric&#34;&gt;Rubric&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Uses a loop for 5 tries (40%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Ends early if the player guesses correctly (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Shows losing message if no correct guess (20%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Code runs without errors (10%)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

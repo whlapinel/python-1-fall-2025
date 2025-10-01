@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lessons on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/</link>
+    <description>Recent content in Lessons on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-65/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5.1: Intro to Games in Python</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-496/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-496/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.2: Hangman Pt. 1</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-497/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-497/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.3: Hangman Pt. 2: Error Handling</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-498/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-498/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.4: Debugging Game Bugs</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-499/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-499/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.5: Mini-Challenges (Game Jam)</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-500/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-500/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.6: Adventure Game Pt. 1</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-501/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-501/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.7: Adventure Game Pt. 2</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-502/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-502/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.8: Group Work Day</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-503/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-503/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.9: Unit 5 Review and Quiz</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-504/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-504/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5.10: Unit Exam</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-505/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-505/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

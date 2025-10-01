@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-497/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-497/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 5.2</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-497/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-65/lessons/lesson-497/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-52-hangman-setup&#34;&gt;Assignment 5.2: Hangman Setup&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Create the &lt;strong&gt;first version of Hangman&lt;/strong&gt; where the player guesses one letter at a time and sees their progress.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Choose a secret word (hard-code it in your program).&lt;/li&gt;&#xA;&lt;li&gt;Create a list of blanks (&lt;code&gt;_&lt;/code&gt;) with the same length as the word.&lt;/li&gt;&#xA;&lt;li&gt;Ask the user to guess a letter.&lt;/li&gt;&#xA;&lt;li&gt;If the guessed letter is in the word, replace the blanks with that letter.&lt;/li&gt;&#xA;&lt;li&gt;Print the updated blanks so the user can see their progress.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-run&#34;&gt;Example Run&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Word: _ _ _ _ _ _&#xA;Guess a letter: o&#xA;Word: _ _ _ _ o _&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Make it loop until the player has guessed the whole word.&lt;/li&gt;&#xA;&lt;li&gt;Add a win message when the word is revealed.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;submission&#34;&gt;Submission&lt;/h2&gt;&#xA;&lt;p&gt;Upload your &lt;code&gt;.py&lt;/code&gt; file to Canvas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
