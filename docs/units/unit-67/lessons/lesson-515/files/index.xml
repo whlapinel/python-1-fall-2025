@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-515/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-515/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-515/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-515/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-71-ascii-art-pyramid-prepare&#34;&gt;Assignment 7.1: ASCII Art Pyramid (Prepare)&lt;/h1&gt;&#xA;&lt;h1 id=&#34;goal&#34;&gt;Goal&lt;/h1&gt;&#xA;&lt;p&gt;Write a Python program that generates ASCII art pyramids using user input.&lt;/p&gt;&#xA;&lt;h1 id=&#34;instructions&#34;&gt;Instructions&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ask the user to enter a character (e.g., &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;#&lt;/code&gt;, &lt;code&gt;@&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Ask the user to enter a height (an integer).&lt;/li&gt;&#xA;&lt;li&gt;Use a loop to print a pyramid with that character and height.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;example-run&#34;&gt;Example Run&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Enter a character: *&#xA;Enter a height: 4&#xA;&#xA;*&#xA;**&#xA;***&#xA;****&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;challenge&#34;&gt;Challenge&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Allow the user to choose between a normal pyramid and an upside-down pyramid.&lt;/li&gt;&#xA;&lt;li&gt;Print both versions.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;submission&#34;&gt;Submission&lt;/h1&gt;&#xA;&lt;p&gt;Upload your &lt;code&gt;.py&lt;/code&gt; file to Canvas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

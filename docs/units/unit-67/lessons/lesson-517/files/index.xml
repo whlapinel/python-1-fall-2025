@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-517/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-517/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 7.3</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-517/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-517/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-73-silly-chatbot-prepare&#34;&gt;Assignment 7.3: Silly Chatbot (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Create a chatbot that uses &lt;code&gt;if/elif/else&lt;/code&gt; to interact with the user.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a Python program that asks the user at least &lt;strong&gt;3 questions&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Provide at least &lt;strong&gt;2 possible responses&lt;/strong&gt; for each question using &lt;code&gt;if/elif/else&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Print the chatbot’s responses in a fun, silly style.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-run&#34;&gt;Example Run&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;What is your favorite color? blue&#xA;Blue! That’s my favorite too.&#xA;&#xA;Do you like pizza? yes&#xA;Me too! Pineapple on pizza forever.&#xA;&#xA;How are you feeling today? tired&#xA;Robots don’t sleep, but I understand.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add input validation (so if the user types something unexpected, the chatbot still responds).&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;code&gt;lower()&lt;/code&gt; so answers aren’t case-sensitive.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;submission&#34;&gt;Submission&lt;/h2&gt;&#xA;&lt;p&gt;Upload your &lt;code&gt;.py&lt;/code&gt; file to Canvas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plan</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/files/plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/files/plan/</guid>
+      <description>&lt;h1 id=&#34;-unit-7-creative-python-projects&#34;&gt;🗓️ Unit 7: Creative Python Projects&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dates:&lt;/strong&gt; Nov 17 – Dec 12, 2025 (4 weeks, minus Nov 26–28 for Thanksgiving)&#xA;&lt;strong&gt;Focus:&lt;/strong&gt; Creative applications of Python — ASCII art, randomizers, chatbots, and capstone projects. Students will show off what they’ve learned.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;week-1-nov-1721&#34;&gt;&lt;strong&gt;Week 1 (Nov 17–21)&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mon Nov 17 – Lesson 7.1&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Topic: ASCII Art Generators (loops + strings)&lt;/li&gt;&#xA;&lt;li&gt;Assignment 7.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tue Nov 18 – Lesson 7.2&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Topic: Story Randomizers (random.choice, lists)&lt;/li&gt;&#xA;&lt;li&gt;Assignment 7.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Wed Nov 19 – Lesson 7.3&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

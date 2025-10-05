@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-523/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-523/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 7.9</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-523/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-523/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-79-peer-review--reflection-prepare&#34;&gt;Assignment 7.9: Peer Review &amp;amp; Reflection (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Provide constructive feedback on a classmate’s project and reflect on feedback you receive.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Pair up with a classmate.&lt;/li&gt;&#xA;&lt;li&gt;Run their project and complete the Peer Review Form:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What works well?&lt;/li&gt;&#xA;&lt;li&gt;What could be improved?&lt;/li&gt;&#xA;&lt;li&gt;Any bugs or errors?&lt;/li&gt;&#xA;&lt;li&gt;One new idea to try&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Share your feedback with your partner.&lt;/li&gt;&#xA;&lt;li&gt;Receive feedback on your own project.&lt;/li&gt;&#xA;&lt;li&gt;Write a short reflection (5–6 sentences) answering:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What feedback did you receive?&lt;/li&gt;&#xA;&lt;li&gt;What change will you make to improve your project?&lt;/li&gt;&#xA;&lt;li&gt;What feedback did you find most helpful?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-peer-review&#34;&gt;Example Peer Review&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Partner’s Project:&lt;/strong&gt; Chatbot&lt;br&gt;&#xA;&lt;strong&gt;What works well:&lt;/strong&gt; Responses are funny and creative&lt;br&gt;&#xA;&lt;strong&gt;What could be improved:&lt;/strong&gt; Add input validation&lt;br&gt;&#xA;&lt;strong&gt;Bugs/Errors:&lt;/strong&gt; Crashes if user types a number instead of text&lt;br&gt;&#xA;&lt;strong&gt;New Idea:&lt;/strong&gt; Add a “random response” option&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

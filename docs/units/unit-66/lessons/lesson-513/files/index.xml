@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-513/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-513/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 6.8</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-513/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-513/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-68-data-debugging--mini-project-rehearse&#34;&gt;Assignment 6.8: Data Debugging &amp;amp; Mini-Project (Rehearse)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Review Unit 6 skills by debugging code and completing a short data mini-project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Download the provided buggy dataset scripts from Canvas.&lt;/li&gt;&#xA;&lt;li&gt;For each script:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Run the code and identify the error.&lt;/li&gt;&#xA;&lt;li&gt;Fix the error and explain the cause.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Then complete a short mini-project with your chosen dataset:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Clean the data (remove NaN, convert types, drop duplicates).&lt;/li&gt;&#xA;&lt;li&gt;Perform at least one filtering and one sorting operation.&lt;/li&gt;&#xA;&lt;li&gt;Calculate mean, median, and standard deviation for a numeric column.&lt;/li&gt;&#xA;&lt;li&gt;Create one visualization using &lt;code&gt;matplotlib&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-fix&#34;&gt;Example Fix&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Buggy Code:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

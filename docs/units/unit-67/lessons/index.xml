@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lessons on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/</link>
+    <description>Recent content in Lessons on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7.1: ASCII Art Pyramid</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-515/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-515/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.2: Story Randomizers</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-516/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-516/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.3: Silly Chatbots</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-517/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-517/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.4: Debugging Chatbots</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-518/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-518/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.5: Creative Project Brainstorm &amp; Proposal</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-519/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-519/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.6: Capstone Project Work Day</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-520/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-520/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.7: Continue Project Work: Functions &amp; Errors</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-521/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-521/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.8: Project Checkpoint &amp; Debugging</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-522/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-522/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.9: Peer Feedback Session</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-523/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-523/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

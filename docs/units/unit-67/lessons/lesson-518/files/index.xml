@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-518/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-518/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-518/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-518/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-74-debugging-your-chatbot-rehearse&#34;&gt;Assignment 7.4: Debugging Your Chatbot (Rehearse)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Strengthen your debugging skills by finding and fixing common chatbot errors.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Take your chatbot from Assignment 7.3.&lt;/li&gt;&#xA;&lt;li&gt;Introduce &lt;strong&gt;at least 2 intentional bugs&lt;/strong&gt; (e.g., missing condition, case sensitivity, logic error).&lt;/li&gt;&#xA;&lt;li&gt;Swap code with a partner and debug their chatbot.&lt;/li&gt;&#xA;&lt;li&gt;Fix the bugs and write a short explanation of what you changed.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-bug&#34;&gt;Example Bug&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Buggy Code:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Do you like cats?&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; response &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;yes&amp;#34;&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Cats are great!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# forgot elif for &amp;#34;no&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Fixed Code:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

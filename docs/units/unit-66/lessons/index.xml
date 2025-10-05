@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lessons on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/</link>
+    <description>Recent content in Lessons on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-66/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6.1: Intro</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-506/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-506/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.2: Advanced techniques</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-507/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-507/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.3: More Complex Datasets</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-508/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-508/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.4: Debugging and Dataset Challenges</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-509/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-509/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.5: Unit 6 Quiz</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-510/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-510/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.6: Project Day: Proposal</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-511/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-511/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.7: Nested Data Structures</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-512/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-512/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.8: Debugging and Practice</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-513/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-513/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.9: Unit 6 Exam</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-514/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-514/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

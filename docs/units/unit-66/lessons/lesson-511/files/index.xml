@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-511/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-511/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 6.6</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-511/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-511/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-66-dataset-project-proposal-prepare&#34;&gt;Assignment 6.6: Dataset Project Proposal (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Choose a dataset and outline your plan for analysis and visualization.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select a dataset with at least &lt;strong&gt;3 columns&lt;/strong&gt; (e.g., name, category, score).&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You may use a CSV from the internet or create your own small dataset.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Write a short proposal answering these questions:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What dataset are you using?&lt;/li&gt;&#xA;&lt;li&gt;What fields (columns) does it include?&lt;/li&gt;&#xA;&lt;li&gt;What questions do you plan to answer with the data?&lt;/li&gt;&#xA;&lt;li&gt;What kind of visualization(s) will you create?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Submit a &lt;strong&gt;one-page proposal&lt;/strong&gt; (text document or markdown) and your dataset file (CSV or &lt;code&gt;.py&lt;/code&gt; with embedded data).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sketch your visualization on paper or in code.&lt;/li&gt;&#xA;&lt;li&gt;Try loading your dataset into pandas and print the first few rows.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rubric&#34;&gt;Rubric&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Dataset chosen and included (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Proposal clearly answers all questions (40%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Plan includes at least one visualization (20%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Submission is complete and well-organized (10%)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

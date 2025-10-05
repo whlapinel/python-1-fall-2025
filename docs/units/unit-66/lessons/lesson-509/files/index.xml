@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-509/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-509/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 6.4</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-509/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-66/lessons/lesson-509/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-64-debugging-dataset-code-rehearse&#34;&gt;Assignment 6.4: Debugging Dataset Code (Rehearse)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Strengthen debugging skills by identifying and fixing common errors in Python code that works with datasets.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Download the provided buggy dataset scripts from Canvas.&lt;/li&gt;&#xA;&lt;li&gt;For each script:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Run the code and note the error message.&lt;/li&gt;&#xA;&lt;li&gt;Identify the cause of the error (missing values, wrong data type, etc.).&lt;/li&gt;&#xA;&lt;li&gt;Correct the code so it runs properly.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Write a short explanation (2–3 sentences) for each bug and how you fixed it.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Buggy Code:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

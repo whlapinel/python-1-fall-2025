@@ -1,0 +1,290 @@
+<!doctype html>
+<html class="h-full bg-gray-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher-made Final Exam Study Guide</title>
+    
+    <link href="/styles/styles.css" rel="stylesheet" />
+    <script src="/js/index.js" defer async></script>
+    <link href="/styles/markdown-styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="h-full">
+    <div class="min-h-full">
+      <div class="bg-gray-800 pb-32">
+        <nav class="bg-gray-800">
+          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="border-b border-gray-700">
+              <div class="flex h-16 items-center justify-between px-4 sm:px-0">
+                <div class="flex items-center">
+                  <span>Logo</span>
+                  <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                      
+                      <div id="confirmation"></div>
+                      
+                        <nav>
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/"
+                              >Home</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/units/"
+                              >Units</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/calendar/"
+                              >Calendar</a
+                            >
+                          
+                            <a
+                              class="text-gray-200 hover:text-white mx-2"
+                              href="/files/"
+                              >Course Files</a
+                            >
+                          
+                        </nav>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <main class="-mt-32">
+        <div class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+          <div
+            class="rounded-lg bg-slate-900 px-5 py-6 shadow-sm sm:px-6 text-white"
+            id="page"
+          >
+            
+  
+  <nav class="flex gap-2 p-2">
+    
+    
+      
+        <a href="/" class="p-1">Python I</a>
+        
+          >>
+        
+      
+    
+      
+        <a href="/files/" class="p-1">Files</a>
+        
+          >>
+        
+      
+    
+      
+    
+  </nav>
+
+
+  <div>
+    <details>
+  <summary>Debugging info</summary>
+  <ul>
+    
+  </ul>
+  
+    <p>Key: breadcrumbs — Value: map[items:[map[url:/] map[url:/files] map[url:/files/final-study-guide]]]</p>
+  
+    <p>Key: draft — Value: false</p>
+  
+    <p>Key: iscjklanguage — Value: false</p>
+  
+    <p>Key: parentpath — Value: files</p>
+  
+    <p>Key: title — Value: Teacher-made Final Exam Study Guide</p>
+  
+    <p>Key: type — Value: standalone</p>
+  
+    <p>Key: url — Value: files/final-study-guide</p>
+  
+  <p>Kind: page</p>
+  <p>Type: standalone</p>
+  <p>Resources:</p>
+  
+</details>
+
+
+
+    
+    
+    <iframe
+      srcdoc="&lt;!doctype html&gt;
+      &lt;html&gt;
+      &lt;head&gt;
+      &lt;meta charset=&#34;utf-8&#34;&gt;
+      &lt;base target=&#34;_blank&#34;&gt;
+
+
+      &lt;!-- need to use links for both app stylesheet as well as static so that preview will work from app side --&gt;
+
+      &lt;!-- I know this is not ideal, I don&#39;t like sending 404 for anything but it&#39;s a temporary solution --&gt;
+
+      &lt;link href=&#34;/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;link href=&#34;/dist/styles/markdown-styles.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      &lt;/head&gt;
+      &lt;body class=&#34;markdown-body&#34;&gt;
+      &lt;h1&gt;
+      Teacher-made Final Exam Study Guide
+      &lt;/h1&gt;
+      &lt;h1 id=&#34;teacher-made-final-exam-study-guide&#34;&gt;Teacher-Made Final Exam Study Guide&lt;/h1&gt;
+&lt;p&gt;This guide reviews the key topics from Units 1–4 to help you prepare for the Final Exam.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;unit-1-basics--variables&#34;&gt;Unit 1: Basics &amp;amp; Variables&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;print()&lt;/code&gt; displays output; &lt;code&gt;input()&lt;/code&gt; collects input (always as a string).&lt;/li&gt;
+&lt;li&gt;Variable names:
+&lt;ul&gt;
+&lt;li&gt;Must start with a letter or &lt;code&gt;_&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Cannot use keywords (e.g., &lt;code&gt;class&lt;/code&gt;, &lt;code&gt;def&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data types:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;int&lt;/code&gt;: whole numbers (42)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;float&lt;/code&gt;: decimals (3.14)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;str&lt;/code&gt;: text (&amp;ldquo;hello&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bool&lt;/code&gt;: &lt;code&gt;True&lt;/code&gt; or &lt;code&gt;False&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Operators:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&#43;&lt;/code&gt; addition, &lt;code&gt;-&lt;/code&gt; subtraction, &lt;code&gt;*&lt;/code&gt; multiplication, &lt;code&gt;/&lt;/code&gt; division&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;//&lt;/code&gt; floor division, &lt;code&gt;%&lt;/code&gt; remainder, &lt;code&gt;**&lt;/code&gt; exponentiation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Comments use &lt;code&gt;#&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;unit-2-conditionals--loops&#34;&gt;Unit 2: Conditionals &amp;amp; Loops&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;if/elif/else&lt;/code&gt; for decision-making.&lt;/li&gt;
+&lt;li&gt;Logical operators:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;and&lt;/code&gt;, &lt;code&gt;or&lt;/code&gt;, &lt;code&gt;not&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Loops:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;for i in range(n):&lt;/code&gt; runs &lt;code&gt;n&lt;/code&gt; times.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;while condition:&lt;/code&gt; runs until condition is false.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Loop controls:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;break&lt;/code&gt;: stop loop early.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;continue&lt;/code&gt;: skip to next iteration.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pass&lt;/code&gt;: placeholder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;range(start, stop, step)&lt;/code&gt; generates sequences.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;unit-3-data-structures&#34;&gt;Unit 3: Data Structures&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;List&lt;/strong&gt;: ordered, mutable, &lt;code&gt;[1,2,3]&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;append()&lt;/code&gt;, &lt;code&gt;pop()&lt;/code&gt;, slicing &lt;code&gt;list[1:3]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tuple&lt;/strong&gt;: ordered, immutable, &lt;code&gt;(1,2,3)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dictionary&lt;/strong&gt;: key-value pairs, &lt;code&gt;{&amp;quot;a&amp;quot;:1, &amp;quot;b&amp;quot;:2}&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Access with &lt;code&gt;dict[&amp;quot;a&amp;quot;]&lt;/code&gt; → 1&lt;/li&gt;
+&lt;li&gt;KeyError if missing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set&lt;/strong&gt;: unique, unordered, &lt;code&gt;{1,2,3}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;len()&lt;/code&gt; to count items.&lt;/li&gt;
+&lt;li&gt;Membership: &lt;code&gt;in&lt;/code&gt; keyword.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;unit-4-functions--exceptions&#34;&gt;Unit 4: Functions &amp;amp; Exceptions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Define with &lt;code&gt;def&lt;/code&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greet&lt;/span&gt;(name):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&#43;&lt;/span&gt; name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Functions can have default parameters: &lt;code&gt;def f(x=5)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Scope: variables inside functions are local.&lt;/li&gt;
+&lt;li&gt;Return value: if no &lt;code&gt;return&lt;/code&gt;, function returns &lt;code&gt;None&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;try/except&lt;/code&gt; handles errors:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; int(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;abc&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ValueError&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Invalid number&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;else&lt;/code&gt;: runs if no error.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;finally&lt;/code&gt;: always runs.&lt;/li&gt;
+&lt;li&gt;Common exceptions:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ValueError&lt;/code&gt;: invalid conversion&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;IndexError&lt;/code&gt;: list index out of range&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;KeyError&lt;/code&gt;: missing dictionary key&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ZeroDivisionError&lt;/code&gt;: divide by zero&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NameError&lt;/code&gt;: variable not defined&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;practice-checklist&#34;&gt;Practice Checklist&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Can you:
+&lt;ul&gt;
+&lt;li&gt;Write a loop that prints numbers 1–10?&lt;/li&gt;
+&lt;li&gt;Create and access a dictionary?&lt;/li&gt;
+&lt;li&gt;Explain difference between list and tuple?&lt;/li&gt;
+&lt;li&gt;Write a function that takes a parameter and returns a result?&lt;/li&gt;
+&lt;li&gt;Handle invalid user input with try/except?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; Review all quizzes and practice problems — the final exam is cumulative and covers everything above.&lt;/p&gt;
+
+      &lt;/body&gt;
+      &lt;/html&gt;"
+      style="width:100%; border:0; min-height:60vh;"
+      loading="lazy"
+    ></iframe>
+
+    
+    <hr />
+    <div class="markdown-body p-2">
+      
+      <p>Supporting Resources</p>
+      
+      
+    </div>
+
+    <hr />
+  </div>
+
+          </div>
+        </div>
+      </main>
+      <footer class="shadow p-4 mt-8">
+        <div class="container mx-auto text-center text-gray-300">
+          &copy; 2025 Will Lapinel. All rights
+          reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

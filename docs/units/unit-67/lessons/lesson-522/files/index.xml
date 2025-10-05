@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-522/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-522/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 7.8</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-522/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-522/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-78-project-checkpoint--debugging-prepare&#34;&gt;Assignment 7.8: Project Checkpoint &amp;amp; Debugging (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Demonstrate progress on your Creative Project and practice debugging strategies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open your current project code.&lt;/li&gt;&#xA;&lt;li&gt;Run your program and identify at least &lt;strong&gt;2 bugs or issues&lt;/strong&gt; (they may be logic errors, input problems, or missing features).&lt;/li&gt;&#xA;&lt;li&gt;Fix the bugs and test your program to confirm it runs correctly.&lt;/li&gt;&#xA;&lt;li&gt;Write a short explanation (3–4 sentences) describing:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The bugs you found&lt;/li&gt;&#xA;&lt;li&gt;How you fixed them&lt;/li&gt;&#xA;&lt;li&gt;What debugging strategy you used (print statements, error messages, etc.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Submit your updated &lt;code&gt;.py&lt;/code&gt; file and your explanation to Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Buggy Code:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
