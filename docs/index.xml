@@ -484,10 +484,24 @@
       <description></description>
     </item>
     <item>
+      <title>7.10: Project: Final Polishing and Prep </title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-524/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-524/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>October 2025</title>
       <link>https://lapinel-6.course-manager.app/calendar/october/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/calendar/october/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.11: Unit 7 Quiz</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-525/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-525/</guid>
       <description></description>
     </item>
     <item>
@@ -498,10 +512,52 @@
       <description></description>
     </item>
     <item>
+      <title>7.12: Catch-up and Refinement</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-526/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-526/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>December 2025</title>
       <link>https://lapinel-6.course-manager.app/calendar/december/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/calendar/december/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.13: Capstone Project Work Day</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-527/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-527/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.14: Practice Presentations</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-528/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-528/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.15: Final Presentations</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-529/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-529/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.16: Final Presentations pt. 2</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-530/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-530/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>7.17: Reflection &amp; Wrap-up</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-531/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-531/</guid>
       <description></description>
     </item>
     <item>
@@ -615,6 +671,41 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-518/files/assignment/</guid>
       <description>&lt;h1 id=&#34;assignment-74-debugging-your-chatbot-rehearse&#34;&gt;Assignment 7.4: Debugging Your Chatbot (Rehearse)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Strengthen your debugging skills by finding and fixing common chatbot errors.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Take your chatbot from Assignment 7.3.&lt;/li&gt;&#xA;&lt;li&gt;Introduce &lt;strong&gt;at least 2 intentional bugs&lt;/strong&gt; (e.g., missing condition, case sensitivity, logic error).&lt;/li&gt;&#xA;&lt;li&gt;Swap code with a partner and debug their chatbot.&lt;/li&gt;&#xA;&lt;li&gt;Fix the bugs and write a short explanation of what you changed.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-bug&#34;&gt;Example Bug&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Buggy Code:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; input(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Do you like cats?&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; response &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;yes&amp;#34;&lt;/span&gt;:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Cats are great!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# forgot elif for &amp;#34;no&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Fixed Code:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-526/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-526/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-712-catch-up--refinement-checkpoint-prepare&#34;&gt;Assignment 7.12: Catch-Up &amp;amp; Refinement Checkpoint (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Complete any unfinished assignments and refine your Creative Project in preparation for final presentations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review your work from Unit 7 (Assignments 7.1–7.11).&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Complete or revise any missing assignments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Open your Creative Project and refine it by:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adding clear menus, instructions, and comments&lt;/li&gt;&#xA;&lt;li&gt;Improving formatting and output readability&lt;/li&gt;&#xA;&lt;li&gt;Debugging any remaining errors&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Add at least one “quality of life” feature to your project, such as:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Replay option&lt;/li&gt;&#xA;&lt;li&gt;Help menu&lt;/li&gt;&#xA;&lt;li&gt;Cleaner spacing or formatting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Submit your updated &lt;code&gt;.py&lt;/code&gt; file and any completed catch-up work to Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-improvements&#34;&gt;Example Improvements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a &lt;code&gt;help()&lt;/code&gt; function that explains the program&lt;/li&gt;&#xA;&lt;li&gt;Fixed spacing with &lt;code&gt;&amp;quot;\n&amp;quot;&lt;/code&gt; for better readability&lt;/li&gt;&#xA;&lt;li&gt;Added a replay loop so users don’t need to restart the program&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rubric&#34;&gt;Rubric&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; All Unit 7 assignments complete or caught up (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Project refined with clear instructions and comments (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; At least one new quality-of-life feature added (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Submission is complete and error-free (10%)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-527/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-527/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-713-capstone-project-work-day-checkpoint-prepare&#34;&gt;Assignment 7.13: Capstone Project Work Day Checkpoint (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Show progress on your Creative Project by adding new features or improvements.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open your current project code.&lt;/li&gt;&#xA;&lt;li&gt;Make at least &lt;strong&gt;one major improvement&lt;/strong&gt; based on peer or teacher feedback. Examples:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fixing a bug&lt;/li&gt;&#xA;&lt;li&gt;Adding a new feature&lt;/li&gt;&#xA;&lt;li&gt;Improving menus or instructions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Test your project to make sure the new feature works correctly.&lt;/li&gt;&#xA;&lt;li&gt;Save your progress and submit your updated &lt;code&gt;.py&lt;/code&gt; file to Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-improvements&#34;&gt;Example Improvements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added replay loop so the program can run multiple times without restarting&lt;/li&gt;&#xA;&lt;li&gt;Added new responses to a chatbot&lt;/li&gt;&#xA;&lt;li&gt;Improved ASCII art formatting&lt;/li&gt;&#xA;&lt;li&gt;Added scoring or a simple leaderboard&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add one “wow factor” feature that makes your project stand out (e.g., random Easter egg, extra storyline branch, bonus mode).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rubric&#34;&gt;Rubric&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; At least one major improvement added (40%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Project runs without errors (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Code includes clear comments for new changes (20%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Extra creativity/wow factor feature (10%)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-528/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-528/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-714-practice-presentation-reflection-prepare&#34;&gt;Assignment 7.14: Practice Presentation Reflection (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Rehearse your project presentation and reflect on feedback received.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Present your Creative Project to a small group of classmates.&lt;/li&gt;&#xA;&lt;li&gt;During your presentation, make sure you:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduce your project idea&lt;/li&gt;&#xA;&lt;li&gt;Demonstrate at least one working feature&lt;/li&gt;&#xA;&lt;li&gt;Highlight one piece of code and explain it&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;After your group presentation, write a short reflection (1–2 paragraphs) answering:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What part of your presentation went well?&lt;/li&gt;&#xA;&lt;li&gt;What feedback did you receive?&lt;/li&gt;&#xA;&lt;li&gt;What changes will you make for your final presentation?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-reflection&#34;&gt;Example Reflection&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;I felt confident showing how my chatbot uses &lt;code&gt;if/elif/else&lt;/code&gt; to respond to different inputs. My classmates said I should slow down when explaining the code and add more comments to make it clearer. For the final presentation, I’ll include more pauses and add comments to my code before presenting.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-530/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-530/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-716-final-presentation--part-2-perform&#34;&gt;Assignment 7.16: Final Presentation – Part 2 (Perform)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Present your Creative Project to the class and demonstrate your coding skills.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Prepare a 3–5 minute presentation of your project.&lt;/li&gt;&#xA;&lt;li&gt;Your presentation must include:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction of your project idea&lt;/li&gt;&#xA;&lt;li&gt;Live demonstration of your program running&lt;/li&gt;&#xA;&lt;li&gt;Highlight of 2–3 code features (loops, functions, conditionals, input handling, etc.)&lt;/li&gt;&#xA;&lt;li&gt;Explanation of at least one challenge you overcame&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Be ready to answer 1–2 questions from the audience or teacher.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-flow&#34;&gt;Example Flow&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Intro:&lt;/strong&gt; “My project is a quiz game that asks fun questions and keeps score.”&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Demo:&lt;/strong&gt; Run the program and show sample output.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Highlight:&lt;/strong&gt; Show how a loop keeps the game running until the user exits.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Challenge:&lt;/strong&gt; “I had to fix a bug where the score didn’t update. I solved it by moving the variable inside the loop.”&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;submission&#34;&gt;Submission&lt;/h2&gt;&#xA;&lt;p&gt;No file upload required — grade based on live presentation. Teacher will use rubric below.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-531/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-531/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-717-reflection-journal-prepare&#34;&gt;Assignment 7.17: Reflection Journal (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Reflect on your learning journey in Python this semester and set goals for the future.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a short reflection (1–2 paragraphs) that answers:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What was your favorite project or assignment this semester, and why?&lt;/li&gt;&#xA;&lt;li&gt;What was the hardest challenge you faced, and how did you overcome it?&lt;/li&gt;&#xA;&lt;li&gt;How has your confidence with Python changed since the beginning of the course?&lt;/li&gt;&#xA;&lt;li&gt;What is one goal you have for yourself in coding next semester?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Be honest and specific — this reflection is about your personal growth.&lt;/li&gt;&#xA;&lt;li&gt;Submit your reflection to Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-reflection&#34;&gt;Example Reflection&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;My favorite project was the random story generator because I could make funny results. The hardest part was debugging my chatbot when it kept crashing, but I learned to use &lt;code&gt;print()&lt;/code&gt; to trace errors. At the start of the semester, I didn’t know how to use loops, but now I can make full programs with functions and conditionals. Next semester, I want to learn how to use Python with real data sets.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Assignment 1.1</title>
@@ -890,6 +981,13 @@
       <description>&lt;h1 id=&#34;assignment-68-data-debugging--mini-project-rehearse&#34;&gt;Assignment 6.8: Data Debugging &amp;amp; Mini-Project (Rehearse)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Review Unit 6 skills by debugging code and completing a short data mini-project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Download the provided buggy dataset scripts from Canvas.&lt;/li&gt;&#xA;&lt;li&gt;For each script:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Run the code and identify the error.&lt;/li&gt;&#xA;&lt;li&gt;Fix the error and explain the cause.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Then complete a short mini-project with your chosen dataset:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Clean the data (remove NaN, convert types, drop duplicates).&lt;/li&gt;&#xA;&lt;li&gt;Perform at least one filtering and one sorting operation.&lt;/li&gt;&#xA;&lt;li&gt;Calculate mean, median, and standard deviation for a numeric column.&lt;/li&gt;&#xA;&lt;li&gt;Create one visualization using &lt;code&gt;matplotlib&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-fix&#34;&gt;Example Fix&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Buggy Code:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Assignment 7.10</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-524/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-524/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-710-work-day-checkpoint--final-polish-prepare&#34;&gt;Assignment 7.10: Work Day Checkpoint – Final Polish (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Show progress on final polishing of your Creative Project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open your current project code.&lt;/li&gt;&#xA;&lt;li&gt;Review your program requirements:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User input&lt;/li&gt;&#xA;&lt;li&gt;Loops and/or conditionals&lt;/li&gt;&#xA;&lt;li&gt;Creativity and originality&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Debug any errors and make sure the program runs start-to-finish without crashing.&lt;/li&gt;&#xA;&lt;li&gt;Add comments to explain at least 3 major sections of your code.&lt;/li&gt;&#xA;&lt;li&gt;Improve the user experience:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add clear instructions or menus&lt;/li&gt;&#xA;&lt;li&gt;Fix spacing and formatting in your output&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Submit your updated &lt;code&gt;.py&lt;/code&gt; file to Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-improvements&#34;&gt;Example Improvements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a welcome message: &lt;code&gt;print(&amp;quot;Welcome to my chatbot!&amp;quot;)&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fixed spacing between outputs using &lt;code&gt;&amp;quot;\n&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Added an instruction line for entering choices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add one “extra feature” that goes beyond the basic requirements (e.g., a hidden Easter egg, random surprise event, bonus round).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rubric&#34;&gt;Rubric&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Program runs start-to-finish without errors (40%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Includes comments explaining major sections (20%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; User experience improved (instructions, spacing, clarity) (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Bonus creativity/extra feature (10%)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>Assignment 7.2</title>
       <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-516/files/assignment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -951,6 +1049,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://lapinel-6.course-manager.app/files/testing-helper/</guid>
       <description>&lt;p&gt;You can use this simple testing code on your assignments and programs to help you test your code more easily. Feel free to copy paste and modify as needed&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;test_func&lt;/span&gt;(result, expected):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;assert&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; expected, &lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;result:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;result&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; expected:&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;expected&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# this is just an example of a function to test&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;full_name&lt;/span&gt;(first, last, last_first&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; last_first:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;last&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;, &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;first&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;first&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;last&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# cases is a list of test cases where each item in the list is a tuple (&amp;lt;result&amp;gt;, &amp;lt;expected&amp;gt;). Be sure to cover all required cases&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cases &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (full_name(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;William&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Lapinel&amp;#34;&lt;/span&gt;), &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;William Lapinel&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (full_name(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;William&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Lapinel&amp;#34;&lt;/span&gt;, last_first&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;), &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Lapinel, William&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# loop over the cases and call test_func on each one&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; result, expected &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; cases:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    test_func(result, expected)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Grading Plan</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/files/grading-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/files/grading-plan/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;-unit-7-grading-breakdown&#34;&gt;✅ Unit 7 Grading Breakdown&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prepare (2 per week, graded)&lt;/strong&gt; → 7.1, 7.2, 7.5, 7.7, 7.8&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Rehearse (1 per week, graded)&lt;/strong&gt; → 7.4, 7.11&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Perform (1 per unit, graded)&lt;/strong&gt; → 7.15 + 7.16 (Capstone Project presentations with rubric)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
       <title>Midterm Review</title>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-530/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-530/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-530/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-530/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-716-final-presentation--part-2-perform&#34;&gt;Assignment 7.16: Final Presentation – Part 2 (Perform)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Present your Creative Project to the class and demonstrate your coding skills.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Prepare a 3–5 minute presentation of your project.&lt;/li&gt;&#xA;&lt;li&gt;Your presentation must include:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction of your project idea&lt;/li&gt;&#xA;&lt;li&gt;Live demonstration of your program running&lt;/li&gt;&#xA;&lt;li&gt;Highlight of 2–3 code features (loops, functions, conditionals, input handling, etc.)&lt;/li&gt;&#xA;&lt;li&gt;Explanation of at least one challenge you overcame&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Be ready to answer 1–2 questions from the audience or teacher.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-flow&#34;&gt;Example Flow&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Intro:&lt;/strong&gt; “My project is a quiz game that asks fun questions and keeps score.”&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Demo:&lt;/strong&gt; Run the program and show sample output.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Highlight:&lt;/strong&gt; Show how a loop keeps the game running until the user exits.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Challenge:&lt;/strong&gt; “I had to fix a bug where the score didn’t update. I solved it by moving the variable inside the loop.”&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;submission&#34;&gt;Submission&lt;/h2&gt;&#xA;&lt;p&gt;No file upload required — grade based on live presentation. Teacher will use rubric below.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

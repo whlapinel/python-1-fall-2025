@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-524/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-524/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 7.10</title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-524/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-524/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-710-work-day-checkpoint--final-polish-prepare&#34;&gt;Assignment 7.10: Work Day Checkpoint – Final Polish (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Show progress on final polishing of your Creative Project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open your current project code.&lt;/li&gt;&#xA;&lt;li&gt;Review your program requirements:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User input&lt;/li&gt;&#xA;&lt;li&gt;Loops and/or conditionals&lt;/li&gt;&#xA;&lt;li&gt;Creativity and originality&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Debug any errors and make sure the program runs start-to-finish without crashing.&lt;/li&gt;&#xA;&lt;li&gt;Add comments to explain at least 3 major sections of your code.&lt;/li&gt;&#xA;&lt;li&gt;Improve the user experience:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add clear instructions or menus&lt;/li&gt;&#xA;&lt;li&gt;Fix spacing and formatting in your output&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Submit your updated &lt;code&gt;.py&lt;/code&gt; file to Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-improvements&#34;&gt;Example Improvements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a welcome message: &lt;code&gt;print(&amp;quot;Welcome to my chatbot!&amp;quot;)&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fixed spacing between outputs using &lt;code&gt;&amp;quot;\n&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Added an instruction line for entering choices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add one “extra feature” that goes beyond the basic requirements (e.g., a hidden Easter egg, random surprise event, bonus round).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rubric&#34;&gt;Rubric&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Program runs start-to-finish without errors (40%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Includes comments explaining major sections (20%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; User experience improved (instructions, spacing, clarity) (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Bonus creativity/extra feature (10%)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

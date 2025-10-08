@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-526/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-526/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-526/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-526/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-712-catch-up--refinement-checkpoint-prepare&#34;&gt;Assignment 7.12: Catch-Up &amp;amp; Refinement Checkpoint (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Complete any unfinished assignments and refine your Creative Project in preparation for final presentations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Review your work from Unit 7 (Assignments 7.1–7.11).&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Complete or revise any missing assignments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Open your Creative Project and refine it by:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adding clear menus, instructions, and comments&lt;/li&gt;&#xA;&lt;li&gt;Improving formatting and output readability&lt;/li&gt;&#xA;&lt;li&gt;Debugging any remaining errors&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Add at least one “quality of life” feature to your project, such as:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Replay option&lt;/li&gt;&#xA;&lt;li&gt;Help menu&lt;/li&gt;&#xA;&lt;li&gt;Cleaner spacing or formatting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Submit your updated &lt;code&gt;.py&lt;/code&gt; file and any completed catch-up work to Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-improvements&#34;&gt;Example Improvements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a &lt;code&gt;help()&lt;/code&gt; function that explains the program&lt;/li&gt;&#xA;&lt;li&gt;Fixed spacing with &lt;code&gt;&amp;quot;\n&amp;quot;&lt;/code&gt; for better readability&lt;/li&gt;&#xA;&lt;li&gt;Added a replay loop so users don’t need to restart the program&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rubric&#34;&gt;Rubric&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; All Unit 7 assignments complete or caught up (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Project refined with clear instructions and comments (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; At least one new quality-of-life feature added (30%)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Submission is complete and error-free (10%)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

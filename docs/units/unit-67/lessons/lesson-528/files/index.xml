@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-528/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-528/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-528/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-528/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-714-practice-presentation-reflection-prepare&#34;&gt;Assignment 7.14: Practice Presentation Reflection (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Rehearse your project presentation and reflect on feedback received.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Present your Creative Project to a small group of classmates.&lt;/li&gt;&#xA;&lt;li&gt;During your presentation, make sure you:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduce your project idea&lt;/li&gt;&#xA;&lt;li&gt;Demonstrate at least one working feature&lt;/li&gt;&#xA;&lt;li&gt;Highlight one piece of code and explain it&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;After your group presentation, write a short reflection (1–2 paragraphs) answering:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What part of your presentation went well?&lt;/li&gt;&#xA;&lt;li&gt;What feedback did you receive?&lt;/li&gt;&#xA;&lt;li&gt;What changes will you make for your final presentation?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-reflection&#34;&gt;Example Reflection&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;I felt confident showing how my chatbot uses &lt;code&gt;if/elif/else&lt;/code&gt; to respond to different inputs. My classmates said I should slow down when explaining the code and add more comments to make it clearer. For the final presentation, I’ll include more pauses and add comments to my code before presenting.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

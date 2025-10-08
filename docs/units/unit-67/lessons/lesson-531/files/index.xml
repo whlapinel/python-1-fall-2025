@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on Python I</title>
+    <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-531/files/</link>
+    <description>Recent content in Files on Python I</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-531/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-531/files/assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lapinel-6.course-manager.app/units/unit-67/lessons/lesson-531/files/assignment/</guid>
+      <description>&lt;h1 id=&#34;assignment-717-reflection-journal-prepare&#34;&gt;Assignment 7.17: Reflection Journal (Prepare)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;Reflect on your learning journey in Python this semester and set goals for the future.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Write a short reflection (1–2 paragraphs) that answers:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What was your favorite project or assignment this semester, and why?&lt;/li&gt;&#xA;&lt;li&gt;What was the hardest challenge you faced, and how did you overcome it?&lt;/li&gt;&#xA;&lt;li&gt;How has your confidence with Python changed since the beginning of the course?&lt;/li&gt;&#xA;&lt;li&gt;What is one goal you have for yourself in coding next semester?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Be honest and specific — this reflection is about your personal growth.&lt;/li&gt;&#xA;&lt;li&gt;Submit your reflection to Canvas.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;example-reflection&#34;&gt;Example Reflection&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;My favorite project was the random story generator because I could make funny results. The hardest part was debugging my chatbot when it kept crashing, but I learned to use &lt;code&gt;print()&lt;/code&gt; to trace errors. At the start of the semester, I didn’t know how to use loops, but now I can make full programs with functions and conditionals. Next semester, I want to learn how to use Python with real data sets.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
